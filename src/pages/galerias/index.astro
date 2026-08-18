@@ -1,0 +1,19 @@
+---
+import GalleryCard from '../../components/GalleryCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categories, galleries } from '../../content/catalog';
+---
+
+<BaseLayout title="Galerías | Cuellar Photography" description="Galerías de fotografía de José Cuéllar.">
+  <section class="page-heading wrap">
+    <p class="eyebrow">Archivo</p>
+    <h1>Galerías</h1>
+    <p>El archivo irá creciendo con nuevas series y categorías.</p>
+  </section>
+  <section class="wrap" aria-label="Categorías fotográficas">
+    <ul class="category-list">{categories.map((category) => <li>{category}</li>)}</ul>
+  </section>
+  <section class="gallery-grid wrap" aria-label="Galerías disponibles">
+    {galleries.map((gallery) => <GalleryCard gallery={gallery} />)}
+  </section>
+</BaseLayout>

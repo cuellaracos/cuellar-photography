@@ -1,0 +1,24 @@
+---
+import PhotoCard from '../../components/PhotoCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { galleries, getGalleryPhotos } from '../../content/catalog';
+
+export function getStaticPaths() {
+  return galleries.map((gallery) => ({ params: { slug: gallery.slug }, props: { gallery } }));
+}
+
+const { gallery } = Astro.props;
+const galleryPhotos = getGalleryPhotos(gallery.slug);
+---
+
+<BaseLayout title={`${gallery.title} | Cuellar Photography`} description={gallery.description}>
+  <section class="page-heading wrap">
+    <a class="back-link" href="/galerias">Galerías</a>
+    <p class="eyebrow">{gallery.category}</p>
+    <h1>{gallery.title}</h1>
+    <p>{gallery.description}</p>
+  </section>
+  <section class="photo-grid wrap" aria-label={`Fotografías de ${gallery.title}`}>
+    {galleryPhotos.map((photo, index) => <PhotoCard photo={photo} priority={index === 0} />)}
+  </section>
+</BaseLayout>

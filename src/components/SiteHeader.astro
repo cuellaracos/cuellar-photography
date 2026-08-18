@@ -1,0 +1,17 @@
+---
+const currentPath = Astro.url.pathname;
+const links = [
+  { href: '/', label: 'Inicio' },
+  { href: '/galerias', label: 'Galerías' },
+  { href: '/contacto', label: 'Contacto' },
+];
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Cuellar Photography, inicio">Cuellar <span>Photography</span></a>
+  <nav aria-label="Navegación principal">
+    {links.map((link) => (
+      <a href={link.href} aria-current={currentPath === link.href ? 'page' : undefined}>{link.label}</a>
+    ))}
+  </nav>
+</header>

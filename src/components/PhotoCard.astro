@@ -1,0 +1,23 @@
+---
+import { getImageSource } from '../content/catalog';
+import type { Photo } from '../types/content';
+
+interface Props {
+  photo: Photo;
+  priority?: boolean;
+}
+
+const { photo, priority = false } = Astro.props;
+---
+
+<a class="photo-card" href={`/fotografias/${photo.slug}`}>
+  <img
+    src={getImageSource(photo, 'card')}
+    alt={photo.alt}
+    width={photo.width}
+    height={photo.height}
+    loading={priority ? 'eager' : 'lazy'}
+    decoding="async"
+  />
+  <span class="photo-card__meta"><span>{photo.title}</span><span>{photo.category}</span></span>
+</a>
