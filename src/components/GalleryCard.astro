@@ -1,5 +1,5 @@
 ---
-import { getImageSource, getPhoto } from '../content/catalog';
+import { getPhoto } from '../content/catalog';
 import type { Gallery } from '../types/content';
 
 interface Props {
@@ -12,6 +12,6 @@ if (!cover) throw new Error(`Missing cover photo for gallery ${gallery.slug}`);
 ---
 
 <a class="gallery-card" href={`/galerias/${gallery.slug}`}>
-  <img src={getImageSource(cover, 'gallery')} alt={cover.alt} width={cover.width} height={cover.height} loading="lazy" decoding="async" />
-  <span class="gallery-card__content"><span>{gallery.category}</span><strong>{gallery.title}</strong></span>
+  <img src={cover.thumbnail} alt={cover.alt} width={cover.width} height={cover.height} loading="lazy" decoding="async" />
+  <span class="gallery-card__content"><span>Galería</span><strong>{gallery.title}</strong></span>
 </a>

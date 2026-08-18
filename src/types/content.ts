@@ -6,22 +6,26 @@ export type Category =
   | 'Nocturna'
   | 'Astrofotografía'
   | 'Fotografía creativa'
-  | 'IA';
-
-export type ImageVariant = 'card' | 'gallery' | 'detail';
+  | 'IA'
+  | 'Retratos'
+  | 'Creaciones con IA';
 
 export interface Photo {
+  id: string;
   slug: string;
   title: string;
+  description: string;
   alt: string;
   gallerySlug: string;
   category: Category;
+  image: string;
+  thumbnail: string;
   width: number;
   height: number;
-  placeholder: 'landscape' | 'nature' | 'wildlife' | 'macro' | 'night' | 'creative';
 }
 
 export interface Gallery {
+  id: string;
   slug: string;
   title: string;
   description: string;

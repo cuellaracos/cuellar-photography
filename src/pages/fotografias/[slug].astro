@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getGallery, getImageSource, photos } from '../../content/catalog';
+import { getGallery, getGalleryPhotos, photos } from '../../content/catalog';
 
 export function getStaticPaths() {
   return photos.map((photo) => ({ params: { slug: photo.slug }, props: { photo } }));
@@ -9,18 +9,26 @@ export function getStaticPaths() {
 const { photo } = Astro.props;
 const gallery = getGallery(photo.gallerySlug);
 if (!gallery) throw new Error(`Missing gallery for photo ${photo.slug}`);
+const galleryPhotos = getGalleryPhotos(gallery.slug);
+const currentIndex = galleryPhotos.findIndex((item) => item.slug === photo.slug);
+const previousPhoto = galleryPhotos[currentIndex - 1];
+const nextPhoto = galleryPhotos[currentIndex + 1];
 ---
 
-<BaseLayout title={`${photo.title} | Cuellar Photography`} description={`${photo.title}, fotografía de José Cuéllar.`} image={getImageSource(photo, 'detail')}>
+<BaseLayout title={`${photo.title} | José Cuéllar`} description={photo.description} image={photo.image}>
   <article class="photo-detail wrap">
     <div class="photo-detail__image">
-      <img src={getImageSource(photo, 'detail')} alt={photo.alt} width={photo.width} height={photo.height} fetchpriority="high" decoding="async" />
+      <img src={photo.image} alt={photo.alt} width={photo.width} height={photo.height} fetchpriority="high" decoding="async" />
     </div>
     <header class="photo-detail__header">
       <a class="back-link" href={`/galerias/${gallery.slug}`}>Volver a la galería</a>
       <p class="eyebrow">{photo.category}</p>
       <h1>{photo.title}</h1>
-      <p>Imagen provisional. La obra final sustituirá este placeholder en el catálogo.</p>
+      <p>{photo.description}</p>
+      <nav class="photo-pagination" aria-label="Navegación entre fotografías">
+        {previousPhoto && <a href={`/fotografias/${previousPhoto.slug}`}>Anterior</a>}
+        {nextPhoto && <a href={`/fotografias/${nextPhoto.slug}`}>Siguiente</a>}
+      </nav>
     </header>
   </article>
 </BaseLayout>

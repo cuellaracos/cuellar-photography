@@ -1,5 +1,4 @@
 ---
-import { getImageSource } from '../content/catalog';
 import type { Photo } from '../types/content';
 
 interface Props {
@@ -12,7 +11,7 @@ const { photo, priority = false } = Astro.props;
 
 <a class="photo-card" href={`/fotografias/${photo.slug}`}>
   <img
-    src={getImageSource(photo, 'card')}
+    src={photo.thumbnail}
     alt={photo.alt}
     width={photo.width}
     height={photo.height}
