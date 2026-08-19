@@ -20,7 +20,7 @@ export const galleries: Gallery[] = [
     title: 'Paisaje',
     description: 'Luz, relieve y horizontes abiertos. Selección visual provisional.',
     category: 'Paisaje',
-    coverPhotoSlug: 'luz-en-el-valle',
+    coverPhotoSlug: 'eclipse-carabelas',
   },
   {
     id: 'gallery-nature',
