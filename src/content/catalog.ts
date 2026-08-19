@@ -4,6 +4,7 @@ import { photos as horizontesAbiertosPhotos } from '../data/photos/horizontes-ab
 import { photos as materiaVivaPhotos } from '../data/photos/materia-viva';
 import { photos as encuentrosSilvestresPhotos } from '../data/photos/encuentros-silvestres';
 import { photos as despuesDelSolPhotos } from '../data/photos/despues-del-sol';
+import { photos as cieloProfundoPhotos } from '../data/cielo-profundo';
 
 export const categories = [
   'Paisaje',
@@ -106,6 +107,7 @@ export const photos: Photo[] = [
         ...materiaVivaPhotos,
           ...encuentrosSilvestresPhotos,
             ...despuesDelSolPhotos,
+              ...cieloProfundoPhotos,
  
   
   {
@@ -136,19 +138,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1067,
   },
-  {
-    id: 'photo-astro-trace',
-    slug: 'trazo-celeste',
-    title: 'Trazo celeste',
-    description: 'Estudio provisional del movimiento y la escala del cielo nocturno.',
-    alt: 'Placeholder identificado para una fotografía de astrofotografía.',
-    gallerySlug: 'cielo-profundo',
-    category: 'Astrofotografía',
-    image: '/images/Astrofotografia/luna-de-ayer.jpg',
-    thumbnail: '/images/Astrofotografia/luna-de-ayer.jpg',
-    width: 1600,
-    height: 1067,
-  },
+  
   {
     id: 'photo-ai-form',
     slug: 'forma-sintetica',
