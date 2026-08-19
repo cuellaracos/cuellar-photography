@@ -97,19 +97,19 @@ export const galleries: Gallery[] = [
 ];
 
 export const photos: Photo[] = [
-  {
-    id: 'photo-landscape-light',
-    slug: 'luz-en-el-valle',
-    title: 'Luz en el valle',
-    description: 'Estudio provisional de la luz sobre un paisaje abierto.',
-    alt: 'Placeholder identificado para una fotografía de paisaje.',
-    gallerySlug: 'horizontes-abiertos',
-    category: 'Paisaje',
-    image: '/images/placeholders/landscape-detail.svg',
-    thumbnail: '/images/placeholders/landscape-card.svg',
-    width: 1600,
-    height: 1067,
-  },
+ {
+  id: 'photo-landscape-light',
+  slug: 'eclipse-carabelas',
+  title: 'Eclipse sobre las carabelas',
+  description: 'Eclipse solar sobre las carabelas en un paisaje marítimo de fuerte carácter visual.',
+  alt: 'Eclipse solar sobre las carabelas reflejadas en el agua al atardecer.',
+  gallerySlug: 'horizontes-abiertos',
+  category: 'Paisaje',
+  image: '/images/Paisaje/eclipse-carabelas.jpg',
+  thumbnail: '/images/Paisaje/eclipse-carabelas.jpg',
+  width: 4096,
+  height: 2304,
+},
   {
     id: 'photo-nature-stillness',
     slug: 'silencio-vegetal',
