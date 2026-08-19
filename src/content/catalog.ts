@@ -2,6 +2,7 @@
 import type { Gallery, Photo } from '../types/content';
 import { photos as horizontesAbiertosPhotos } from '../data/photos/horizontes-abiertos'
 import { photos as materiaVivaPhotos } from '../data/photos/materia-viva';
+import { photos as encuentrosSilvestresPhotos } from '../data/photos/encuentros-silvestres';
 
 export const categories = [
   'Paisaje',
@@ -102,6 +103,7 @@ export const galleries: Gallery[] = [
 export const photos: Photo[] = [
       ...horizontesAbiertosPhotos,
         ...materiaVivaPhotos,
+          ...encuentrosSilvestresPhotos,
  
   
   {
@@ -117,19 +119,7 @@ export const photos: Photo[] = [
     width: 1200,
     height: 1500,
   },
-  {
-    id: 'photo-fauna-vigia-roca',
-    slug: 'el-vigia-de-la-roca',
-    title: 'El vigía de la roca',
-    description: 'Buitre posado entre las rocas, observado en libertad bajo una luz cálida de atardecer.',
-    alt: 'Buitre posado entre rocas en un paisaje natural.',
-    gallerySlug: 'encuentros-silvestres',
-    category: 'Fauna',
-    image: '/images/Fauna/buitre-en-la-roca.jpg',
-    thumbnail: '/images/Fauna/buitre-en-la-roca.jpg',
-    width: 1600,
-    height: 1067,
-  },
+  
   {
     id: 'photo-night-line',
     slug: 'linea-de-noche',
