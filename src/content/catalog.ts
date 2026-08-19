@@ -1,4 +1,6 @@
+
 import type { Gallery, Photo } from '../types/content';
+import { photos as horizontesAbiertosPhotos } from '../data/photos/horizontes-abiertos';
 
 export const categories = [
   'Paisaje',
@@ -97,19 +99,8 @@ export const galleries: Gallery[] = [
 ];
 
 export const photos: Photo[] = [
- {
-  id: 'photo-landscape-light',
-  slug: 'eclipse-carabelas',
-  title: 'Eclipse sobre las carabelas',
-  description: 'Eclipse solar sobre las carabelas en un paisaje marítimo de fuerte carácter visual.',
-  alt: 'Eclipse solar sobre las carabelas reflejadas en el agua al atardecer.',
-  gallerySlug: 'horizontes-abiertos',
-  category: 'Paisaje',
-  image: '/images/Paisaje/eclipse-carabelas.jpg',
-  thumbnail: '/images/Paisaje/eclipse-carabelas.jpg',
-  width: 4096,
-  height: 2304,
-},
+      ...horizontesAbiertosPhotos,
+ 
   {
     id: 'photo-nature-stillness',
     slug: 'silencio-vegetal',
