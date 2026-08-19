@@ -3,6 +3,7 @@ import type { Gallery, Photo } from '../types/content';
 import { photos as horizontesAbiertosPhotos } from '../data/photos/horizontes-abiertos'
 import { photos as materiaVivaPhotos } from '../data/photos/materia-viva';
 import { photos as encuentrosSilvestresPhotos } from '../data/photos/encuentros-silvestres';
+import { photos as despuesDelSolPhotos } from '../data/photos/despues-del-sol';
 
 export const categories = [
   'Paisaje',
@@ -104,6 +105,7 @@ export const photos: Photo[] = [
       ...horizontesAbiertosPhotos,
         ...materiaVivaPhotos,
           ...encuentrosSilvestresPhotos,
+            ...despuesDelSolPhotos,
  
   
   {
@@ -120,19 +122,7 @@ export const photos: Photo[] = [
     height: 1500,
   },
   
-  {
-    id: 'photo-night-line',
-    slug: 'linea-de-noche',
-    title: 'Línea de noche',
-    description: 'Estudio provisional de profundidad, oscuridad y luz nocturna.',
-    alt: 'Placeholder identificado para una fotografía nocturna.',
-    gallerySlug: 'despues-del-sol',
-    category: 'Nocturna',
-    image: '/images/placeholders/night-detail.svg',
-    thumbnail: '/images/placeholders/night-card.svg',
-    width: 1600,
-    height: 1067,
-  },
+  
   {
     id: 'photo-creative-field',
     slug: 'campo-imaginado',
