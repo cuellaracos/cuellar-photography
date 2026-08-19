@@ -5,6 +5,10 @@ import { photos as materiaVivaPhotos } from '../data/photos/materia-viva';
 import { photos as encuentrosSilvestresPhotos } from '../data/photos/encuentros-silvestres';
 import { photos as despuesDelSolPhotos } from '../data/photos/despues-del-sol';
 import { photos as cieloProfundoPhotos } from '../data/cielo-profundo';
+import { photos as realidadRecompuestaPhotos } from '../data/realidad-recompuesta';
+import { photos as imagenesSinteticasPhotos } from '../data/imagenes-sinteticas';
+import { photos as retratosPhotos } from '../data/retratos';
+import { photos as creacionesIaPhotos } from '../data/creaciones-ia';
 
 export const categories = [
   'Paisaje',
@@ -103,11 +107,15 @@ export const galleries: Gallery[] = [
 ];
 
 export const photos: Photo[] = [
-      ...horizontesAbiertosPhotos,
-        ...materiaVivaPhotos,
-          ...encuentrosSilvestresPhotos,
-            ...despuesDelSolPhotos,
-              ...cieloProfundoPhotos,
+   ...horizontesAbiertosPhotos,
+  ...materiaVivaPhotos,
+  ...encuentrosSilvestresPhotos,
+  ...despuesDelSolPhotos,
+  ...cieloProfundoPhotos,
+  ...realidadRecompuestaPhotos,
+  ...imagenesSinteticasPhotos,
+  ...retratosPhotos,
+  ...creacionesIaPhotos,
  
   
   {
@@ -125,59 +133,11 @@ export const photos: Photo[] = [
   },
   
   
-  {
-    id: 'photo-creative-field',
-    slug: 'campo-imaginado',
-    title: 'Campo imaginado',
-    description: 'Estudio provisional de composición e imagen transformada.',
-    alt: 'Placeholder identificado para una fotografía creativa.',
-    gallerySlug: 'realidad-recompuesta',
-    category: 'Fotografía creativa',
-    image: '/images/placeholders/creative-detail.svg',
-    thumbnail: '/images/placeholders/creative-card.svg',
-    width: 1600,
-    height: 1067,
-  },
   
-  {
-    id: 'photo-ai-form',
-    slug: 'forma-sintetica',
-    title: 'Forma sintética',
-    description: 'Exploración visual provisional creada con herramientas de IA.',
-    alt: 'Placeholder identificado para una imagen creada con inteligencia artificial.',
-    gallerySlug: 'imagenes-sinteticas',
-    category: 'IA',
-    image: '/images/placeholders/creative-detail.svg',
-    thumbnail: '/images/placeholders/creative-card.svg',
-    width: 1600,
-    height: 1067,
-  },
-  {
-    id: 'photo-portrait-presence',
-    slug: 'presencia-retratada',
-    title: 'Presencia retratada',
-    description: 'Estudio provisional de un retrato, su luz y su presencia.',
-    alt: 'Placeholder identificado para una fotografía de retrato.',
-    gallerySlug: 'retratos',
-    category: 'Retratos',
-    image: '/images/placeholders/wildlife-detail.svg',
-    thumbnail: '/images/placeholders/wildlife-card.svg',
-    width: 1200,
-    height: 1500,
-  },
-  {
-    id: 'photo-ai-scene',
-    slug: 'escena-generada',
-    title: 'Escena generada',
-    description: 'Exploración visual provisional creada con herramientas de inteligencia artificial.',
-    alt: 'Placeholder identificado para una creación visual con inteligencia artificial.',
-    gallerySlug: 'creaciones-ia',
-    category: 'Creaciones con IA',
-    image: '/images/placeholders/creative-detail.svg',
-    thumbnail: '/images/placeholders/creative-card.svg',
-    width: 1600,
-    height: 1067,
-  },
+  
+  
+  
+ 
 ];
 
 export function getGallery(slug: string) {
