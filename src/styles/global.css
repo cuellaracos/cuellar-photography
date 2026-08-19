@@ -21,7 +21,7 @@ nav a:hover, nav a[aria-current='page'] { color: var(--text); }
 .hero__image { filter: saturate(.72) contrast(1.05); height: 100%; inset: 0; object-fit: cover; position: absolute; width: 100%; }
 .hero::after { background: linear-gradient(90deg, rgb(5 6 5 / .88) 0%, rgb(5 6 5 / .35) 58%, rgb(5 6 5 / .08) 100%); content: ''; inset: 0; position: absolute; }
 .hero__content { bottom: clamp(3rem, 8vw, 7rem); max-width: 710px; padding: 0 clamp(1.5rem, 5vw, 5rem); position: absolute; z-index: 1; }
-.hero__content h1 { font-size: clamp(3.6rem, 9vw, 8rem); margin-bottom: 1.5rem; text-transform: uppercase; }
+.hero__content h1 { font-size: clamp(3.3rem, 7.5vw, 6.5rem); margin-bottom: 1.5rem; text-transform: uppercase; }
 .hero__content > p:not(.eyebrow) { color: #deded7; font-size: clamp(1rem, 1.5vw, 1.2rem); max-width: 45ch; }
 .eyebrow { color: var(--accent); font-size: .67rem; font-weight: 700; letter-spacing: .16em; margin-bottom: .9rem; text-transform: uppercase; }
 .button-link, .text-link, .back-link { font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-decoration: none; text-transform: uppercase; }
