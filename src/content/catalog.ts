@@ -1,6 +1,7 @@
 
 import type { Gallery, Photo } from '../types/content';
-import { photos as horizontesAbiertosPhotos } from '../data/photos/horizontes-abiertos';
+import { photos as horizontesAbiertosPhotos } from '../data/photos/horizontes-abiertos'
+import { photos as materiaVivaPhotos } from '../data/photos/materia-viva';
 
 export const categories = [
   'Paisaje',
@@ -100,20 +101,9 @@ export const galleries: Gallery[] = [
 
 export const photos: Photo[] = [
       ...horizontesAbiertosPhotos,
+        ...materiaVivaPhotos,
  
-  {
-    id: 'photo-nature-stillness',
-    slug: 'silencio-vegetal',
-    title: 'Silencio vegetal',
-    description: 'Estudio provisional de formas vegetales y luz filtrada.',
-    alt: 'Placeholder identificado para una fotografía de naturaleza.',
-    gallerySlug: 'materia-viva',
-    category: 'Naturaleza',
-    image: '/images/placeholders/nature-detail.svg',
-    thumbnail: '/images/placeholders/nature-card.svg',
-    width: 1600,
-    height: 1067,
-  },
+  
   {
     id: 'photo-macro-geometry',
     slug: 'geometria-organica',
