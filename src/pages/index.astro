@@ -17,7 +17,7 @@ import { photos } from '../content/catalog';
   <section class="wrap featured" aria-labelledby="featured-title">
     <div class="section-heading"><p class="eyebrow">Selección</p><h2 id="featured-title">Obra reciente</h2></div>
     <div class="photo-grid photo-grid--featured">
-      {photos.slice(0, 4).map((photo, index) => <PhotoCard photo={photo} priority={index === 0} />)}
+     {photos.filter((photo) => ['eclipse-carabelas', 'via-lactea', 'jinete-en-libertad', 'el-vigia-de-la-roca'].includes(photo.slug)).map((photo, index) => <PhotoCard photo={photo} priority={index === 0} />)}
     </div>
   </section>
 </BaseLayout>

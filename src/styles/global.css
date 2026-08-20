@@ -34,6 +34,8 @@ nav a:hover, nav a[aria-current='page'] { color: var(--text); }
 .section-heading .eyebrow { margin-bottom: .45rem; }
 .photo-grid { display: grid; gap: clamp(.8rem, 1.5vw, 1.5rem); grid-template-columns: repeat(3, minmax(0, 1fr)); padding-bottom: 7rem; }
 .photo-grid--featured { grid-template-columns: repeat(4, minmax(0, 1fr)); padding-bottom: 0; }
+.photo-grid--featured .photo-card img { aspect-ratio: auto; height: auto; object-fit: contain; }
+
 .photo-card { display: block; min-width: 0; text-decoration: none; }
 .photo-card img { aspect-ratio: 4 / 5; background: var(--surface); object-fit: cover; transition: filter .35s ease, transform .5s ease; width: 100%; }
 .photo-card:hover img { filter: brightness(1.08); transform: scale(1.015); }

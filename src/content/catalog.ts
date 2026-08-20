@@ -151,3 +151,57 @@ export function getPhoto(slug: string) {
 export function getGalleryPhotos(gallerySlug: string) {
   return photos.filter((photo) => photo.gallerySlug === gallerySlug);
 }
+
+function validateCatalog(): void {
+  const photoSlugs = new Set<string>();
+
+  for (const photo of photos) {
+    if (photoSlugs.has(photo.slug)) {
+      throw new Error(
+        `[catalog] Slug de fotografía duplicado: "${photo.slug}"`
+      );
+    }
+
+    photoSlugs.add(photo.slug);
+  }
+
+  const gallerySlugs = new Set<string>();
+
+  for (const gallery of galleries) {
+    if (gallerySlugs.has(gallery.slug)) {
+      throw new Error(
+        `[catalog] Slug de galería duplicado: "${gallery.slug}"`
+      );
+    }
+
+    gallerySlugs.add(gallery.slug);
+  }
+
+  for (const photo of photos) {
+    if (!gallerySlugs.has(photo.gallerySlug)) {
+      throw new Error(
+        `[catalog] La fotografía "${photo.slug}" apunta a una galería inexistente: "${photo.gallerySlug}"`
+      );
+    }
+  }
+
+  for (const gallery of galleries) {
+    const coverPhoto = photos.find(
+      (photo) => photo.slug === gallery.coverPhotoSlug
+    );
+
+    if (!coverPhoto) {
+      throw new Error(
+        `[catalog] La galería "${gallery.slug}" apunta a una fotografía inexistente: "${gallery.coverPhotoSlug}"`
+      );
+    }
+
+    if (coverPhoto.gallerySlug !== gallery.slug) {
+      throw new Error(
+        `[catalog] La portada "${gallery.coverPhotoSlug}" de la galería "${gallery.slug}" pertenece a otra galería.`
+      );
+    }
+  }
+}
+
+validateCatalog();
