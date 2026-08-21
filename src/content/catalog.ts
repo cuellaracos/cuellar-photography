@@ -9,6 +9,7 @@ import { photos as realidadRecompuestaPhotos } from '../data/realidad-recompuest
 import { photos as imagenesSinteticasPhotos } from '../data/imagenes-sinteticas';
 import { photos as retratosPhotos } from '../data/retratos';
 import { photos as creacionesIaPhotos } from '../data/creaciones-ia';
+import { photos as vidaEnDetallePhotos } from '../data/photos/vida-en-detalle';
 
 export const categories = [
   'Paisaje',
@@ -54,7 +55,7 @@ export const galleries: Gallery[] = [
     title: 'Macro',
     description: 'Textura, patrón y escala en los detalles que pasan inadvertidos. Selección visual provisional.',
     category: 'Macro',
-    coverPhotoSlug: 'geometria-organica',
+coverPhotoSlug: 'camaleon-verde',
   },
   {
     id: 'gallery-night',
@@ -107,7 +108,7 @@ export const galleries: Gallery[] = [
 ];
 
 export const photos: Photo[] = [
-   ...horizontesAbiertosPhotos,
+  ...horizontesAbiertosPhotos,
   ...materiaVivaPhotos,
   ...encuentrosSilvestresPhotos,
   ...despuesDelSolPhotos,
@@ -116,30 +117,8 @@ export const photos: Photo[] = [
   ...imagenesSinteticasPhotos,
   ...retratosPhotos,
   ...creacionesIaPhotos,
- 
-  
-  {
-    id: 'photo-macro-geometry',
-    slug: 'geometria-organica',
-    title: 'Geometría orgánica',
-    description: 'Estudio provisional de estructuras orgánicas a escala cercana.',
-    alt: 'Placeholder identificado para una fotografía macro.',
-    gallerySlug: 'vida-en-detalle',
-    category: 'Macro',
-    image: '/images/placeholders/macro-detail.svg',
-    thumbnail: '/images/placeholders/macro-card.svg',
-    width: 1200,
-    height: 1500,
-  },
-  
-  
-  
-  
-  
-  
- 
+  ...vidaEnDetallePhotos,
 ];
-
 export function getGallery(slug: string) {
   return galleries.find((gallery) => gallery.slug === slug);
 }
@@ -205,3 +184,4 @@ function validateCatalog(): void {
 }
 
 validateCatalog();
+
