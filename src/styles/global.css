@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   color-scheme: dark;
 
   --background: #0b0c0b;
@@ -255,7 +255,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   CUADRÍCULAS DE FOTOGRAFÍAS
+   CUADRÃCULAS DE FOTOGRAFÃAS
    ========================================================= */
 
 .photo-grid {
@@ -281,7 +281,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   TARJETA DE FOTOGRAFÍA
+   TARJETA DE FOTOGRAFÃA
    ========================================================= */
 
 .photo-card {
@@ -292,19 +292,18 @@ nav a[aria-current="page"] {
 
 
 /*
- * ESTA ES LA CORRECCIÓN IMPORTANTE.
+ * ESTA ES LA CORRECCIÃ“N IMPORTANTE.
  *
- * Todas las fotografías de las tarjetas tienen una proporción
- * fija. Así una fotografía vertical como Macro no puede hacer
- * que su tarjeta sea más alta que las demás.
+ * Todas las fotografÃ­as de las tarjetas tienen una proporciÃ³n
+ * fija. AsÃ­ una fotografÃ­a vertical como Macro no puede hacer
+ * que su tarjeta sea mÃ¡s alta que las demÃ¡s.
  */
 
 .photo-card img {
-  aspect-ratio: 4 / 5;
   background: var(--surface);
   display: block;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -325,7 +324,7 @@ nav a[aria-current="page"] {
 
 
 /*
- * Refuerzo específico para Obra reciente.
+ * Refuerzo especÃ­fico para Obra reciente.
  * Mantiene las cuatro tarjetas perfectamente uniformes.
  */
 
@@ -333,7 +332,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   INFORMACIÓN DE LA TARJETA
+   INFORMACIÃ“N DE LA TARJETA
    ========================================================= */
 
 .photo-card__meta {
@@ -353,7 +352,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   CABECERAS DE PÁGINA
+   CABECERAS DE PÃGINA
    ========================================================= */
 
 .page-heading {
@@ -371,7 +370,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   GALERÍA
+   GALERÃA
    ========================================================= */
 
 .gallery-section {
@@ -396,7 +395,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   TARJETAS DE GALERÍA
+   TARJETAS DE GALERÃA
    ========================================================= */
 
 .gallery-card {
@@ -470,7 +469,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   DETALLE DE FOTOGRAFÍA
+   DETALLE DE FOTOGRAFÃA
    ========================================================= */
 
 .photo-detail {
@@ -524,7 +523,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   SOBRE MÍ / CONTACTO / 404
+   SOBRE MÃ / CONTACTO / 404
    ========================================================= */
 
 .about,
@@ -560,7 +559,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   PIE DE PÁGINA
+   PIE DE PÃGINA
    ========================================================= */
 
 .site-footer {
@@ -597,7 +596,7 @@ nav a[aria-current="page"] {
 
 
 /* =========================================================
-   MÓVIL
+   MÃ“VIL
    ========================================================= */
 
 @media (max-width: 680px) {
@@ -661,19 +660,21 @@ nav a[aria-current="page"] {
   }
 
   /*
-   * En móvil las tarjetas siguen manteniendo
-   * una proporción controlada.
+   * En mÃ³vil las tarjetas siguen manteniendo
+   * una proporciÃ³n controlada.
    */
 
   .photo-card img {
-    aspect-ratio: 4 / 5;
-    height: auto;
-    object-fit: cover;
-  }
+  background: var(--surface);
+  display: block;
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
 
   /*
-   * Las tarjetas de galería pasan a formato
-   * ligeramente más horizontal en móvil.
+   * Las tarjetas de galerÃ­a pasan a formato
+   * ligeramente mÃ¡s horizontal en mÃ³vil.
    */
 
   .gallery-card {
@@ -691,7 +692,7 @@ nav a[aria-current="page"] {
 
   /*
    * IMPORTANTE:
-   * la fotografía individual NO se recorta.
+   * la fotografÃ­a individual NO se recorta.
    */
 
   .photo-detail__image img {
@@ -727,3 +728,4 @@ nav a[aria-current="page"] {
   }
 
 }
+
