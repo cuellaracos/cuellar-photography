@@ -71,7 +71,7 @@ coverPhotoSlug: 'camaleon-verde',
     title: 'Astrofotografía',
     description: 'La escala del cielo nocturno en una selección visual provisional.',
     category: 'Astrofotografía',
-    coverPhotoSlug: 'trazo-celeste',
+    coverPhotoSlug: 'luna-de-ayer',
   },
   {
     id: 'gallery-creative',
