@@ -1,7 +1,7 @@
 import type { Photo } from '../../types/content';
 
 export const photos: Photo[] = [
-    {
+  {
     id: 'photo-fauna-vigia-roca',
     slug: 'el-vigia-de-la-roca',
     title: 'El vigía de la roca',
@@ -14,4 +14,32 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1067,
   },
-  ];
+
+  {
+    id: 'photo-fauna-buitre-vuelo',
+    slug: 'buitre-en-vuelo',
+    title: 'Buitre en vuelo',
+    description: 'Buitre en vuelo captado sobre un paisaje natural.',
+    alt: 'Buitre en vuelo sobre un paisaje natural.',
+    gallerySlug: 'encuentros-silvestres',
+    category: 'Fauna',
+    image: '/images/Fauna/buitre-monfrague.jpg',
+    thumbnail: '/images/Fauna/buitre-monfrague.jpg',
+    width: 1600,
+    height: 1200,
+  },
+
+  {
+    id: 'photo-fauna-oropendola',
+    slug: 'oropendola',
+    title: 'Oropéndola',
+    description: 'Oropéndola fotografiada en su entorno natural.',
+    alt: 'Oropéndola en su entorno natural.',
+    gallerySlug: 'encuentros-silvestres',
+    category: 'Fauna',
+    image: '/images/Fauna/oropendola.jpg',
+    thumbnail: '/images/Fauna/oropendola.jpg',
+    width: 1600,
+    height: 1200,
+  },
+];

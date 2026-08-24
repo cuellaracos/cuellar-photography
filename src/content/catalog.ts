@@ -44,7 +44,7 @@ export const galleries: Gallery[] = [
   {
     id: 'gallery-wildlife',
     slug: 'encuentros-silvestres',
-    title: 'Fauna',
+    title: 'Encuentros Silvestres',
     description: 'Presencias discretas y encuentros en libertad. Selección visual provisional.',
     category: 'Fauna',
     coverPhotoSlug: 'el-vigia-de-la-roca',
