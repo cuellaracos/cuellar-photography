@@ -63,7 +63,7 @@ coverPhotoSlug: 'camaleon-verde',
     title: 'Nocturna',
     description: 'Tiempo lento, sombra y luz residual. Selección visual provisional.',
     category: 'Nocturna',
-    coverPhotoSlug: 'linea-de-noche',
+    coverPhotoSlug: 'fuegos-artificiales',
   },
   {
     id: 'gallery-astro',
