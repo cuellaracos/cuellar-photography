@@ -39,7 +39,7 @@ export const galleries: Gallery[] = [
     title: 'Naturaleza',
     description: 'Formas, ritmos y materia en el entorno natural. Selección visual provisional.',
     category: 'Naturaleza',
-    coverPhotoSlug: 'silencio-vegetal',
+    coverPhotoSlug: 'lavandas-naturaleza',
   },
   {
     id: 'gallery-wildlife',
