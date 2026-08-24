@@ -14,6 +14,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-eclipse-total-solar',
     slug: 'eclipse-total-solar',
@@ -27,6 +28,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-luna-creciente',
     slug: 'luna-creciente',
@@ -40,6 +42,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-luna-de-ayer',
     slug: 'luna-de-ayer',
@@ -53,6 +56,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-luna-de-sangre',
     slug: 'luna-de-sangre-sobre-colombinas',
@@ -66,6 +70,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-secuencia-eclipse-tinto',
     slug: 'secuencia-del-eclipse-sobre-el-tinto',
@@ -79,6 +84,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-via-lactea-marismas',
     slug: 'via-lactea-sobre-las-marismas',
@@ -92,6 +98,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-astro-castillo-zafra',
     slug: 'castillo-de-zafra-2023',
@@ -105,6 +112,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-astro-zarandas',
     slug: 'zarandas',
@@ -118,6 +126,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+
   {
     id: 'photo-astro-puente-san-miguel',
     slug: 'puente-de-san-miguel',
@@ -128,6 +137,20 @@ export const photos: Photo[] = [
     category: 'Astrofotografía',
     image: '/images/Astrofotografia/puente-de-san-miguel.jpg',
     thumbnail: '/images/Astrofotografia/puente-de-san-miguel.jpg',
+    width: 1600,
+    height: 1200,
+  },
+
+  {
+    id: 'photo-astro-media-luna',
+    slug: 'media-luna',
+    title: 'Media Luna',
+    description: 'Fotografía de la Luna captada durante una noche de observación astronómica.',
+    alt: 'Media Luna fotografiada durante la noche.',
+    gallerySlug: 'cielo-profundo',
+    category: 'Astrofotografía',
+    image: '/images/Astrofotografia/_DSC1209.jpg',
+    thumbnail: '/images/Astrofotografia/_DSC1209.jpg',
     width: 1600,
     height: 1200,
   },
