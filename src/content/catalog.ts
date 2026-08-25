@@ -103,7 +103,7 @@ coverPhotoSlug: 'camaleon-verde',
     title: 'Creaciones con IA',
     description: 'Imágenes creadas con inteligencia artificial como parte de un archivo en evolución.',
     category: 'Creaciones con IA',
-    coverPhotoSlug: 'escena-generada',
+    coverPhotoSlug: 'caballistas-en-formacion',
   },
 ];
 
