@@ -44,7 +44,6 @@ export const photos: Photo[] = [
     height: 1365,
   },
 
-
   {
     id: 'photo-landscape-casa-conchas',
     slug: 'casa-de-las-conchas-tazones-asturias',
@@ -125,6 +124,20 @@ export const photos: Photo[] = [
     category: 'Paisaje',
     image: '/images/Paisaje/toro-de-osborne.jpg',
     thumbnail: '/images/Paisaje/toro-de-osborne.jpg',
+    width: 1600,
+    height: 1200,
+  },
+
+  {
+    id: 'photo-landscape-bardenas',
+    slug: 'bardenas',
+    title: 'Bardenas',
+    description: 'Paisaje de las Bardenas Reales, donde la erosión y las formas del terreno construyen una escena de fuerte carácter visual.',
+    alt: 'Paisaje de las Bardenas Reales con sus formaciones geológicas características.',
+    gallerySlug: 'horizontes-abiertos',
+    category: 'Paisaje',
+    image: '/images/Paisaje/bardenas.jpg',
+    thumbnail: '/images/Paisaje/bardenas.jpg',
     width: 1600,
     height: 1200,
   },

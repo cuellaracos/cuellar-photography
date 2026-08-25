@@ -42,4 +42,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+    {
+    id: 'photo-fauna-picapinos',
+    slug: 'picapinos',
+    title: 'Picapinos',
+    description: 'Picapinos fotografiado en libertad, destacando su presencia y colorido en el entorno natural.',
+    alt: 'Picapinos posado en su entorno natural.',
+    gallerySlug: 'encuentros-silvestres',
+    category: 'Fauna',
+    image: '/images/Fauna/picapinos.jpg',
+    thumbnail: '/images/Fauna/picapinos.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];

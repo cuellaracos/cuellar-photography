@@ -79,4 +79,17 @@ export const photos: Photo[] = [
     width: 1800,
     height: 1800,
   },
+    {
+    id: 'photo-macro-polilla',
+    slug: 'polilla',
+    title: 'Polilla',
+    description: 'Polilla fotografiada en detalle, destacando la textura, las formas y los matices de su cuerpo y alas.',
+    alt: 'Polilla fotografiada en primer plano.',
+    gallerySlug: 'vida-en-detalle',
+    category: 'Macro',
+    image: '/images/Macro/polilla-publicar.jpg',
+    thumbnail: '/images/Macro/polilla-publicar.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
