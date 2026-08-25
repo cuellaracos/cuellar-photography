@@ -79,7 +79,7 @@ coverPhotoSlug: 'camaleon-verde',
     title: 'Fotografía creativa',
     description: 'Interpretaciones visuales donde la imagen propone otro lugar. Selección visual provisional.',
     category: 'Fotografía creativa',
-    coverPhotoSlug: 'campo-imaginado',
+    coverPhotoSlug: 'helado',
   },
   {
     id: 'gallery-ai',
