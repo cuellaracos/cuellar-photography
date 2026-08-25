@@ -87,7 +87,7 @@ coverPhotoSlug: 'camaleon-verde',
     title: 'IA',
     description: 'Exploraciones visuales generadas como parte de un archivo en evolución.',
     category: 'IA',
-    coverPhotoSlug: 'forma-sintetica',
+    coverPhotoSlug: 'bailarina',
   },
   {
     id: 'gallery-portraits',
