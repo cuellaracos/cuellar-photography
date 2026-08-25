@@ -95,7 +95,7 @@ coverPhotoSlug: 'camaleon-verde',
     title: 'Retratos',
     description: 'Presencia, gesto y luz en una selección visual provisional.',
     category: 'Retratos',
-    coverPhotoSlug: 'presencia-retratada',
+    coverPhotoSlug: 'ana-collage',
   },
   {
     id: 'gallery-ai-creations',
