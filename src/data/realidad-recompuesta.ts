@@ -66,4 +66,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-creative-caballistas',
+    slug: 'caballistas-en-formacion',
+    title: 'Caballistas en formación',
+    description: 'Fotografía creativa de una formación de caballistas trabajada desde la composición, la atmósfera y la luz.',
+    alt: 'Grupo de caballistas en formación sobre un fondo de tonos cálidos.',
+    gallerySlug: 'realidad-recompuesta',
+    category: 'Fotografía creativa',
+    image: '/images/FotografiaCreativa/caballistas-en-formacion.jpg',
+    thumbnail: '/images/FotografiaCreativa/caballistas-en-formacion.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
