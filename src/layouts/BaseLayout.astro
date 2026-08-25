@@ -1,4 +1,4 @@
----
+﻿---
 import '../styles/global.css';
 import SiteFooter from '../components/SiteFooter.astro';
 import SiteHeader from '../components/SiteHeader.astro';
@@ -40,5 +40,21 @@ const imageUrl = new URL(image, Astro.site);
     <SiteHeader />
     <main><slot /></main>
     <SiteFooter />
+
+    <script is:inline>
+      document.addEventListener('contextmenu', (event) => {
+        const target = event.target;
+        if (target instanceof HTMLImageElement) {
+          event.preventDefault();
+        }
+      });
+
+      document.addEventListener('dragstart', (event) => {
+        const target = event.target;
+        if (target instanceof HTMLImageElement) {
+          event.preventDefault();
+        }
+      });
+    </script>
   </body>
 </html>
