@@ -118,4 +118,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-retratos-ana-durmiendo',
+    slug: 'ana-durmiendo',
+    title: 'Ana Durmiendo',
+    description: 'Retrato de Ana en un momento íntimo y natural.',
+    alt: 'Retrato de Ana durmiendo.',
+    gallerySlug: 'retratos',
+    category: 'Retratos',
+    image: '/images/Retratos/ana-durmiendo.jpg',
+    thumbnail: '/images/Retratos/ana-durmiendo.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
