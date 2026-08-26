@@ -131,4 +131,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-retratos-ana3',
+    slug: 'ana3',
+    title: 'Ana3',
+    description: 'Retrato: Ana3.',
+    alt: 'Ana3',
+    gallerySlug: 'retratos',
+    category: 'Retratos',
+    image: '/images/Retratos/ana3.jpg',
+    thumbnail: '/images/Retratos/ana3.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];

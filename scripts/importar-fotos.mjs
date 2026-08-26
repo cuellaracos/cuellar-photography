@@ -1,5 +1,7 @@
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
+import readline from 'node:readline';
 import { fileURLToPath } from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -23,7 +25,6 @@ const galleries = {
     imageFolder: 'Paisaje',
     dataFile: path.join(dataDir, 'photos', 'horizontes-abiertos.ts'),
   },
-
   '2': {
     name: 'Materia viva',
     slug: 'materia-viva',
@@ -31,7 +32,6 @@ const galleries = {
     imageFolder: 'Naturaleza',
     dataFile: path.join(dataDir, 'photos', 'materia-viva.ts'),
   },
-
   '3': {
     name: 'Encuentros Silvestres',
     slug: 'encuentros-silvestres',
@@ -39,7 +39,6 @@ const galleries = {
     imageFolder: 'Fauna',
     dataFile: path.join(dataDir, 'photos', 'encuentros-silvestres.ts'),
   },
-
   '4': {
     name: 'Vida en detalle',
     slug: 'vida-en-detalle',
@@ -47,7 +46,6 @@ const galleries = {
     imageFolder: 'Macro',
     dataFile: path.join(dataDir, 'photos', 'vida-en-detalle.ts'),
   },
-
   '5': {
     name: 'Después del sol',
     slug: 'despues-del-sol',
@@ -55,7 +53,6 @@ const galleries = {
     imageFolder: 'Nocturna',
     dataFile: path.join(dataDir, 'photos', 'despues-del-sol.ts'),
   },
-
   '6': {
     name: 'Cielo profundo',
     slug: 'cielo-profundo',
@@ -63,7 +60,6 @@ const galleries = {
     imageFolder: 'Astrofotografia',
     dataFile: path.join(dataDir, 'cielo-profundo.ts'),
   },
-
   '7': {
     name: 'Realidad recompuesta',
     slug: 'realidad-recompuesta',
@@ -71,7 +67,6 @@ const galleries = {
     imageFolder: 'FotografiaCreativa',
     dataFile: path.join(dataDir, 'realidad-recompuesta.ts'),
   },
-
   '8': {
     name: 'Retratos',
     slug: 'retratos',
@@ -79,7 +74,6 @@ const galleries = {
     imageFolder: 'Retratos',
     dataFile: path.join(dataDir, 'retratos.ts'),
   },
-
   '9': {
     name: 'Creaciones con IA',
     slug: 'creaciones-ia',
@@ -88,6 +82,19 @@ const galleries = {
     dataFile: path.join(dataDir, 'creaciones-ia.ts'),
   },
 };
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+function ask(question) {
+  return new Promise(resolve => {
+    rl.question(question, answer => {
+      resolve(answer.trim());
+    });
+  });
+}
 
 function slugify(filename) {
   return path
@@ -106,6 +113,31 @@ function titleFromFilename(filename) {
     .replace(/[-_]+/g, ' ')
     .trim()
     .replace(/\b\w/g, char => char.toUpperCase());
+}
+
+function descriptionForCategory(category, title) {
+  const descriptions = {
+    Paisaje:
+      `Fotografía de paisaje: ${title}.`,
+    Naturaleza:
+      `Fotografía de naturaleza: ${title}.`,
+    Fauna:
+      `Fotografía de fauna: ${title}.`,
+    Macro:
+      `Fotografía macro: ${title}.`,
+    Nocturna:
+      `Fotografía nocturna: ${title}.`,
+    Astrofotografía:
+      `Astrofotografía: ${title}.`,
+    'Fotografía creativa':
+      `Fotografía creativa: ${title}.`,
+    Retratos:
+      `Retrato: ${title}.`,
+    'Creaciones con IA':
+      `Creación visual realizada con inteligencia artificial: ${title}.`,
+  };
+
+  return descriptions[category] || `Fotografía: ${title}.`;
 }
 
 function getImageDimensions(filePath) {
@@ -141,8 +173,66 @@ function getImageDimensions(filePath) {
   }
 
   throw new Error(
-    'No se han podido leer las dimensiones de la imagen.'
+    `No se han podido leer las dimensiones de ${path.basename(filePath)}`
   );
+}
+function getFileHash(filePath) {
+  const hash = crypto.createHash('sha256');
+  const buffer = fs.readFileSync(filePath);
+  hash.update(buffer);
+  return hash.digest('hex').toLowerCase();
+}
+
+function getRegisteredHashes() {
+  const hashes = new Set();
+
+  function walk(directory) {
+    if (!fs.existsSync(directory)) return;
+
+    for (const entry of fs.readdirSync(directory, {
+      withFileTypes: true,
+    })) {
+      const fullPath = path.join(directory, entry.name);
+
+      if (entry.isDirectory()) {
+        walk(fullPath);
+        continue;
+      }
+
+      if (!entry.name.endsWith('.ts')) continue;
+
+      const content = fs.readFileSync(fullPath, 'utf8');
+
+      const matches = content.matchAll(
+        /(?:image|thumbnail):\s*['"`]([^'"`]+)['"`]/g
+      );
+
+      for (const match of matches) {
+        const imagePath = match[1];
+
+        if (!imagePath.startsWith('/images/')) continue;
+
+        const localPath = path.join(
+          projectRoot,
+          'public',
+          imagePath.replace(/^\/+/, '')
+        );
+
+        if (!fs.existsSync(localPath)) continue;
+
+        try {
+          hashes.add(getFileHash(localPath));
+        } catch {
+          // Si una imagen no puede leerse,
+          // no bloqueamos el diagnóstico.
+        }
+      }
+    }
+  }
+
+  walk(dataDir);
+
+  return hashes;
 }
 
 function getRegisteredImages() {
@@ -179,36 +269,36 @@ function getRegisteredImages() {
   return registered;
 }
 
+function getNewFiles() {
+  const registered = getRegisteredImages();
+  const registeredHashes = getRegisteredHashes();
+
+  return fs
+    .readdirSync(sourceDir, {
+      withFileTypes: true,
+    })
+    .filter(entry => {
+      if (!entry.isFile()) return false;
+
+      return [
+        '.jpg',
+        '.jpeg',
+        '.png',
+        '.webp',
+      ].includes(
+        path.extname(entry.name).toLowerCase()
+      );
+    })
+    .map(entry => entry.name)
+    .filter(file =>
+      !registered.has(file.toLowerCase())
+    );
+}
+
 function escapeTsString(value) {
   return value
     .replace(/\\/g, '\\\\')
     .replace(/'/g, "\\'");
-}
-
-function createPhotoObject({
-  selectedFile,
-  gallery,
-  title,
-  description,
-  alt,
-}) {
-  const sourcePath = path.join(sourceDir, selectedFile);
-  const dimensions = getImageDimensions(sourcePath);
-  const slug = slugify(selectedFile);
-
-  return {
-    id: `photo-${gallery.category.toLowerCase()}-${slug}`,
-    slug,
-    title,
-    description,
-    alt,
-    gallerySlug: gallery.slug,
-    category: gallery.category,
-    image: `/images/${gallery.imageFolder}/${selectedFile}`,
-    thumbnail: `/images/${gallery.imageFolder}/${selectedFile}`,
-    width: dimensions.width,
-    height: dimensions.height,
-  };
 }
 
 function photoToTs(photo) {
@@ -227,10 +317,57 @@ function photoToTs(photo) {
   },`;
 }
 
-function appendPhotoToDataFile(dataFile, photo) {
-  let content = fs.readFileSync(dataFile, 'utf8');
+function createPhoto(filename, gallery) {
+  const title = titleFromFilename(filename);
 
-  const closingIndex = content.lastIndexOf('];');
+  const dimensions = getImageDimensions(
+    path.join(sourceDir, filename)
+  );
+
+  return {
+    id:
+      `photo-${gallery.slug}-${slugify(filename)}`,
+
+    slug:
+      slugify(filename),
+
+    title,
+
+    description:
+      descriptionForCategory(
+        gallery.category,
+        title
+      ),
+
+    alt:
+      title,
+
+    gallerySlug:
+      gallery.slug,
+
+    category:
+      gallery.category,
+
+    image:
+      `/images/${gallery.imageFolder}/${filename}`,
+
+    thumbnail:
+      `/images/${gallery.imageFolder}/${filename}`,
+
+    width:
+      dimensions.width,
+
+    height:
+      dimensions.height,
+  };
+}
+
+function appendPhotosToDataFile(dataFile, photos) {
+  let content =
+    fs.readFileSync(dataFile, 'utf8');
+
+  const closingIndex =
+    content.lastIndexOf('];');
 
   if (closingIndex === -1) {
     throw new Error(
@@ -238,197 +375,605 @@ function appendPhotoToDataFile(dataFile, photo) {
     );
   }
 
-  const entry = photoToTs(photo);
-
-  const before = content.slice(0, closingIndex);
-  const after = content.slice(closingIndex);
-
-  const separator = before.trimEnd().endsWith(',')
-    ? '\n'
-    : ',\n';
+  const entries =
+    photos
+      .map(photoToTs)
+      .join('\n');
 
   content =
-    before.trimEnd() +
-    separator +
-    entry +
+    content.slice(0, closingIndex).trimEnd() +
     '\n' +
-    after;
+    entries +
+    '\n' +
+    content.slice(closingIndex);
 
-  fs.writeFileSync(dataFile, content, 'utf8');
+  fs.writeFileSync(
+    dataFile,
+    content,
+    'utf8'
+  );
 }
 
-console.log('');
-console.log('==============================================');
-console.log('       IMPORTADOR DE FOTOGRAFÍAS');
-console.log('==============================================');
-console.log('');
+function parseSelection(input, max) {
+  const numbers =
+    input
+      .split(',')
+      .map(value =>
+        Number.parseInt(
+          value.trim(),
+          10
+        )
+      )
+      .filter(number =>
+        !Number.isNaN(number)
+      );
 
-if (!fs.existsSync(sourceDir)) {
-  console.error('ERROR: No existe la carpeta de entrada.');
-  process.exit(1);
+  const unique =
+    [...new Set(numbers)];
+
+  if (
+    unique.length === 0 ||
+    unique.some(number =>
+      number < 1 ||
+      number > max
+    )
+  ) {
+    return null;
+  }
+
+  return unique.map(
+    number => number - 1
+  );
 }
 
-const selectedName = process.argv[2];
-const galleryNumber = process.argv[3];
+function getExistingSlugs() {
+  const slugs = new Set();
 
-if (!selectedName || !galleryNumber) {
-  console.log('Uso:');
+  function walk(directory) {
+    if (!fs.existsSync(directory)) return;
+
+    for (const entry of fs.readdirSync(directory, {
+      withFileTypes: true,
+    })) {
+      const fullPath =
+        path.join(
+          directory,
+          entry.name
+        );
+
+      if (entry.isDirectory()) {
+        walk(fullPath);
+      } else if (
+        entry.name.endsWith('.ts')
+      ) {
+        const content =
+          fs.readFileSync(
+            fullPath,
+            'utf8'
+          );
+
+        const matches =
+          content.matchAll(
+            /slug:\s*['"`]([^'"`]+)['"`]/g
+          );
+
+        for (const match of matches) {
+          slugs.add(match[1]);
+        }
+      }
+    }
+  }
+
+  walk(dataDir);
+
+  return slugs;
+}
+
+async function customizePhoto(photo) {
   console.log('');
   console.log(
-    'node scripts/importar-fotos.mjs "ana-durmiendo.jpg" 8'
+    `Personalizando: ${photo.title}`
   );
   console.log('');
-  process.exit(1);
+
+  const title =
+    await ask(
+      `Título [${photo.title}]: `
+    );
+
+  if (title) {
+    photo.title = title;
+  }
+
+  const description =
+    await ask(
+      `Descripción [${photo.description}]: `
+    );
+
+  if (description) {
+    photo.description = description;
+  }
+
+  const alt =
+    await ask(
+      `Texto ALT [${photo.alt}]: `
+    );
+
+  if (alt) {
+    photo.alt = alt;
+  }
 }
 
-const gallery = galleries[galleryNumber];
+async function main() {
+  console.log('');
+  console.log('==============================================');
+  console.log('       IMPORTADOR DE FOTOGRAFÍAS');
+  console.log('==============================================');
+  console.log('');
 
-if (!gallery) {
-  console.error(
-    `ERROR: La galería "${galleryNumber}" no existe.`
-  );
-  process.exit(1);
-}
+  if (!fs.existsSync(sourceDir)) {
+    throw new Error(
+      `No existe la carpeta de entrada:\n${sourceDir}`
+    );
+  }
 
-const registeredImages = getRegisteredImages();
+  const newFiles = getNewFiles();
 
-if (registeredImages.has(selectedName.toLowerCase())) {
-  console.error(
-    `ERROR: "${selectedName}" ya aparece registrada en la web.`
-  );
-  process.exit(1);
-}
-
-const sourcePath = path.join(sourceDir, selectedName);
-
-if (!fs.existsSync(sourcePath)) {
-  console.error(
-    `ERROR: No existe "${sourcePath}".`
-  );
-  process.exit(1);
-}
-
-const slug = slugify(selectedName);
-const defaultTitle = titleFromFilename(selectedName);
-
-const title =
-  process.argv[4] || defaultTitle;
-
-const description =
-  process.argv[5] ||
-  `Fotografía de ${title.toLowerCase()}.`;
-
-const alt =
-  process.argv[6] ||
-  title;
-
-const photo = createPhotoObject({
-  selectedFile: selectedName,
-  gallery,
-  title,
-  description,
-  alt,
-});
-
-const destinationDir =
-  path.join(
-    publicImagesDir,
-    gallery.imageFolder
-  );
-
-const destinationPath =
-  path.join(
-    destinationDir,
-    selectedName
-  );
-
-if (fs.existsSync(destinationPath)) {
-  console.error(
-    `ERROR: Ya existe el archivo destino:\n${destinationPath}`
-  );
-  process.exit(1);
-}
-
-console.log('Fotografía:');
-console.log(`  ${selectedName}`);
-console.log('');
-
-console.log('Galería:');
-console.log(`  ${gallery.name}`);
-console.log('');
-
-console.log('Objeto que se añadirá:');
-console.log('');
-console.log(photoToTs(photo));
-
-console.log('Destino de imagen:');
-console.log(`  ${destinationPath}`);
-console.log('');
-
-console.log('Archivo de datos:');
-console.log(`  ${gallery.dataFile}`);
-console.log('');
-
-console.log('IMPORTANTE:');
-console.log('Esta operación modificará dos cosas:');
-console.log('  1. Copiará la fotografía.');
-console.log('  2. Añadirá el registro al archivo de datos.');
-console.log('');
-
-const confirmation =
-  process.argv[7]?.toUpperCase();
-
-if (confirmation !== 'SI') {
   console.log(
-    'IMPORTACIÓN CANCELADA.'
+    `Fotografías nuevas detectadas: ${newFiles.length}`
   );
+
+  console.log('');
+
+  if (newFiles.length === 0) {
+    console.log(
+      'No hay fotografías nuevas para importar.'
+    );
+    return;
+  }
+
+  console.log('----------------------------------------------');
+  console.log('FOTOGRAFÍAS DISPONIBLES');
+  console.log('----------------------------------------------');
+  console.log('');
+
+  newFiles.forEach(
+    (file, index) => {
+      console.log(
+        `  ${index + 1}. ${file}`
+      );
+    }
+  );
+
+  console.log('');
+
+  let selectedIndexes = null;
+
+  while (!selectedIndexes) {
+    const selection =
+      await ask(
+        'Selecciona fotografías separadas por comas: '
+      );
+
+    selectedIndexes =
+      parseSelection(
+        selection,
+        newFiles.length
+      );
+
+    if (!selectedIndexes) {
+      console.log('');
+      console.log(
+        'Selección no válida. Ejemplo: 10,11,35'
+      );
+      console.log('');
+    }
+  }
+
+  const selectedFiles =
+    selectedIndexes.map(
+      index => newFiles[index]
+    );
+const registeredHashes =
+  getRegisteredHashes();
+
+const exactDuplicates = [];
+
+for (const filename of selectedFiles) {
+  const sourcePath =
+    path.join(sourceDir, filename);
+
+  const hash =
+    getFileHash(sourcePath);
+
+  if (registeredHashes.has(hash)) {
+    exactDuplicates.push({
+      filename,
+      hash,
+    });
+  }
+}
+
+if (exactDuplicates.length > 0) {
   console.log('');
   console.log(
-    'Para confirmar añade SI al final del comando.'
-  );
-  console.log('');
-  console.log(
-    'Ejemplo:'
+    '=============================================='
   );
   console.log(
-    'node scripts/importar-fotos.mjs "ana-durmiendo.jpg" 8 "Ana Durmiendo" "Retrato de Ana bajo la luna." "Ana bajo la luna." SI'
+    '       DUPLICADOS EXACTOS DETECTADOS'
+  );
+  console.log(
+    '=============================================='
   );
   console.log('');
-  process.exit(0);
+
+  for (const duplicate of exactDuplicates) {
+    console.log(
+      `  ⚠ ${duplicate.filename}`
+    );
+
+    console.log(
+      `    SHA-256: ${duplicate.hash}`
+    );
+
+    console.log('');
+  }
+
+  console.log(
+    'Estas fotografías ya existen en la web'
+  );
+  console.log(
+    'con el mismo contenido exacto.'
+  );
+  console.log('');
+
+  console.log(
+    'No se importará ninguna fotografía duplicada.'
+  );
+  console.log('');
+
+  return;
 }
 
-fs.mkdirSync(destinationDir, {
-  recursive: true,
-});
-
-fs.copyFileSync(
-  sourcePath,
-  destinationPath
-);
-
-try {
-  appendPhotoToDataFile(
-    gallery.dataFile,
-    photo
+  console.log('');
+  console.log(
+    `Has seleccionado ${selectedFiles.length} fotografía(s):`
   );
-} catch (error) {
-  fs.rmSync(destinationPath, {
-    force: true,
+  console.log('');
+
+  selectedFiles.forEach(file => {
+    console.log(`  • ${file}`);
   });
 
-  throw error;
+  console.log('');
+
+  console.log('----------------------------------------------');
+  console.log('GALERÍAS');
+  console.log('----------------------------------------------');
+  console.log('');
+
+  for (
+    const [number, gallery]
+    of Object.entries(galleries)
+  ) {
+    console.log(
+      `  ${number}. ${gallery.name}`
+    );
+  }
+
+  console.log('');
+
+  let gallery = null;
+
+  while (!gallery) {
+    const gallerySelection =
+      await ask(
+        'Selecciona la galería (número): '
+      );
+
+    gallery =
+      galleries[gallerySelection];
+
+    if (!gallery) {
+      console.log('');
+      console.log(
+        'Galería no válida.'
+      );
+      console.log('');
+    }
+  }
+
+  console.log('');
+  console.log(
+    `Galería seleccionada: ${gallery.name}`
+  );
+  console.log('');
+
+  const photos =
+    selectedFiles.map(
+      filename =>
+        createPhoto(
+          filename,
+          gallery
+        )
+    );
+
+  const customize =
+    await ask(
+      '¿Quieres personalizar los datos de las fotografías? [S/N]: '
+    );
+
+  if (
+    customize.toUpperCase() === 'S'
+  ) {
+    for (
+      const photo
+      of photos
+    ) {
+      await customizePhoto(photo);
+    }
+  }
+
+  const existingSlugs =
+    getExistingSlugs();
+
+  const duplicateSlugs =
+    photos.filter(photo =>
+      existingSlugs.has(photo.slug)
+    );
+
+  if (duplicateSlugs.length > 0) {
+    console.log('');
+    console.log(
+      '=============================================='
+    );
+    console.log(
+      '       POSIBLES DUPLICADOS'
+    );
+    console.log(
+      '=============================================='
+    );
+    console.log('');
+
+    duplicateSlugs.forEach(photo => {
+      console.log(
+        `  ⚠ ${photo.slug}`
+      );
+    });
+
+    console.log('');
+
+    throw new Error(
+      'Una o más fotografías tienen un slug ya existente. No se ha importado ninguna.'
+    );
+  }
+
+  console.log('');
+  console.log(
+    '=============================================='
+  );
+  console.log(
+    '       VISTA PREVIA DEL LOTE'
+  );
+  console.log(
+    '=============================================='
+  );
+  console.log('');
+
+  photos.forEach(
+    (photo, index) => {
+      console.log(
+        `--- ${index + 1}. ${photo.title} ---`
+      );
+
+      console.log(
+        `Archivo:      ${path.basename(photo.image)}`
+      );
+
+      console.log(
+        `Slug:         ${photo.slug}`
+      );
+
+      console.log(
+        `Galería:      ${photo.gallerySlug}`
+      );
+
+      console.log(
+        `Categoría:    ${photo.category}`
+      );
+
+      console.log(
+        `Dimensiones:  ${photo.width} × ${photo.height}`
+      );
+
+      console.log(
+        `Descripción:  ${photo.description}`
+      );
+
+      console.log(
+        `ALT:          ${photo.alt}`
+      );
+
+      console.log('');
+    }
+  );
+
+  console.log(
+    `Se importarán ${photos.length} fotografía(s).`
+  );
+
+  console.log('');
+
+  const confirmation =
+    await ask(
+      '¿Importar este lote? [SI/NO]: '
+    );
+
+  if (
+    confirmation.toUpperCase() !== 'SI'
+  ) {
+    console.log('');
+    console.log(
+      'IMPORTACIÓN CANCELADA.'
+    );
+    console.log('');
+    return;
+  }
+
+  console.log('');
+  console.log(
+    'Validando el lote antes de escribir...'
+  );
+
+  const destinationDir =
+    path.join(
+      publicImagesDir,
+      gallery.imageFolder
+    );
+
+  const destinationPaths =
+    photos.map(photo =>
+      path.join(
+        destinationDir,
+        path.basename(photo.image)
+      )
+    );
+
+  for (
+    const destinationPath
+    of destinationPaths
+  ) {
+    if (
+      fs.existsSync(destinationPath)
+    ) {
+      throw new Error(
+        `Ya existe el archivo destino:\n${destinationPath}`
+      );
+    }
+  }
+
+  fs.mkdirSync(
+    destinationDir,
+    {
+      recursive: true,
+    }
+  );
+
+  const copiedFiles = [];
+
+  try {
+    for (
+      let i = 0;
+      i < photos.length;
+      i++
+    ) {
+      const photo =
+        photos[i];
+
+      const sourcePath =
+        path.join(
+          sourceDir,
+          path.basename(
+            photo.image
+          )
+        );
+
+      const destinationPath =
+        destinationPaths[i];
+
+      fs.copyFileSync(
+        sourcePath,
+        destinationPath
+      );
+
+      copiedFiles.push(
+        destinationPath
+      );
+    }
+
+    appendPhotosToDataFile(
+      gallery.dataFile,
+      photos
+    );
+  } catch (error) {
+    for (
+      const file
+      of copiedFiles
+    ) {
+      fs.rmSync(
+        file,
+        {
+          force: true,
+        }
+      );
+    }
+
+    throw error;
+  }
+
+  console.log('');
+  console.log(
+    '=============================================='
+  );
+  console.log(
+    '       IMPORTACIÓN COMPLETADA'
+  );
+  console.log(
+    '=============================================='
+  );
+  console.log('');
+
+  console.log(
+    `✓ ${photos.length} fotografía(s) importada(s)`
+  );
+
+  console.log(
+    `✓ Galería: ${gallery.name}`
+  );
+
+  console.log(
+    '✓ Imágenes copiadas'
+  );
+
+  console.log(
+    '✓ Datos actualizados'
+  );
+
+  console.log('');
+  console.log(
+    'No se ha ejecutado Git.'
+  );
+
+  console.log(
+    'No se ha hecho commit.'
+  );
+
+  console.log(
+    'No se ha hecho push.'
+  );
+
+  console.log('');
 }
 
-console.log('');
-console.log('==============================================');
-console.log('       IMPORTACIÓN COMPLETADA');
-console.log('==============================================');
-console.log('');
-console.log(`✓ Imagen copiada: ${selectedName}`);
-console.log(`✓ Galería: ${gallery.name}`);
-console.log(`✓ Datos actualizados: ${gallery.dataFile}`);
-console.log('');
-console.log('NO se ha ejecutado Git.');
-console.log('NO se ha hecho commit.');
-console.log('NO se ha hecho push.');
-console.log('');
+main()
+  .catch(error => {
+    console.error('');
+    console.error(
+      '=============================================='
+    );
+    console.error(
+      '       ERROR DURANTE LA IMPORTACIÓN'
+    );
+    console.error(
+      '=============================================='
+    );
+    console.error('');
+    console.error(
+      error.message
+    );
+    console.error('');
+    process.exitCode = 1;
+  })
+  .finally(() => {
+    rl.close();
+  });

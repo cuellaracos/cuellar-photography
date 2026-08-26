@@ -181,4 +181,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-cielo-profundo-luna-en-moguer',
+    slug: 'luna-en-moguer',
+    title: 'Luna en Moguer',
+    description: 'La Luna se alza sobre Moguer en una escena nocturna de atmósfera serena, donde la luz lunar domina el cielo y transforma el paisaje.',
+    alt: 'Luna sobre Moguer en una noche despejada',
+    gallerySlug: 'cielo-profundo',
+    category: 'Astrofotografía',
+    image: '/images/Astrofotografia/luna en moguer.jpg',
+    thumbnail: '/images/Astrofotografia/luna en moguer.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];

@@ -8,6 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "check": "astro check",
+  "importar-fotos": "node scripts/importar-fotos.mjs",
     "worker:dev": "wrangler dev --local",
     "worker:test": "node worker/test/health.test.mjs",
     "d1:migrations:list": "wrangler d1 migrations list DB --local"
