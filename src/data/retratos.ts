@@ -105,4 +105,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+    {
+    id: 'photo-portrait-ana-luna',
+    slug: 'ana-bajo-la-luna',
+    title: 'Ana bajo la luna',
+    description: 'Retrato nocturno de Ana frente a una gran luna, donde la figura y el paisaje urbano construyen una escena de carácter cinematográfico.',
+    alt: 'Retrato de Ana bajo una gran luna durante la noche.',
+    gallerySlug: 'retratos',
+    category: 'Retratos',
+    image: '/images/Retratos/ana-bajo-la-luna.jpg',
+    thumbnail: '/images/Retratos/ana-bajo-la-luna.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
