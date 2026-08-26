@@ -107,13 +107,16 @@ function slugify(filename) {
 }
 
 function titleFromFilename(filename) {
-  return path
+  const text = path
     .basename(filename, path.extname(filename))
     .replace(/\s+/g, ' ')
     .replace(/[-_]+/g, ' ')
     .trim()
-    .replace(/\b\w/g, char => char.toUpperCase());
+    .toLocaleLowerCase('es-ES');
+
+  return text.charAt(0).toLocaleUpperCase('es-ES') + text.slice(1);
 }
+
 
 function descriptionForCategory(category, title) {
   const descriptions = {

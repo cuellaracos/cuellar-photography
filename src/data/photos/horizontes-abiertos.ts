@@ -141,4 +141,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-horizontes-abiertos-matalascanas',
+    slug: 'matalascanas',
+    title: 'Matalascañas',
+    description: 'Fotografía de paisaje: Matalascañas.',
+    alt: 'Matalascañas',
+    gallerySlug: 'horizontes-abiertos',
+    category: 'Paisaje',
+    image: '/images/Paisaje/matalascañas.jpg',
+    thumbnail: '/images/Paisaje/matalascañas.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
