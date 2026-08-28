@@ -144,4 +144,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-retratos-retrato-de-marina',
+    slug: 'retrato-de-marina',
+    title: 'Retrato de Marina',
+    description: 'Retrato de Marina realizado en un entorno natural, buscando transmitir la personalidad y naturalidad del momento.',
+    alt: 'Retrato de Marina',
+    gallerySlug: 'retratos',
+    category: 'Retratos',
+    image: '/images/Retratos/marina (2025-08-22T23_15_57.307).jpg',
+    thumbnail: '/images/Retratos/marina (2025-08-22T23_15_57.307).jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];

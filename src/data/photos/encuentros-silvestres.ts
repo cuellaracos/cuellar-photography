@@ -172,4 +172,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-encuentros-silvestres-lince-donana',
+    slug: 'lince-de-donana',
+    title: 'Lince de Doñana',
+    description: 'Un lince ibérico captado en libertad en el entorno de Doñana, mostrando la presencia y singularidad de esta especie emblemática en su hábitat natural.',
+    alt: 'Lince ibérico en su hábitat natural de Doñana',
+    gallerySlug: 'encuentros-silvestres',
+    category: 'Fauna',
+    image: '/images/Fauna/lince-doñana (2025-08-25T15_36_30.731).jpg',
+    thumbnail: '/images/Fauna/lince-doñana (2025-08-25T15_36_30.731).jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
