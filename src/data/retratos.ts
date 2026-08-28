@@ -157,4 +157,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-retratos-victoria-2025-08-28t18-36-08-453',
+    slug: 'victoria-2025-08-28t18-36-08-453',
+    title: 'Victoria',
+    description: 'Victoria aparece integrada en un retrato de carácter sereno, donde su presencia y naturalidad se convierten en el centro de la escena.',
+    alt: 'Retrato de Victoria en un entorno natural.',
+    gallerySlug: 'retratos',
+    category: 'Retratos',
+    image: '/images/Retratos/victoria (2025-08-28T18_36_08.453).jpg',
+    thumbnail: '/images/Retratos/victoria (2025-08-28T18_36_08.453).jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
