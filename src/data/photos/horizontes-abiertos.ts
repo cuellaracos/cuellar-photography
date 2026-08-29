@@ -245,6 +245,7 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
     id: 'photo-horizontes-abiertos-villalba',
     slug: 'villalba',
     title: 'Villalba',
