@@ -1,4 +1,4 @@
-﻿{
+{
     "524752935_739886498932117_3281677400352457746_n.jpg":  {
                                                                 "gallery":  "Astrofotografía"
                                                             },
@@ -257,5 +257,229 @@
                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
                                    "alt":  "Martin pescador pelea9",
                                    "slug":  "martin-pescador-pelea9"
-                               }
+                               },
+    "ana-collage-retratos-banco.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana en el banco",
+                                           "description":  "ComposiciÃ³n de retratos de Ana en blanco y negro, reunidos en una secuencia de poses y gestos que explora distintas facetas de su presencia ante la cÃ¡mara.",
+                                           "alt":  "Collage de retratos de Ana en blanco y negro sentada y posando en un banco.",
+                                           "slug":  "ana-collage-retratos-banco"
+                                       },
+    "ana-collage-retratos-blanco-y-negro.jpg":  {
+                                                    "gallery":  "retratos",
+                                                    "title":  "Ana en blanco y negro",
+                                                    "description":  "Collage de retratos de Ana tratado en blanco y negro, donde diferentes expresiones, poses y encuadres construyen una interpretaciÃ³n grÃ¡fica y atemporal del retrato.",
+                                                    "alt":  "Collage artÃ­stico de varios retratos de Ana en blanco y negro.",
+                                                    "slug":  "ana-collage-retratos-blanco-y-negro"
+                                                },
+    "ana-collage-retratos-color.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana, cuatro miradas",
+                                           "description":  "Collage de retratos en color que reÃºne primeros planos y diferentes actitudes de Ana, combinando expresividad, maquillaje y una estÃ©tica editorial contemporÃ¡nea.",
+                                           "alt":  "Collage de retratos en color de Ana con diferentes poses y primeros planos.",
+                                           "slug":  "ana-collage-retratos-color"
+                                       },
+    "ana-collage-retratos-estilos.jpg":  {
+                                             "gallery":  "retratos",
+                                             "title":  "Ana, diferentes estilos",
+                                             "description":  "Serie de retratos que reÃºne distintas caracterizaciones de Ana, desde una estÃ©tica sofisticada hasta imÃ¡genes mÃ¡s espontÃ¡neas, mostrando la versatilidad del personaje frente a la cÃ¡mara.",
+                                             "alt":  "Collage de retratos de Ana con diferentes estilos, poses y caracterizaciones.",
+                                             "slug":  "ana-collage-retratos-estilos"
+                                         },
+    "ana-collage-retratos-estudio.jpg":  {
+                                             "gallery":  "retratos",
+                                             "title":  "Ana en estudio",
+                                             "description":  "ComposiciÃ³n de retratos de estudio de Ana construida a partir de diferentes poses y expresiones, con una estÃ©tica limpia que pone el protagonismo en la modelo.",
+                                             "alt":  "Collage de retratos de estudio de Ana con diferentes poses y expresiones.",
+                                             "slug":  "ana-collage-retratos-estudio"
+                                         },
+    "ana-collage-retratos-vestido-gris.jpg":  {
+                                                  "gallery":  "retratos",
+                                                  "title":  "Ana en vestido gris",
+                                                  "description":  "Collage editorial de Ana con vestido gris, combinando distintas poses y encuadres para construir una secuencia de retrato elegante y natural.",
+                                                  "alt":  "Collage de retratos de Ana con vestido gris en diferentes poses.",
+                                                  "slug":  "ana-collage-retratos-vestido-gris"
+                                              },
+    "ana-doble-exposicion-montanas.jpg":  {
+                                              "gallery":  "retratos",
+                                              "title":  "Ana entre montaÃ±as",
+                                              "description":  "Retrato conceptual construido mediante doble exposiciÃ³n, fusionando el rostro de Ana con un paisaje montaÃ±oso para crear una imagen donde figura y naturaleza forman una misma composiciÃ³n.",
+                                              "alt":  "Retrato de doble exposiciÃ³n de Ana integrado con un paisaje de montaÃ±as.",
+                                              "slug":  "ana-doble-exposicion-montanas"
+                                          },
+    "ana-retrato-biblioteca-telas.jpg":  {
+                                             "gallery":  "retratos",
+                                             "title":  "Ana entre telas",
+                                             "description":  "Retrato escÃ©nico de Ana rodeada de grandes telas en un interior de aire clÃ¡sico, donde el movimiento de las telas aporta profundidad, dinamismo y una marcada sensaciÃ³n teatral.",
+                                             "alt":  "Retrato de Ana entre grandes telas en un interior de estilo clÃ¡sico.",
+                                             "slug":  "ana-retrato-biblioteca-telas"
+                                         },
+    "ana-retrato-blanco-y-negro.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana, mirada serena",
+                                           "description":  "Retrato en blanco y negro de Ana tratado con una estÃ©tica Ã­ntima y elegante, centrado en la expresiÃ³n, la mirada y la delicadeza de la pose.",
+                                           "alt":  "Retrato en blanco y negro de Ana con una expresiÃ³n serena y elegante.",
+                                           "slug":  "ana-retrato-blanco-y-negro"
+                                       },
+    "ana-retrato-casual-telefono.jpg":  {
+                                            "gallery":  "retratos",
+                                            "title":  "Ana con el telÃ©fono",
+                                            "description":  "Retrato espontÃ¡neo de Ana mirando su telÃ©fono, captado en un momento cotidiano que contrasta con la puesta en escena mÃ¡s elaborada de otros retratos de la serie.",
+                                            "alt":  "Retrato de Ana mirando su telÃ©fono en un momento cotidiano.",
+                                            "slug":  "ana-retrato-casual-telefono"
+                                        },
+    "ana-retrato-danza-vestido-rojo.jpg":  {
+                                               "gallery":  "retratos",
+                                               "title":  "Ana en movimiento",
+                                               "description":  "Retrato de inspiraciÃ³n escÃ©nica en el que Ana, vestida de rojo, aparece suspendida en movimiento mientras una gran tela acompaÃ±a la figura y amplifica la sensaciÃ³n de danza.",
+                                               "alt":  "Retrato artÃ­stico de Ana con vestido rojo y una tela en movimiento.",
+                                               "slug":  "ana-retrato-danza-vestido-rojo"
+                                           },
+    "ana-retrato-editorial-pantalon-blanco.jpg":  {
+                                                      "gallery":  "retratos",
+                                                      "title":  "Ana, retrato editorial",
+                                                      "description":  "Retrato editorial de Ana con una estilizaciÃ³n sobria y contemporÃ¡nea, construido alrededor de una pose frontal y una iluminaciÃ³n limpia que realza la presencia de la modelo.",
+                                                      "alt":  "Retrato editorial de Ana con pantalÃ³n blanco y chaqueta de tono oscuro.",
+                                                      "slug":  "ana-retrato-editorial-pantalon-blanco"
+                                                  },
+    "ana-retrato-editorial-traje-gris.jpg":  {
+                                                 "gallery":  "retratos",
+                                                 "title":  "Ana, traje gris",
+                                                 "description":  "Retrato editorial en blanco y negro de Ana con traje gris, planteado con una estÃ©tica de moda minimalista y una pose de fuerte presencia visual.",
+                                                 "alt":  "Retrato editorial en blanco y negro de Ana con traje gris.",
+                                                 "slug":  "ana-retrato-editorial-traje-gris"
+                                             },
+    "ana-retrato-embarazo-cerezos.jpg":  {
+                                             "gallery":  "retratos",
+                                             "title":  "Ana entre cerezos",
+                                             "description":  "Retrato de maternidad de Ana ante un fondo de flores de cerezo, donde la figura y el paisaje primaveral crean una escena delicada, luminosa y de carÃ¡cter poÃ©tico.",
+                                             "alt":  "Retrato de maternidad de Ana ante Ã¡rboles en flor de color rosa.",
+                                             "slug":  "ana-retrato-embarazo-cerezos"
+                                         },
+    "ana-retrato-embarazo-telas.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana y las telas",
+                                           "description":  "Retrato de maternidad de Ana envuelta visualmente por grandes telas blancas, utilizando el tejido, la luz y la arquitectura del espacio para crear una escena elegante y etÃ©rea.",
+                                           "alt":  "Retrato de maternidad de Ana entre grandes telas blancas.",
+                                           "slug":  "ana-retrato-embarazo-telas"
+                                       },
+    "ana-retrato-estudio-blanco.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana sobre fondo blanco",
+                                           "description":  "Retrato de estudio de Ana con una puesta en escena limpia y minimalista, en la que la iluminaciÃ³n uniforme y el vestuario blanco concentran la atenciÃ³n en el rostro y la actitud.",
+                                           "alt":  "Retrato de estudio de Ana con vestuario blanco sobre fondo claro.",
+                                           "slug":  "ana-retrato-estudio-blanco"
+                                       },
+    "ana-retrato-estudio-fondo-amarillo.jpg":  {
+                                                   "gallery":  "retratos",
+                                                   "title":  "Ana sobre amarillo",
+                                                   "description":  "Retrato de estudio de Ana frente a un fondo amarillo intenso, construido con una estÃ©tica editorial de alto contraste que combina elegancia, fuerza y color.",
+                                                   "alt":  "Retrato de Ana en estudio con traje oscuro y fondo amarillo.",
+                                                   "slug":  "ana-retrato-estudio-fondo-amarillo"
+                                               },
+    "ana-retrato-fotografia-y-dibujo.jpg":  {
+                                                "gallery":  "retratos",
+                                                "title":  "Ana entre fotografÃ­a y dibujo",
+                                                "description":  "ComposiciÃ³n artÃ­stica que combina el retrato fotogrÃ¡fico de Ana con una ilustraciÃ³n dibujada, creando un diÃ¡logo visual entre la persona real y su representaciÃ³n grÃ¡fica.",
+                                                "alt":  "ComposiciÃ³n de Ana junto a un dibujo de su figura.",
+                                                "slug":  "ana-retrato-fotografia-y-dibujo"
+                                            },
+    "ana-retrato-geometrico.jpg":  {
+                                       "gallery":  "retratos",
+                                       "title":  "Ana en geometrÃ­a",
+                                       "description":  "Retrato conceptual de Ana integrado con formas geomÃ©tricas y texturas arquitectÃ³nicas, utilizando planos superpuestos para transformar el rostro y la figura en una composiciÃ³n grÃ¡fica.",
+                                       "alt":  "Retrato conceptual de Ana integrado con formas geomÃ©tricas y texturas.",
+                                       "slug":  "ana-retrato-geometrico"
+                                   },
+    "ana-retrato-ilustracion-blanco-y-negro.jpg":  {
+                                                       "gallery":  "retratos",
+                                                       "title":  "Ana ilustrada",
+                                                       "description":  "Retrato artÃ­stico en blanco y negro que transforma la imagen de Ana en una interpretaciÃ³n grÃ¡fica de lÃ­neas limpias y acabado ilustrado, entre fotografÃ­a y dibujo.",
+                                                       "alt":  "Retrato artÃ­stico de Ana reinterpretado con estÃ©tica de ilustraciÃ³n en blanco y negro.",
+                                                       "slug":  "ana-retrato-ilustracion-blanco-y-negro"
+                                                   },
+    "ana-retrato-ilustracion-maquillaje.jpg":  {
+                                                   "gallery":  "retratos",
+                                                   "title":  "Ana entre pinceles",
+                                                   "description":  "Retrato conceptual en el que Ana aparece acompaÃ±ada por pinceles y elementos de maquillaje, fusionando el lenguaje del retrato con una estÃ©tica de ilustraciÃ³n y belleza editorial.",
+                                                   "alt":  "Retrato ilustrado de Ana rodeada de pinceles y elementos de maquillaje.",
+                                                   "slug":  "ana-retrato-ilustracion-maquillaje"
+                                               },
+    "ana-retrato-instagram-movil.jpg":  {
+                                            "gallery":  "retratos",
+                                            "title":  "Ana en Instagram",
+                                            "description":  "Retrato construido alrededor de la pantalla de un telÃ©fono mÃ³vil, donde la imagen de Ana aparece integrada en una escena cotidiana que conecta el retrato fotogrÃ¡fico con las redes sociales.",
+                                            "alt":  "Retrato de Ana mostrado en la pantalla de un telÃ©fono mÃ³vil con Instagram.",
+                                            "slug":  "ana-retrato-instagram-movil"
+                                        },
+    "ana-retrato-luz-de-persianas.jpg":  {
+                                             "gallery":  "retratos",
+                                             "title":  "Ana entre persianas",
+                                             "description":  "Retrato de Ana iluminado por franjas de luz y sombra proyectadas a travÃ©s de persianas, creando un juego grÃ¡fico que modela el rostro y aporta una atmÃ³sfera cinematogrÃ¡fica.",
+                                             "alt":  "Retrato de Ana iluminada por sombras de persianas.",
+                                             "slug":  "ana-retrato-luz-de-persianas"
+                                         },
+    "ana-retrato-motociclista-futurista.jpg":  {
+                                                   "gallery":  "retratos",
+                                                   "title":  "Ana, visiÃ³n futurista",
+                                                   "description":  "Retrato conceptual de estÃ©tica futurista en el que Ana aparece asociada a una motocicleta y un entorno de carÃ¡cter fantÃ¡stico, combinando moda, tecnologÃ­a y narrativa visual.",
+                                                   "alt":  "Retrato futurista de Ana junto a una motocicleta en un escenario fantÃ¡stico.",
+                                                   "slug":  "ana-retrato-motociclista-futurista"
+                                               },
+    "ana-retrato-pantalon-rayas.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana de rojo en el estudio",
+                                           "description":  "Retrato de Ana en un espacio industrial de grandes ventanales, con chaqueta roja y pantalÃ³n de rayas, planteado con una estÃ©tica editorial urbana y contemporÃ¡nea.",
+                                           "alt":  "Retrato de Ana con chaqueta roja y pantalÃ³n de rayas en un espacio industrial.",
+                                           "slug":  "ana-retrato-pantalon-rayas"
+                                       },
+    "ana-retrato-running-atardecer.jpg":  {
+                                              "gallery":  "retratos",
+                                              "title":  "Ana al correr",
+                                              "description":  "Retrato de acciÃ³n de Ana corriendo por un camino al atardecer, donde la luz cÃ¡lida del sol y el movimiento del cuerpo convierten el ejercicio en una escena de carÃ¡cter cinematogrÃ¡fico.",
+                                              "alt":  "Retrato de Ana corriendo por un camino al atardecer.",
+                                              "slug":  "ana-retrato-running-atardecer"
+                                          },
+    "ana-retrato-sombrero-negro.jpg":  {
+                                           "gallery":  "retratos",
+                                           "title":  "Ana bajo el sombrero",
+                                           "description":  "Retrato en blanco y negro de Ana con sombrero negro y chaqueta de cuero, construido con una estÃ©tica de fuerte contraste y una presencia visual inspirada en el cine clÃ¡sico.",
+                                           "alt":  "Retrato en blanco y negro de Ana con sombrero negro y chaqueta de cuero.",
+                                           "slug":  "ana-retrato-sombrero-negro"
+                                       },
+    "ana-retrato-terraza-noche.jpg":  {
+                                          "gallery":  "retratos",
+                                          "title":  "Ana en la noche",
+                                          "description":  "Retrato nocturno de Ana en una terraza iluminada por luces cÃ¡lidas, donde la pose y el ambiente urbano crean una escena Ã­ntima de estÃ©tica cinematogrÃ¡fica.",
+                                          "alt":  "Retrato nocturno de Ana sentada en una terraza iluminada con luces cÃ¡lidas.",
+                                          "slug":  "ana-retrato-terraza-noche"
+                                      },
+    "ana-retrato-urbano-gafas.jpg":  {
+                                         "gallery":  "retratos",
+                                         "title":  "Ana, retrato urbano",
+                                         "description":  "Retrato de Ana con gafas de sol y sombrero, integrado en una estÃ©tica urbana y contemporÃ¡nea que combina actitud, moda y una iluminaciÃ³n de marcado carÃ¡cter editorial.",
+                                         "alt":  "Retrato urbano de Ana con gafas de sol y sombrero.",
+                                         "slug":  "ana-retrato-urbano-gafas"
+                                     },
+    "ana-retrato-vestido-azul-espejo.jpg":  {
+                                                "gallery":  "retratos",
+                                                "title":  "Ana ante el espejo",
+                                                "description":  "Retrato escÃ©nico de Ana con vestido azul ante un espejo, utilizando la arquitectura, la oscuridad y el reflejo para crear una composiciÃ³n elegante y envolvente.",
+                                                "alt":  "Retrato de Ana con vestido azul ante un espejo en un espacio oscuro.",
+                                                "slug":  "ana-retrato-vestido-azul-espejo"
+                                            },
+    "ana-retrato-vestido-azul-noche.jpg":  {
+                                               "gallery":  "retratos",
+                                               "title":  "Ana de azul",
+                                               "description":  "Retrato nocturno de Ana con vestido azul, construido alrededor de una pose elegante y un juego de luz ambiental que separa la figura del fondo oscuro.",
+                                               "alt":  "Retrato nocturno de Ana con vestido azul.",
+                                               "slug":  "ana-retrato-vestido-azul-noche"
+                                           },
+    "ana-retrato-vintage-fondo-rojo.jpg":  {
+                                               "gallery":  "retratos",
+                                               "title":  "Ana en rojo",
+                                               "description":  "Retrato de inspiraciÃ³n vintage de Ana sobre un fondo rojo intenso, con vestuario oscuro y una puesta en escena de fuerte carÃ¡cter cinematogrÃ¡fico.",
+                                               "alt":  "Retrato de Ana con estÃ©tica vintage sobre fondo rojo intenso.",
+                                               "slug":  "ana-retrato-vintage-fondo-rojo"
+                                           }
 }
