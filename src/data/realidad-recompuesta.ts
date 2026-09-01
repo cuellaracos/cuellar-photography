@@ -79,4 +79,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-realidad-recompuesta-cogida-de-torero',
+    slug: 'cogida-de-torero',
+    title: 'Cogida de torero',
+    description: 'Fotografía de fotografía creativa: Cogida de torero.',
+    alt: 'Cogida de torero',
+    gallerySlug: 'realidad-recompuesta',
+    category: 'Fotografía creativa',
+    image: '/images/FotografiaCreativa/cogida-de-torero.jpg',
+    thumbnail: '/images/FotografiaCreativa/cogida-de-torero.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];

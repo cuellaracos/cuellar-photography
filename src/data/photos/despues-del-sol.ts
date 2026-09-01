@@ -28,4 +28,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-despues-del-sol-ayamonte-salida-de-luna',
+    slug: 'ayamonte-salida-de-luna',
+    title: 'Ayamonte salida de luna',
+    description: 'Fotografía de nocturna: Ayamonte salida de luna.',
+    alt: 'Ayamonte salida de luna',
+    gallerySlug: 'despues-del-sol',
+    category: 'Nocturna',
+    image: '/images/Nocturna/ayamonte-salida-de-luna.jpg',
+    thumbnail: '/images/Nocturna/ayamonte-salida-de-luna.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
