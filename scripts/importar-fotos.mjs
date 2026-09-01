@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+﻿import fs from 'node:fs';
 import crypto from 'node:crypto';
 import path from 'node:path';
 import readline from 'node:readline';
@@ -75,6 +75,12 @@ function titleFromFilename(filename) {
   return text.charAt(0).toLocaleUpperCase('es-ES') + text.slice(1);
 }
 function cleanText(value) { return repairMojibake(value); }
+
+function generateDescription(title, gallery) {
+  const category = gallery.category.toLocaleLowerCase('es-ES');
+
+  return `Fotografía de ${category} titulada «${title}», realizada por José Cuéllar.`;
+}
 function escapeTsString(value) {
   return cleanText(value).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
@@ -198,7 +204,7 @@ function createPhoto(filename, entry, gallery) {
     id: `photo-${gallery.slug}-${slug}`,
     slug,
     title,
-    description: cleanText(entry?.description || `Fotograf\u00eda de ${gallery.category.toLocaleLowerCase('es-ES')}: ${title}.`),
+    description: cleanText(entry?.description || generateDescription(title, gallery)),
     alt: cleanText(entry?.alt || title),
     gallerySlug: gallery.slug,
     category: cleanText(gallery.category),
@@ -332,11 +338,11 @@ async function main() {
   newFiles.forEach((f, i) => console.log(`  ${i + 1}. ${f}`));
   console.log('');
 
-  // FLUJO AUTOMÁTICO: todas las fotografías nuevas se procesan mediante el catálogo.
-  // Solo se solicita información manual si una fotografía no tiene ficha.
+  // FLUJO AUTOMÃTICO: todas las fotografÃ­as nuevas se procesan mediante el catÃ¡logo.
+  // Solo se solicita informaciÃ³n manual si una fotografÃ­a no tiene ficha.
   const selectedFiles = [...newFiles];
 
-  console.log(`Se procesarán automáticamente las ${selectedFiles.length} fotografía(s) nuevas.`);
+  console.log(`Se procesarÃ¡n automÃ¡ticamente las ${selectedFiles.length} fotografÃ­a(s) nuevas.`);
   console.log('');
   const { hashes } = getRegisteredImagesAndHashes();
 
@@ -350,20 +356,20 @@ async function main() {
   const photos = [];
 
   console.log('==============================================');
-  console.log('       CLASIFICACIÓN AUTOMÁTICA');
+  console.log('       CLASIFICACIÃ“N AUTOMÃTICA');
   console.log('==============================================');
   console.log('');
 
   for (const filename of selectedFiles) {
     const { entry, known } = await collectEntry(catalog, filename);
     const gallery = parseGallery(entry.gallery);
-    if (!gallery) throw new Error(`La ficha de ${filename} contiene una galería no válida: ${entry.gallery}`);
+    if (!gallery) throw new Error(`La ficha de ${filename} contiene una galerÃ­a no vÃ¡lida: ${entry.gallery}`);
     photos.push(createPhoto(filename, entry, gallery));
-    console.log(`  ${known ? '✓' : '•'} ${filename} → ${gallery.name}${known ? '' : ' (ficha creada)'}`);
+    console.log(`  ${known ? 'âœ“' : 'â€¢'} ${filename} â†’ ${gallery.name}${known ? '' : ' (ficha creada)'}`);
   }
 
   console.log('');
-  console.log(`Se han clasificado ${photos.length} fotografía(s).`);
+  console.log(`Se han clasificado ${photos.length} fotografÃ­a(s).`);
   console.log('');
 
   const existingSlugs = getExistingSlugs();
@@ -438,3 +444,5 @@ main()
     process.exitCode = 1;
   })
   .finally(() => rl.close());
+
+
