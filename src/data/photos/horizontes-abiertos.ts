@@ -142,19 +142,6 @@ export const photos: Photo[] = [
     height: 1200,
   },
   {
-    id: 'photo-horizontes-abiertos-matalascanas',
-    slug: 'matalascanas',
-    title: 'MatalascaÃ±as',
-    description: 'FotografÃ­a de paisaje: MatalascaÃ±as.',
-    alt: 'MatalascaÃ±as',
-    gallerySlug: 'horizontes-abiertos',
-    category: 'Paisaje',
-    image: '/images/Paisaje/matalascaÃ±as.jpg',
-    thumbnail: '/images/Paisaje/matalascaÃ±as.jpg',
-    width: 1600,
-    height: 1200,
-  },
-  {
     id: 'photo-horizontes-abiertos-arrecife-de-las-sirenas-2025-08-21t19-53-14-111',
     slug: 'arrecife-de-las-sirenas-2025-08-21t19-53-14-111',
     title: 'Arrecife de las Sirenas',
@@ -350,3 +337,4 @@ export const photos: Photo[] = [
     height: 1200,
   },
 ];
+

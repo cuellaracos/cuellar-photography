@@ -1,4 +1,4 @@
-import type { Photo } from '../../types/content';
+﻿import type { Photo } from '../../types/content';
 
 export const photos: Photo[] = [
   {
@@ -78,19 +78,6 @@ export const photos: Photo[] = [
     thumbnail: '/images/Macro/mirada-curiosa.jpg',
     width: 1800,
     height: 1800,
-  },
-    {
-    id: 'photo-macro-polilla',
-    slug: 'polilla',
-    title: 'Polilla',
-    description: 'Polilla fotografiada en detalle, destacando la textura, las formas y los matices de su cuerpo y alas.',
-    alt: 'Polilla fotografiada en primer plano.',
-    gallerySlug: 'vida-en-detalle',
-    category: 'Macro',
-    image: '/images/Macro/polilla-publicar.jpg',
-    thumbnail: '/images/Macro/polilla-publicar.jpg',
-    width: 1600,
-    height: 1200,
   },
   {
     id: 'photo-vida-en-detalle-mariposa-marron',
