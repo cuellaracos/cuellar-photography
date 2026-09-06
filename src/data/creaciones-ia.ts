@@ -170,5 +170,18 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-creaciones-ia-eclipse-sobre-los-molinos',
+    slug: 'eclipse-sobre-los-molinos',
+    title: 'Eclipse sobre los molinos',
+    description: 'Una composición artística creada con inteligencia artificial que sitúa un eclipse sobre un paisaje de molinos.',
+    alt: 'Composición artística de un eclipse sobre molinos',
+    gallerySlug: 'creaciones-ia',
+    category: 'Creaciones con IA',
+    image: '/images/CreacionesIA/eclipse-sobre-los-molinos.jpg',
+    thumbnail: '/images/CreacionesIA/eclipse-sobre-los-molinos.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
 

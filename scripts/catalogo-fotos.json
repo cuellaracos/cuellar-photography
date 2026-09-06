@@ -481,5 +481,222 @@
                                                "description":  "Retrato de inspiraciÃ³n vintage de Ana sobre un fondo rojo intenso, con vestuario oscuro y una puesta en escena de fuerte carÃ¡cter cinematogrÃ¡fico.",
                                                "alt":  "Retrato de Ana con estÃ©tica vintage sobre fondo rojo intenso.",
                                                "slug":  "ana-retrato-vintage-fondo-rojo"
-                                           }
+                                           },
+"via-lactea-en-picos-de-europa.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "Vía Láctea en Picos de Europa",
+        "description": "La Vía Láctea se eleva sobre las montañas de Picos de Europa en una noche limpia y llena de estrellas.",
+        "alt": "Vía Láctea sobre las montañas de Picos de Europa",
+        "slug": "via-lactea-en-picos-de-europa"
+    },
+"via-lactea-sobre-la-costa-asturiana.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "Vía Láctea sobre la costa asturiana",
+        "description": "La Vía Láctea ilumina el cielo nocturno sobre la costa rocosa de Asturias.",
+        "alt": "Vía Láctea sobre la costa rocosa de Asturias",
+        "slug": "via-lactea-sobre-la-costa-asturiana"
+    },
+"atardecer-en-cabo-vidio.jpg": {
+        "gallery": "Paisaje",
+        "title": "Atardecer en Cabo Vidio",
+        "description": "La costa de Cabo Vidio se transforma bajo la luz cálida de un atardecer sobre el Cantábrico.",
+        "alt": "Atardecer sobre la costa de Cabo Vidio",
+        "slug": "atardecer-en-cabo-vidio"
+    },
+"cabo-vidio-al-atardecer.jpg": {
+        "gallery": "Paisaje",
+        "title": "Cabo Vidio al atardecer",
+        "description": "Una vista de la costa de Cabo Vidio durante los últimos instantes de luz del día.",
+        "alt": "Costa de Cabo Vidio iluminada por el atardecer",
+        "slug": "cabo-vidio-al-atardecer"
+    },
+"ciudad-frente-al-ocaso.jpg": {
+        "gallery": "Paisaje",
+        "title": "La ciudad frente al ocaso",
+        "description": "La ciudad se recorta frente al mar mientras el cielo adquiere los tonos del ocaso.",
+        "alt": "Ciudad y arquitectura junto al mar durante el ocaso",
+        "slug": "ciudad-frente-al-ocaso"
+    },
+"fragmentos-de-un-atardecer.jpg": {
+        "gallery": "Fotografía creativa",
+        "title": "Fragmentos de un atardecer",
+        "description": "Una composición creativa construida a partir de diferentes fragmentos de un atardecer.",
+        "alt": "Composición creativa formada por escenas de un atardecer",
+        "slug": "fragmentos-de-un-atardecer"
+    },
+"un-instante-compartido.jpg": {
+        "gallery": "Fotografía creativa",
+        "title": "Un instante compartido",
+        "description": "Una composición creativa que captura un instante íntimo y compartido frente al mar.",
+        "alt": "Composición creativa de una pareja frente al mar",
+        "slug": "un-instante-compartido"
+    },
+"entre-burbujas.jpg": {
+        "gallery": "Retratos",
+        "title": "Entre burbujas",
+        "description": "Un retrato infantil lleno de movimiento y espontaneidad durante un juego entre burbujas.",
+        "alt": "Retrato infantil jugando entre burbujas",
+        "slug": "entre-burbujas"
+    },
+"una-tarde-de-aventuras.jpg": {
+        "gallery": "Retratos",
+        "title": "Una tarde de aventuras",
+        "description": "Un retrato infantil protagonizado por una escena de aventura, juego e imaginación.",
+        "alt": "Retrato infantil en una escena de aventura y juego",
+        "slug": "una-tarde-de-aventuras"
+    },
+"una-sonrisa-en-la-luz.jpg": {
+        "gallery": "Retratos",
+        "title": "Una sonrisa en la luz",
+        "description": "Un retrato infantil en el que la expresión y la iluminación son las protagonistas.",
+        "alt": "Retrato infantil con iluminación de estudio",
+        "slug": "una-sonrisa-en-la-luz"
+    },
+"entre-flores-y-suenos.jpg": {
+        "gallery": "Retratos",
+        "title": "Entre flores y sueños",
+        "description": "Un retrato infantil integrado en una escena imaginativa rodeada de flores.",
+        "alt": "Retrato infantil en una escena rodeada de flores",
+        "slug": "entre-flores-y-suenos"
+    },
+"iglesia-bajo-la-via-lactea.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "La iglesia bajo la Vía Láctea",
+        "description": "Una iglesia iluminada destaca bajo el arco de la Vía Láctea durante la noche.",
+        "alt": "Iglesia iluminada bajo la Vía Láctea",
+        "slug": "iglesia-bajo-la-via-lactea"
+    },
+"eclipse-sobre-los-molinos.jpg": {
+        "gallery": "Creaciones con IA",
+        "title": "Eclipse sobre los molinos",
+        "description": "Una composición artística creada con inteligencia artificial que sitúa un eclipse sobre un paisaje de molinos.",
+        "alt": "Composición artística de un eclipse sobre molinos",
+        "slug": "eclipse-sobre-los-molinos"
+    },
+"la-nina-entre-los-lienzos.jpg": {
+        "gallery": "Fotografía creativa",
+        "title": "La niña entre los lienzos",
+        "description": "Una composición creativa que integra el retrato de una niña en un entorno construido a partir de imágenes y obras fotográficas.",
+        "alt": "Composición creativa de una niña entre obras fotográficas",
+        "slug": "la-nina-entre-los-lienzos"
+    },
+"la-pequena-princesa.jpg": {
+        "gallery": "Retratos",
+        "title": "La pequeña princesa",
+        "description": "Un retrato infantil convertido en una escena de cuento protagonizada por una pequeña princesa.",
+        "alt": "Retrato infantil de una niña con vestido de princesa",
+        "slug": "la-pequena-princesa"
+    },
+"un-abrazo-de-cuento.jpg": {
+        "gallery": "Retratos",
+        "title": "Un abrazo de cuento",
+        "description": "Un retrato infantil lleno de ternura en el que una niña comparte un abrazo con su oso de peluche.",
+        "alt": "Retrato infantil con un oso de peluche",
+        "slug": "un-abrazo-de-cuento"
+    },
+"personas-en-el-muelle-del-tinto.jpg": {
+        "gallery": "Paisaje",
+        "title": "Personas en el Muelle del Tinto",
+        "description": "Las siluetas de varias personas aparecen junto al Muelle del Tinto durante la luz cálida del atardecer.",
+        "alt": "Siluetas de personas junto al Muelle del Tinto al atardecer",
+        "slug": "personas-en-el-muelle-del-tinto"
+    },
+"siluetas-al-atardecer.jpg": {
+        "gallery": "Paisaje",
+        "title": "Siluetas al atardecer",
+        "description": "Varias siluetas se recortan contra la luz del cielo durante un atardecer junto al agua.",
+        "alt": "Siluetas de personas caminando durante el atardecer",
+        "slug": "siluetas-al-atardecer"
+    },
+"via-lactea-sobre-el-pueblo.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "Vía Láctea sobre el pueblo",
+        "description": "La Vía Láctea domina el cielo nocturno sobre un pequeño pueblo.",
+        "alt": "Vía Láctea sobre un pueblo durante la noche",
+        "slug": "via-lactea-sobre-el-pueblo"
+    },
+"via-lactea-en-cudillero.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "Vía Láctea en Cudillero",
+        "description": "El cielo estrellado y la Vía Láctea se alzan sobre Cudillero durante la noche.",
+        "alt": "Vía Láctea sobre Cudillero durante la noche",
+        "slug": "via-lactea-en-cudillero"
+    },
+"perseidas-en-cudillero.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "Perseidas en Cudillero",
+        "description": "La lluvia de meteoros Perseidas atraviesa el cielo nocturno sobre el paisaje de Cudillero.",
+        "alt": "Lluvia de meteoros Perseidas sobre Cudillero",
+        "slug": "perseidas-en-cudillero"
+    },
+"puente-de-cangas-de-onis.jpg": {
+        "gallery": "Paisaje",
+        "title": "Puente de Cangas de Onís",
+        "description": "El histórico puente de Cangas de Onís aparece integrado en el paisaje durante las últimas luces del día.",
+        "alt": "Puente histórico de Cangas de Onís al atardecer",
+        "slug": "puente-de-cangas-de-onis"
+    },
+"vacas-junto-al-lago-al-atardecer.jpg": {
+        "gallery": "Paisaje",
+        "title": "Vacas junto al lago al atardecer",
+        "description": "Varias vacas descansan junto a un lago mientras la luz del atardecer baña el paisaje de montaña.",
+        "alt": "Vacas junto a un lago en un paisaje de montaña al atardecer",
+        "slug": "vacas-junto-al-lago-al-atardecer"
+    },
+"pato-con-alas-levantadas.jpg": {
+        "gallery": "Fauna",
+        "title": "Pato con las alas levantadas",
+        "description": "Un pato levanta las alas sobre el agua en un instante de movimiento y energía.",
+        "alt": "Pato levantando las alas sobre el agua",
+        "slug": "pato-con-alas-levantadas"
+    },
+"pato-en-la-luz-dorada.jpg": {
+        "gallery": "Fauna",
+        "title": "Pato en la luz dorada",
+        "description": "Un pato queda iluminado por la luz dorada en una escena de naturaleza serena.",
+        "alt": "Pato iluminado por la luz dorada del atardecer",
+        "slug": "pato-en-la-luz-dorada"
+    },
+"pato-comiendo.jpg": {
+        "gallery": "Fauna",
+        "title": "Pato comiendo",
+        "description": "Un pato se alimenta junto al agua en un instante cotidiano capturado en la naturaleza.",
+        "alt": "Pato alimentándose junto al agua",
+        "slug": "pato-comiendo"
+    },
+"montanas-al-atardecer.jpg": {
+        "gallery": "Paisaje",
+        "title": "Montañas al atardecer",
+        "description": "Las montañas quedan bañadas por la luz cálida de las últimas horas del día.",
+        "alt": "Paisaje de montaña iluminado por la luz del atardecer",
+        "slug": "montanas-al-atardecer"
+    },
+"salinas-al-atardecer.jpg": {
+        "gallery": "Paisaje",
+        "title": "Salinas al atardecer",
+        "description": "El paisaje de las salinas se transforma bajo la luz cálida del atardecer.",
+        "alt": "Salinas y maquinaria industrial durante el atardecer",
+        "slug": "salinas-al-atardecer"
+    },
+"mujer-con-alas-luminosas.jpg": {
+        "gallery": "Fotografía creativa",
+        "title": "Mujer con alas luminosas",
+        "description": "Una composición creativa transforma el retrato de una mujer en una escena fantástica con alas de luz.",
+        "alt": "Composición creativa de una mujer con alas de luz",
+        "slug": "mujer-con-alas-luminosas"
+    },
+"mujer-entre-estelas-de-luz.jpg": {
+        "gallery": "Fotografía creativa",
+        "title": "Mujer entre estelas de luz",
+        "description": "Una composición creativa sitúa a una mujer en un entorno rodeado de estelas luminosas.",
+        "alt": "Composición creativa de una mujer rodeada de estelas luminosas",
+        "slug": "mujer-entre-estelas-de-luz"
+    },
+"luna-sobre-la-iglesia-de-moguer.jpg": {
+        "gallery": "Astrofotografía",
+        "title": "Luna sobre la iglesia de Moguer",
+        "description": "La Luna aparece sobre la silueta de la iglesia de Moguer en una composición nocturna.",
+        "alt": "Luna sobre la iglesia de Moguer",
+        "slug": "luna-sobre-la-iglesia-de-moguer"
+    }
 }
