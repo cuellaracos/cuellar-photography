@@ -27,4 +27,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-materia-viva-vacas-bajo-la-luz-de-picos-de-europa',
+    slug: 'vacas-bajo-la-luz-de-picos-de-europa',
+    title: 'Vacas bajo la luz de Picos de Europa',
+    description: 'Varias vacas descansan en el paisaje de montaña mientras las nubes y la luz crean una atmósfera cambiante sobre Picos de Europa.',
+    alt: 'Vacas en un paisaje de montaña de Picos de Europa',
+    gallerySlug: 'materia-viva',
+    category: 'Naturaleza',
+    image: '/images/Naturaleza/VACAS-PICOS-DE-EUROPA.jpg',
+    thumbnail: '/images/Naturaleza/VACAS-PICOS-DE-EUROPA.jpg',
+    width: 1600,
+    height: 1201,
+  },
 ];
