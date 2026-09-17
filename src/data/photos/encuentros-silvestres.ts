@@ -445,6 +445,32 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-encuentros-silvestres-ciervo-berrea',
+    slug: 'ciervo-berrea',
+    title: 'Ciervo durante la berrea',
+    description: 'Un ciervo protagoniza un instante de la berrea, captado en su entorno natural y con toda la fuerza característica de esta época.',
+    alt: 'Ciervo durante la berrea en su entorno natural',
+    gallerySlug: 'encuentros-silvestres',
+    category: 'Fauna',
+    image: '/images/Fauna/ciervo-berrea.jpg',
+    thumbnail: '/images/Fauna/ciervo-berrea.jpg',
+    width: 2124,
+    height: 1600,
+  },
+  {
+    id: 'photo-encuentros-silvestres-martin-pescador-noche',
+    slug: 'martin-pescador-noche',
+    title: 'Martín pescador nocturno',
+    description: 'Un martín pescador aparece en una interpretación nocturna de la escena, destacando su silueta frente a un ambiente oscuro.',
+    alt: 'Martín pescador en una escena nocturna',
+    gallerySlug: 'encuentros-silvestres',
+    category: 'Fauna',
+    image: '/images/Fauna/martin-pescador-noche.jpg',
+    thumbnail: '/images/Fauna/martin-pescador-noche.jpg',
+    width: 1280,
+    height: 1600,
+  },
 ];
 
 

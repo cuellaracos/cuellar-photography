@@ -376,4 +376,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1066,
   },
+  {
+    id: 'photo-cielo-profundo-torre-bajo-las-estrellas',
+    slug: 'torre-bajo-las-estrellas',
+    title: 'Torre bajo las estrellas',
+    description: 'Una torre se recorta frente a un cielo nocturno en el que las estrellas dibujan trazas circulares alrededor del polo celeste.',
+    alt: 'Torre bajo un cielo nocturno con trazas circumpolares',
+    gallerySlug: 'cielo-profundo',
+    category: 'Astrofotografía',
+    image: '/images/Astrofotografia/torre-circumpolar.jpg',
+    thumbnail: '/images/Astrofotografia/torre-circumpolar.jpg',
+    width: 2886,
+    height: 1600,
+  },
 ];
