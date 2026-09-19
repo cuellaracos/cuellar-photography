@@ -93,4 +93,17 @@ export const photos: Photo[] = [
     width: 2134,
     height: 1600,
   },
+  {
+    id: 'photo-despues-del-sol-luna-sobre-la-estacion',
+    slug: 'luna-sobre-la-estacion',
+    title: 'Luna sobre la estación',
+    description: 'La estación iluminada aparece durante la noche bajo una luna rojiza, con la arquitectura y la plaza formando una escena nocturna de marcado carácter urbano.',
+    alt: 'Luna sobre una estación ferroviaria iluminada durante la noche',
+    gallerySlug: 'despues-del-sol',
+    category: 'Nocturna',
+    image: '/images/Nocturna/luna-sobre-estacion-renfe.jpg',
+    thumbnail: '/images/Nocturna/luna-sobre-estacion-renfe.jpg',
+    width: 1200,
+    height: 1600,
+  },
 ];

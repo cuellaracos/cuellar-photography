@@ -1421,6 +1421,96 @@
             "description": "Una torre se recorta frente a un cielo nocturno en el que las estrellas dibujan trazas circulares alrededor del polo celeste.",
             "alt": "Torre bajo un cielo nocturno con trazas circumpolares",
             "slug": "torre-bajo-las-estrellas"
-        }
-    
+        },
+  "ana con tatuajes.jpg": {
+    "gallery": "Retratos",
+    "title": "Ana entre tatuajes",
+    "description": "Retrato de Ana en blanco y negro, con una composición centrada en su mirada, su expresión y el lenguaje visual de los tatuajes.",
+    "alt": "Ana con tatuajes en un retrato fotográfico en blanco y negro",
+    "slug": "ana-entre-tatuajes"
+  },
+  "marina en la palma de la mano.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Marina en la palma de la mano",
+    "description": "Una miniatura de Marina aparece sostenida en la palma de una mano, creando una escena creativa que juega con la escala y la ilusión fotográfica.",
+    "alt": "Miniatura de Marina sostenida en la palma de una mano, fotografía creativa",
+    "slug": "marina-en-la-palma-de-la-mano"
+  },
+  "cuellar_dna_1789736523942 copia.jpg": {
+    "gallery": "Retratos",
+    "title": "Ana bajo la lluvia",
+    "description": "Retrato femenino en blanco y negro realizado en un ambiente nocturno, donde la lluvia, la luz y la expresión construyen una atmósfera íntima.",
+    "alt": "Retrato femenino en blanco y negro bajo la lluvia durante la noche",
+    "slug": "ana-bajo-la-lluvia"
+  },
+  "fotofrafo-envejecida.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "El fotógrafo de otra época",
+    "description": "Interpretación creativa de un fotógrafo junto a su cámara en una escena envejecida, tratada con una estética que evoca una fotografía de otra época.",
+    "alt": "Fotógrafo junto a una cámara en una escena de estética fotográfica envejecida",
+    "slug": "el-fotografo-de-otra-epoca"
+  },
+  "grua-cargando-sal copia.jpg": {
+    "gallery": "Paisaje",
+    "title": "La grúa y el cielo naranja",
+    "description": "Una excavadora trabaja junto a un camión bajo un cielo intensamente naranja, convirtiendo una escena industrial en un paisaje de gran fuerza visual.",
+    "alt": "Excavadora y camión trabajando bajo un cielo naranja al atardecer",
+    "slug": "grua-y-cielo-naranja"
+  },
+  "grua-cargando-sol.jpg": {
+    "gallery": "Paisaje",
+    "title": "La grúa atrapando el sol",
+    "description": "La silueta de una excavadora coincide con el sol del atardecer, creando una composición minimalista en la que maquinaria, luz y paisaje se encuentran.",
+    "alt": "Excavadora coincidiendo con el sol del atardecer en un paisaje industrial",
+    "slug": "grua-atrapando-el-sol"
+  },
+  "iglesia-toledo-via-lactea.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "La iglesia bajo la Vía Láctea",
+    "description": "Una iglesia iluminada se recorta bajo la Vía Láctea en una escena nocturna que une arquitectura, paisaje y cielo estrellado.",
+    "alt": "Iglesia iluminada bajo la Vía Láctea en una escena de astrofotografía",
+    "slug": "iglesia-toledo-bajo-la-via-lactea"
+  },
+  "jose-llavero.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "José en la palma de la mano",
+    "description": "Una miniatura de José aparece sostenida entre los dedos y sobre la palma de una mano, creando una imagen creativa basada en la ilusión de escala.",
+    "alt": "Miniatura de José sostenida en la palma de una mano, fotografía creativa",
+    "slug": "jose-en-la-palma-de-la-mano"
+  },
+  "luna-entre-pisos.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "La luna entre los edificios",
+    "description": "La luna aparece encajada entre formas arquitectónicas curvas, creando una composición minimalista en la que el cielo y la arquitectura dialogan.",
+    "alt": "Luna entre formas arquitectónicas curvas en una composición creativa nocturna",
+    "slug": "luna-entre-edificios"
+  },
+  "luna-sobre-estacion-renfe.jpg": {
+    "gallery": "Nocturna",
+    "title": "Luna sobre la estación",
+    "description": "La estación iluminada aparece durante la noche bajo una luna rojiza, con la arquitectura y la plaza formando una escena nocturna de marcado carácter urbano.",
+    "alt": "Luna sobre una estación ferroviaria iluminada durante la noche",
+    "slug": "luna-sobre-la-estacion"
+  },
+  "niño-payaso.jpg": {
+    "gallery": "Retratos",
+    "title": "El pequeño payaso",
+    "description": "Retrato en blanco y negro de un niño caracterizado como payaso, fotografiado con una mirada cercana y una expresión espontánea.",
+    "alt": "Niño caracterizado como payaso en un retrato fotográfico en blanco y negro",
+    "slug": "el-pequeno-payaso"
+  },
+  "sombras diagonales copia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Sombras diagonales",
+    "description": "Dos figuras recorren una escena urbana atravesada por largas sombras diagonales, creando una composición geométrica de fuerte contraste en blanco y negro.",
+    "alt": "Figuras humanas entre sombras diagonales en una composición urbana en blanco y negro",
+    "slug": "sombras-diagonales"
+  },
+  "via-lactea-sobre-edificio.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "La Vía Láctea sobre el edificio",
+    "description": "Una estructura arquitectónica se recorta contra un cielo nocturno atravesado por la Vía Láctea, combinando líneas modernas y paisaje celeste.",
+    "alt": "Vía Láctea sobre un edificio en una composición de astrofotografía",
+    "slug": "via-lactea-sobre-edificio"
+  }
 }
