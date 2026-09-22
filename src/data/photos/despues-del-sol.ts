@@ -106,4 +106,17 @@ export const photos: Photo[] = [
     width: 1200,
     height: 1600,
   },
+  {
+    id: 'photo-despues-del-sol-luna-sobre-estacion-renfe',
+    slug: 'luna-sobre-estacion-renfe',
+    title: 'luna sobre estacion renfe',
+    description: 'Fotografía nocturna de una estación ferroviaria iluminada bajo la Luna. La arquitectura destaca contra el cielo oscuro y la presencia del satélite aporta escala y profundidad a la escena.',
+    alt: 'luna sobre estacion renfe - Nocturna',
+    gallerySlug: 'despues-del-sol',
+    category: 'Nocturna',
+    image: '/images/Nocturna/luna-sobre-estacion-renfe-2.jpg',
+    thumbnail: '/images/Nocturna/luna-sobre-estacion-renfe-2.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];

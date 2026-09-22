@@ -7,3 +7,26 @@ dist/
 *.log
 .DS_Store
 Thumbs.db
+
+# Herramienta importadora (uso local, no forma parte de la web)
+.cuellar-photo-manager/
+CUELLAR_PHOTO_MANAGER_V3_2_ESCANEO_CORREGIDO/
+
+# Backups y versiones de prueba de scripts
+*antes-*
+*pre-cambio*
+*.backup.*
+catalogo-fotos*.json
+mapa-categorias-fotos.json
+crear-hojas-contacto.py
+parche-importador.cjs
+scripts/preparar-fichas-lote-*.cjs
+scripts/preparar-*-fichas-web.cjs
+scripts/actualizar-fichas-lote-*.cjs
+scripts/añadir-*-fichas.cjs
+scripts/reparar-catalogo-*.cjs
+
+# Archivos sueltos de trabajo
+*.txt
+*.ps1
+pendientes-contacto

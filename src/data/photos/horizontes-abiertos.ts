@@ -609,5 +609,18 @@ export const photos: Photo[] = [
     width: 2131,
     height: 1600,
   },
+  {
+    id: 'photo-horizontes-abiertos-grua-cargando-sol',
+    slug: 'grua-cargando-sol',
+    title: 'grua cargando sol',
+    description: 'Silueta de una grúa portuaria frente al horizonte durante el atardecer, con el sol integrado en la composición. La luz cálida y las formas oscuras de la maquinaria crean una imagen gráfica y minimalista.',
+    alt: 'grua cargando sol - Paisaje',
+    gallerySlug: 'horizontes-abiertos',
+    category: 'Paisaje',
+    image: '/images/Paisaje/grua-cargando-sol-2.jpg',
+    thumbnail: '/images/Paisaje/grua-cargando-sol-2.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
 
