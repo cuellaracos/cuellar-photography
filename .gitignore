@@ -30,3 +30,6 @@ scripts/reparar-catalogo-*.cjs
 *.txt
 *.ps1
 pendientes-contacto
+*.bak
+*.bak2
+*.bak3

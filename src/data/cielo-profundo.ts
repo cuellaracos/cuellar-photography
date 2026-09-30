@@ -31,7 +31,7 @@ export const photos: Photo[] = [
 
   {
     id: 'photo-luna-creciente',
-    slug: 'luna-creciente',
+    slug: 'luna-de-ayer',
     title: 'Luna creciente',
     description: 'Detalle de la Luna creciente, destacando el relieve y el contraste de la superficie lunar.',
     alt: 'Luna creciente',

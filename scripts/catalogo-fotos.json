@@ -1,1427 +1,1313 @@
 {
-    "524752935_739886498932117_3281677400352457746_n.jpg":  {
-                                                                "gallery":  "Astrofotografía"
-                                                            },
-    "arrecife-de-las-sirenas2.jpg":  {
-                                         "gallery":  "Astrofotografía"
-                                     },
-    "castillo-navarra.jpg":  {
-                                 "gallery":  "Astrofotografía"
-                             },
-    "iruela-publicar.jpg":  {
-                                "gallery":  "Astrofotografía"
-                            },
-    "lavanda.jpg":  {
-                        "gallery":  "Astrofotografía"
-                    },
-    "luna-saliendo-moguer.jpg":  {
-                                     "gallery":  "Astrofotografía"
-                                 },
-    "via-lactea-de-david.jpg":  {
-                                    "gallery":  "Astrofotografía"
-                                },
-    "via-paimogo.jpg":  {
-                            "gallery":  "Astrofotografía"
-                        },
-    "villalba.jpg":  {
-                         "gallery":  "Astrofotografía"
-                     },
-    "curruca-en-galaroza.jpg":  {
-                                    "gallery":  "Fauna"
-                                },
-    "lince-doñana-atardecer.jpg":  {
-                                       "gallery":  "Fauna"
-                                   },
-    "lince-en-doñana 2.jpg":  {
-                                  "gallery":  "Fauna"
-                              },
-    "palomas-ala-levantada.jpg":  {
-                                      "gallery":  "Fauna"
-                                  },
-    "petirrojo-galaroza.jpg":  {
-                                   "gallery":  "Fauna"
-                               },
-    "picapino.jpg":  {
-                         "gallery":  "Fauna"
-                     },
-    "trepador-galaroza.jpg":  {
-                                  "gallery":  "Fauna"
-                              },
-    "verdon.jpg":  {
-                       "gallery":  "Fauna"
-                   },
-    "cogida-de-torero.jpg":  {
-                                 "gallery":  "Fotografía creativa"
-                             },
-    "mariposa-marron.jpg":  {
-                                "gallery":  "Macro"
-                            },
-    "mariposa-posada.jpg":  {
-                                "gallery":  "Macro"
-                            },
-    "ayamonte-salida-de-luna.jpg":  {
-                                        "gallery":  "Nocturna"
-                                    },
-    "bardenas.jpg":  {
-                         "gallery":  "Paisaje"
-                     },
-    "catedral.jpg":  {
-                         "gallery":  "Paisaje"
-                     },
-    "fatima.jpg":  {
-                       "gallery":  "Paisaje"
-                   },
-    "la-matilla2.jpg":  {
-                            "gallery":  "Paisaje"
-                        },
-    "mariscadores.jpg":  {
-                             "gallery":  "Paisaje"
-                         },
-    "monumento-al-soldado.jpg":  {
-                                     "gallery":  "Paisaje"
-                                 },
-    "plaza-de-la-paregrina.jpg":  {
-                                      "gallery":  "Paisaje"
-                                  },
-    "puesta-de-sol--en-las-marismas.jpg":  {
-                                               "gallery":  "Paisaje"
-                                           },
-    "rocio.jpg":  {
-                      "gallery":  "Paisaje"
-                  },
-    "trillo-catarata.jpg":  {
-                                "gallery":  "Paisaje"
-                            },
-    "autor-en-torre-del-loro.jpg":  {
-                                        "gallery":  "Retratos"
-                                    },
-    "hombre-carnaval.jpg":  {
-                                "gallery":  "Retratos"
-                            },
-    "marina-peinado.jpg":  {
-                               "gallery":  "Retratos"
-                           },
-    "via-lactea-silos-2.jpg":  {
-                                   "gallery":  "Astrofotografía"
-                               },
-    "martin-pescador-pelea10":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea10",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea10",
-                                    "slug":  "martin-pescador-pelea10"
-                                },
-    "martin-pescador-pelea11":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea11",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea11",
-                                    "slug":  "martin-pescador-pelea11"
-                                },
-    "martin-pescador-pelea12":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea12",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea12",
-                                    "slug":  "martin-pescador-pelea12"
-                                },
-    "martin-pescador-pelea13":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea13",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea13",
-                                    "slug":  "martin-pescador-pelea13"
-                                },
-    "martin-pescador-pelea14":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea14",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea14",
-                                    "slug":  "martin-pescador-pelea14"
-                                },
-    "martin-pescador-pelea15":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea15",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea15",
-                                    "slug":  "martin-pescador-pelea15"
-                                },
-    "martin-pescador-pelea16":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea16",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea16",
-                                    "slug":  "martin-pescador-pelea16"
-                                },
-    "martin-pescador-pelea17":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea17",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea17",
-                                    "slug":  "martin-pescador-pelea17"
-                                },
-    "martin-pescador-pelea19":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea19",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea19",
-                                    "slug":  "martin-pescador-pelea19"
-                                },
-    "martin-pescador-pelea2":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea2",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea2",
-                                   "slug":  "martin-pescador-pelea2"
-                               },
-    "martin-pescador-pelea21":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea21",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea21",
-                                    "slug":  "martin-pescador-pelea21"
-                                },
-    "martin-pescador-pelea22":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea22",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea22",
-                                    "slug":  "martin-pescador-pelea22"
-                                },
-    "martin-pescador-pelea23":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea23",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea23",
-                                    "slug":  "martin-pescador-pelea23"
-                                },
-    "martin-pescador-pelea24":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea24",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea24",
-                                    "slug":  "martin-pescador-pelea24"
-                                },
-    "martin-pescador-pelea25":  {
-                                    "gallery":  "Fauna",
-                                    "title":  "Martin pescador pelea25",
-                                    "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                    "alt":  "Martin pescador pelea25",
-                                    "slug":  "martin-pescador-pelea25"
-                                },
-    "martin-pescador-pelea3":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea3",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea3",
-                                   "slug":  "martin-pescador-pelea3"
-                               },
-    "martin-pescador-pelea4":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea4",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea4",
-                                   "slug":  "martin-pescador-pelea4"
-                               },
-    "martin-pescador-pelea5":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea5",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea5",
-                                   "slug":  "martin-pescador-pelea5"
-                               },
-    "martin-pescador-pelea6":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea6",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea6",
-                                   "slug":  "martin-pescador-pelea6"
-                               },
-    "martin-pescador-pelea7":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea7",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea7",
-                                   "slug":  "martin-pescador-pelea7"
-                               },
-    "martin-pescador-pelea8":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea8",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea8",
-                                   "slug":  "martin-pescador-pelea8"
-                               },
-    "martin-pescador-pelea9":  {
-                                   "gallery":  "Fauna",
-                                   "title":  "Martin pescador pelea9",
-                                   "description":  "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
-                                   "alt":  "Martin pescador pelea9",
-                                   "slug":  "martin-pescador-pelea9"
-                               },
-    "ana-collage-retratos-banco.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana en el banco",
-                                           "description":  "ComposiciÃ³n de retratos de Ana en blanco y negro, reunidos en una secuencia de poses y gestos que explora distintas facetas de su presencia ante la cÃ¡mara.",
-                                           "alt":  "Collage de retratos de Ana en blanco y negro sentada y posando en un banco.",
-                                           "slug":  "ana-collage-retratos-banco"
-                                       },
-    "ana-collage-retratos-blanco-y-negro.jpg":  {
-                                                    "gallery":  "retratos",
-                                                    "title":  "Ana en blanco y negro",
-                                                    "description":  "Collage de retratos de Ana tratado en blanco y negro, donde diferentes expresiones, poses y encuadres construyen una interpretaciÃ³n grÃ¡fica y atemporal del retrato.",
-                                                    "alt":  "Collage artÃ­stico de varios retratos de Ana en blanco y negro.",
-                                                    "slug":  "ana-collage-retratos-blanco-y-negro"
-                                                },
-    "ana-collage-retratos-color.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana, cuatro miradas",
-                                           "description":  "Collage de retratos en color que reÃºne primeros planos y diferentes actitudes de Ana, combinando expresividad, maquillaje y una estÃ©tica editorial contemporÃ¡nea.",
-                                           "alt":  "Collage de retratos en color de Ana con diferentes poses y primeros planos.",
-                                           "slug":  "ana-collage-retratos-color"
-                                       },
-    "ana-collage-retratos-estilos.jpg":  {
-                                             "gallery":  "retratos",
-                                             "title":  "Ana, diferentes estilos",
-                                             "description":  "Serie de retratos que reÃºne distintas caracterizaciones de Ana, desde una estÃ©tica sofisticada hasta imÃ¡genes mÃ¡s espontÃ¡neas, mostrando la versatilidad del personaje frente a la cÃ¡mara.",
-                                             "alt":  "Collage de retratos de Ana con diferentes estilos, poses y caracterizaciones.",
-                                             "slug":  "ana-collage-retratos-estilos"
-                                         },
-    "ana-collage-retratos-estudio.jpg":  {
-                                             "gallery":  "retratos",
-                                             "title":  "Ana en estudio",
-                                             "description":  "ComposiciÃ³n de retratos de estudio de Ana construida a partir de diferentes poses y expresiones, con una estÃ©tica limpia que pone el protagonismo en la modelo.",
-                                             "alt":  "Collage de retratos de estudio de Ana con diferentes poses y expresiones.",
-                                             "slug":  "ana-collage-retratos-estudio"
-                                         },
-    "ana-collage-retratos-vestido-gris.jpg":  {
-                                                  "gallery":  "retratos",
-                                                  "title":  "Ana en vestido gris",
-                                                  "description":  "Collage editorial de Ana con vestido gris, combinando distintas poses y encuadres para construir una secuencia de retrato elegante y natural.",
-                                                  "alt":  "Collage de retratos de Ana con vestido gris en diferentes poses.",
-                                                  "slug":  "ana-collage-retratos-vestido-gris"
-                                              },
-    "ana-doble-exposicion-montanas.jpg":  {
-                                              "gallery":  "retratos",
-                                              "title":  "Ana entre montaÃ±as",
-                                              "description":  "Retrato conceptual construido mediante doble exposiciÃ³n, fusionando el rostro de Ana con un paisaje montaÃ±oso para crear una imagen donde figura y naturaleza forman una misma composiciÃ³n.",
-                                              "alt":  "Retrato de doble exposiciÃ³n de Ana integrado con un paisaje de montaÃ±as.",
-                                              "slug":  "ana-doble-exposicion-montanas"
-                                          },
-    "ana-retrato-biblioteca-telas.jpg":  {
-                                             "gallery":  "retratos",
-                                             "title":  "Ana entre telas",
-                                             "description":  "Retrato escÃ©nico de Ana rodeada de grandes telas en un interior de aire clÃ¡sico, donde el movimiento de las telas aporta profundidad, dinamismo y una marcada sensaciÃ³n teatral.",
-                                             "alt":  "Retrato de Ana entre grandes telas en un interior de estilo clÃ¡sico.",
-                                             "slug":  "ana-retrato-biblioteca-telas"
-                                         },
-    "ana-retrato-blanco-y-negro.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana, mirada serena",
-                                           "description":  "Retrato en blanco y negro de Ana tratado con una estÃ©tica Ã­ntima y elegante, centrado en la expresiÃ³n, la mirada y la delicadeza de la pose.",
-                                           "alt":  "Retrato en blanco y negro de Ana con una expresiÃ³n serena y elegante.",
-                                           "slug":  "ana-retrato-blanco-y-negro"
-                                       },
-    "ana-retrato-casual-telefono.jpg":  {
-                                            "gallery":  "retratos",
-                                            "title":  "Ana con el telÃ©fono",
-                                            "description":  "Retrato espontÃ¡neo de Ana mirando su telÃ©fono, captado en un momento cotidiano que contrasta con la puesta en escena mÃ¡s elaborada de otros retratos de la serie.",
-                                            "alt":  "Retrato de Ana mirando su telÃ©fono en un momento cotidiano.",
-                                            "slug":  "ana-retrato-casual-telefono"
-                                        },
-    "ana-retrato-danza-vestido-rojo.jpg":  {
-                                               "gallery":  "retratos",
-                                               "title":  "Ana en movimiento",
-                                               "description":  "Retrato de inspiraciÃ³n escÃ©nica en el que Ana, vestida de rojo, aparece suspendida en movimiento mientras una gran tela acompaÃ±a la figura y amplifica la sensaciÃ³n de danza.",
-                                               "alt":  "Retrato artÃ­stico de Ana con vestido rojo y una tela en movimiento.",
-                                               "slug":  "ana-retrato-danza-vestido-rojo"
-                                           },
-    "ana-retrato-editorial-pantalon-blanco.jpg":  {
-                                                      "gallery":  "retratos",
-                                                      "title":  "Ana, retrato editorial",
-                                                      "description":  "Retrato editorial de Ana con una estilizaciÃ³n sobria y contemporÃ¡nea, construido alrededor de una pose frontal y una iluminaciÃ³n limpia que realza la presencia de la modelo.",
-                                                      "alt":  "Retrato editorial de Ana con pantalÃ³n blanco y chaqueta de tono oscuro.",
-                                                      "slug":  "ana-retrato-editorial-pantalon-blanco"
-                                                  },
-    "ana-retrato-editorial-traje-gris.jpg":  {
-                                                 "gallery":  "retratos",
-                                                 "title":  "Ana, traje gris",
-                                                 "description":  "Retrato editorial en blanco y negro de Ana con traje gris, planteado con una estÃ©tica de moda minimalista y una pose de fuerte presencia visual.",
-                                                 "alt":  "Retrato editorial en blanco y negro de Ana con traje gris.",
-                                                 "slug":  "ana-retrato-editorial-traje-gris"
-                                             },
-    "ana-retrato-embarazo-cerezos.jpg":  {
-                                             "gallery":  "retratos",
-                                             "title":  "Ana entre cerezos",
-                                             "description":  "Retrato de maternidad de Ana ante un fondo de flores de cerezo, donde la figura y el paisaje primaveral crean una escena delicada, luminosa y de carÃ¡cter poÃ©tico.",
-                                             "alt":  "Retrato de maternidad de Ana ante Ã¡rboles en flor de color rosa.",
-                                             "slug":  "ana-retrato-embarazo-cerezos"
-                                         },
-    "ana-retrato-embarazo-telas.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana y las telas",
-                                           "description":  "Retrato de maternidad de Ana envuelta visualmente por grandes telas blancas, utilizando el tejido, la luz y la arquitectura del espacio para crear una escena elegante y etÃ©rea.",
-                                           "alt":  "Retrato de maternidad de Ana entre grandes telas blancas.",
-                                           "slug":  "ana-retrato-embarazo-telas"
-                                       },
-    "ana-retrato-estudio-blanco.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana sobre fondo blanco",
-                                           "description":  "Retrato de estudio de Ana con una puesta en escena limpia y minimalista, en la que la iluminaciÃ³n uniforme y el vestuario blanco concentran la atenciÃ³n en el rostro y la actitud.",
-                                           "alt":  "Retrato de estudio de Ana con vestuario blanco sobre fondo claro.",
-                                           "slug":  "ana-retrato-estudio-blanco"
-                                       },
-    "ana-retrato-estudio-fondo-amarillo.jpg":  {
-                                                   "gallery":  "retratos",
-                                                   "title":  "Ana sobre amarillo",
-                                                   "description":  "Retrato de estudio de Ana frente a un fondo amarillo intenso, construido con una estÃ©tica editorial de alto contraste que combina elegancia, fuerza y color.",
-                                                   "alt":  "Retrato de Ana en estudio con traje oscuro y fondo amarillo.",
-                                                   "slug":  "ana-retrato-estudio-fondo-amarillo"
-                                               },
-    "ana-retrato-fotografia-y-dibujo.jpg":  {
-                                                "gallery":  "retratos",
-                                                "title":  "Ana entre fotografÃ­a y dibujo",
-                                                "description":  "ComposiciÃ³n artÃ­stica que combina el retrato fotogrÃ¡fico de Ana con una ilustraciÃ³n dibujada, creando un diÃ¡logo visual entre la persona real y su representaciÃ³n grÃ¡fica.",
-                                                "alt":  "ComposiciÃ³n de Ana junto a un dibujo de su figura.",
-                                                "slug":  "ana-retrato-fotografia-y-dibujo"
-                                            },
-    "ana-retrato-geometrico.jpg":  {
-                                       "gallery":  "retratos",
-                                       "title":  "Ana en geometrÃ­a",
-                                       "description":  "Retrato conceptual de Ana integrado con formas geomÃ©tricas y texturas arquitectÃ³nicas, utilizando planos superpuestos para transformar el rostro y la figura en una composiciÃ³n grÃ¡fica.",
-                                       "alt":  "Retrato conceptual de Ana integrado con formas geomÃ©tricas y texturas.",
-                                       "slug":  "ana-retrato-geometrico"
-                                   },
-    "ana-retrato-ilustracion-blanco-y-negro.jpg":  {
-                                                       "gallery":  "retratos",
-                                                       "title":  "Ana ilustrada",
-                                                       "description":  "Retrato artÃ­stico en blanco y negro que transforma la imagen de Ana en una interpretaciÃ³n grÃ¡fica de lÃ­neas limpias y acabado ilustrado, entre fotografÃ­a y dibujo.",
-                                                       "alt":  "Retrato artÃ­stico de Ana reinterpretado con estÃ©tica de ilustraciÃ³n en blanco y negro.",
-                                                       "slug":  "ana-retrato-ilustracion-blanco-y-negro"
-                                                   },
-    "ana-retrato-ilustracion-maquillaje.jpg":  {
-                                                   "gallery":  "retratos",
-                                                   "title":  "Ana entre pinceles",
-                                                   "description":  "Retrato conceptual en el que Ana aparece acompaÃ±ada por pinceles y elementos de maquillaje, fusionando el lenguaje del retrato con una estÃ©tica de ilustraciÃ³n y belleza editorial.",
-                                                   "alt":  "Retrato ilustrado de Ana rodeada de pinceles y elementos de maquillaje.",
-                                                   "slug":  "ana-retrato-ilustracion-maquillaje"
-                                               },
-    "ana-retrato-instagram-movil.jpg":  {
-                                            "gallery":  "retratos",
-                                            "title":  "Ana en Instagram",
-                                            "description":  "Retrato construido alrededor de la pantalla de un telÃ©fono mÃ³vil, donde la imagen de Ana aparece integrada en una escena cotidiana que conecta el retrato fotogrÃ¡fico con las redes sociales.",
-                                            "alt":  "Retrato de Ana mostrado en la pantalla de un telÃ©fono mÃ³vil con Instagram.",
-                                            "slug":  "ana-retrato-instagram-movil"
-                                        },
-    "ana-retrato-luz-de-persianas.jpg":  {
-                                             "gallery":  "retratos",
-                                             "title":  "Ana entre persianas",
-                                             "description":  "Retrato de Ana iluminado por franjas de luz y sombra proyectadas a travÃ©s de persianas, creando un juego grÃ¡fico que modela el rostro y aporta una atmÃ³sfera cinematogrÃ¡fica.",
-                                             "alt":  "Retrato de Ana iluminada por sombras de persianas.",
-                                             "slug":  "ana-retrato-luz-de-persianas"
-                                         },
-    "ana-retrato-motociclista-futurista.jpg":  {
-                                                   "gallery":  "retratos",
-                                                   "title":  "Ana, visiÃ³n futurista",
-                                                   "description":  "Retrato conceptual de estÃ©tica futurista en el que Ana aparece asociada a una motocicleta y un entorno de carÃ¡cter fantÃ¡stico, combinando moda, tecnologÃ­a y narrativa visual.",
-                                                   "alt":  "Retrato futurista de Ana junto a una motocicleta en un escenario fantÃ¡stico.",
-                                                   "slug":  "ana-retrato-motociclista-futurista"
-                                               },
-    "ana-retrato-pantalon-rayas.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana de rojo en el estudio",
-                                           "description":  "Retrato de Ana en un espacio industrial de grandes ventanales, con chaqueta roja y pantalÃ³n de rayas, planteado con una estÃ©tica editorial urbana y contemporÃ¡nea.",
-                                           "alt":  "Retrato de Ana con chaqueta roja y pantalÃ³n de rayas en un espacio industrial.",
-                                           "slug":  "ana-retrato-pantalon-rayas"
-                                       },
-    "ana-retrato-running-atardecer.jpg":  {
-                                              "gallery":  "retratos",
-                                              "title":  "Ana al correr",
-                                              "description":  "Retrato de acciÃ³n de Ana corriendo por un camino al atardecer, donde la luz cÃ¡lida del sol y el movimiento del cuerpo convierten el ejercicio en una escena de carÃ¡cter cinematogrÃ¡fico.",
-                                              "alt":  "Retrato de Ana corriendo por un camino al atardecer.",
-                                              "slug":  "ana-retrato-running-atardecer"
-                                          },
-    "ana-retrato-sombrero-negro.jpg":  {
-                                           "gallery":  "retratos",
-                                           "title":  "Ana bajo el sombrero",
-                                           "description":  "Retrato en blanco y negro de Ana con sombrero negro y chaqueta de cuero, construido con una estÃ©tica de fuerte contraste y una presencia visual inspirada en el cine clÃ¡sico.",
-                                           "alt":  "Retrato en blanco y negro de Ana con sombrero negro y chaqueta de cuero.",
-                                           "slug":  "ana-retrato-sombrero-negro"
-                                       },
-    "ana-retrato-terraza-noche.jpg":  {
-                                          "gallery":  "retratos",
-                                          "title":  "Ana en la noche",
-                                          "description":  "Retrato nocturno de Ana en una terraza iluminada por luces cÃ¡lidas, donde la pose y el ambiente urbano crean una escena Ã­ntima de estÃ©tica cinematogrÃ¡fica.",
-                                          "alt":  "Retrato nocturno de Ana sentada en una terraza iluminada con luces cÃ¡lidas.",
-                                          "slug":  "ana-retrato-terraza-noche"
-                                      },
-    "ana-retrato-urbano-gafas.jpg":  {
-                                         "gallery":  "retratos",
-                                         "title":  "Ana, retrato urbano",
-                                         "description":  "Retrato de Ana con gafas de sol y sombrero, integrado en una estÃ©tica urbana y contemporÃ¡nea que combina actitud, moda y una iluminaciÃ³n de marcado carÃ¡cter editorial.",
-                                         "alt":  "Retrato urbano de Ana con gafas de sol y sombrero.",
-                                         "slug":  "ana-retrato-urbano-gafas"
-                                     },
-    "ana-retrato-vestido-azul-espejo.jpg":  {
-                                                "gallery":  "retratos",
-                                                "title":  "Ana ante el espejo",
-                                                "description":  "Retrato escÃ©nico de Ana con vestido azul ante un espejo, utilizando la arquitectura, la oscuridad y el reflejo para crear una composiciÃ³n elegante y envolvente.",
-                                                "alt":  "Retrato de Ana con vestido azul ante un espejo en un espacio oscuro.",
-                                                "slug":  "ana-retrato-vestido-azul-espejo"
-                                            },
-    "ana-retrato-vestido-azul-noche.jpg":  {
-                                               "gallery":  "retratos",
-                                               "title":  "Ana de azul",
-                                               "description":  "Retrato nocturno de Ana con vestido azul, construido alrededor de una pose elegante y un juego de luz ambiental que separa la figura del fondo oscuro.",
-                                               "alt":  "Retrato nocturno de Ana con vestido azul.",
-                                               "slug":  "ana-retrato-vestido-azul-noche"
-                                           },
-    "ana-retrato-vintage-fondo-rojo.jpg":  {
-                                               "gallery":  "retratos",
-                                               "title":  "Ana en rojo",
-                                               "description":  "Retrato de inspiraciÃ³n vintage de Ana sobre un fondo rojo intenso, con vestuario oscuro y una puesta en escena de fuerte carÃ¡cter cinematogrÃ¡fico.",
-                                               "alt":  "Retrato de Ana con estÃ©tica vintage sobre fondo rojo intenso.",
-                                               "slug":  "ana-retrato-vintage-fondo-rojo"
-                                           },
-"via-lactea-en-picos-de-europa.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "Vía Láctea en Picos de Europa",
-        "description": "La Vía Láctea se eleva sobre las montañas de Picos de Europa en una noche limpia y llena de estrellas.",
-        "alt": "Vía Láctea sobre las montañas de Picos de Europa",
-        "slug": "via-lactea-en-picos-de-europa"
-    },
-"via-lactea-sobre-la-costa-asturiana.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "Vía Láctea sobre la costa asturiana",
-        "description": "La Vía Láctea ilumina el cielo nocturno sobre la costa rocosa de Asturias.",
-        "alt": "Vía Láctea sobre la costa rocosa de Asturias",
-        "slug": "via-lactea-sobre-la-costa-asturiana"
-    },
-"atardecer-en-cabo-vidio.jpg": {
-        "gallery": "Paisaje",
-        "title": "Atardecer en Cabo Vidio",
-        "description": "La costa de Cabo Vidio se transforma bajo la luz cálida de un atardecer sobre el Cantábrico.",
-        "alt": "Atardecer sobre la costa de Cabo Vidio",
-        "slug": "atardecer-en-cabo-vidio"
-    },
-"cabo-vidio-al-atardecer.jpg": {
-        "gallery": "Paisaje",
-        "title": "Cabo Vidio al atardecer",
-        "description": "Una vista de la costa de Cabo Vidio durante los últimos instantes de luz del día.",
-        "alt": "Costa de Cabo Vidio iluminada por el atardecer",
-        "slug": "cabo-vidio-al-atardecer"
-    },
-"ciudad-frente-al-ocaso.jpg": {
-        "gallery": "Paisaje",
-        "title": "La ciudad frente al ocaso",
-        "description": "La ciudad se recorta frente al mar mientras el cielo adquiere los tonos del ocaso.",
-        "alt": "Ciudad y arquitectura junto al mar durante el ocaso",
-        "slug": "ciudad-frente-al-ocaso"
-    },
-"fragmentos-de-un-atardecer.jpg": {
-        "gallery": "Fotografía creativa",
-        "title": "Fragmentos de un atardecer",
-        "description": "Una composición creativa construida a partir de diferentes fragmentos de un atardecer.",
-        "alt": "Composición creativa formada por escenas de un atardecer",
-        "slug": "fragmentos-de-un-atardecer"
-    },
-"un-instante-compartido.jpg": {
-        "gallery": "Fotografía creativa",
-        "title": "Un instante compartido",
-        "description": "Una composición creativa que captura un instante íntimo y compartido frente al mar.",
-        "alt": "Composición creativa de una pareja frente al mar",
-        "slug": "un-instante-compartido"
-    },
-"entre-burbujas.jpg": {
-        "gallery": "Retratos",
-        "title": "Entre burbujas",
-        "description": "Un retrato infantil lleno de movimiento y espontaneidad durante un juego entre burbujas.",
-        "alt": "Retrato infantil jugando entre burbujas",
-        "slug": "entre-burbujas"
-    },
-"una-tarde-de-aventuras.jpg": {
-        "gallery": "Retratos",
-        "title": "Una tarde de aventuras",
-        "description": "Un retrato infantil protagonizado por una escena de aventura, juego e imaginación.",
-        "alt": "Retrato infantil en una escena de aventura y juego",
-        "slug": "una-tarde-de-aventuras"
-    },
-"una-sonrisa-en-la-luz.jpg": {
-        "gallery": "Retratos",
-        "title": "Una sonrisa en la luz",
-        "description": "Un retrato infantil en el que la expresión y la iluminación son las protagonistas.",
-        "alt": "Retrato infantil con iluminación de estudio",
-        "slug": "una-sonrisa-en-la-luz"
-    },
-"entre-flores-y-suenos.jpg": {
-        "gallery": "Retratos",
-        "title": "Entre flores y sueños",
-        "description": "Un retrato infantil integrado en una escena imaginativa rodeada de flores.",
-        "alt": "Retrato infantil en una escena rodeada de flores",
-        "slug": "entre-flores-y-suenos"
-    },
-"iglesia-bajo-la-via-lactea.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "La iglesia bajo la Vía Láctea",
-        "description": "Una iglesia iluminada destaca bajo el arco de la Vía Láctea durante la noche.",
-        "alt": "Iglesia iluminada bajo la Vía Láctea",
-        "slug": "iglesia-bajo-la-via-lactea"
-    },
-"eclipse-sobre-los-molinos.jpg": {
-        "gallery": "Creaciones con IA",
-        "title": "Eclipse sobre los molinos",
-        "description": "Una composición artística creada con inteligencia artificial que sitúa un eclipse sobre un paisaje de molinos.",
-        "alt": "Composición artística de un eclipse sobre molinos",
-        "slug": "eclipse-sobre-los-molinos"
-    },
-"la-nina-entre-los-lienzos.jpg": {
-        "gallery": "Fotografía creativa",
-        "title": "La niña entre los lienzos",
-        "description": "Una composición creativa que integra el retrato de una niña en un entorno construido a partir de imágenes y obras fotográficas.",
-        "alt": "Composición creativa de una niña entre obras fotográficas",
-        "slug": "la-nina-entre-los-lienzos"
-    },
-"la-pequena-princesa.jpg": {
-        "gallery": "Retratos",
-        "title": "La pequeña princesa",
-        "description": "Un retrato infantil convertido en una escena de cuento protagonizada por una pequeña princesa.",
-        "alt": "Retrato infantil de una niña con vestido de princesa",
-        "slug": "la-pequena-princesa"
-    },
-"un-abrazo-de-cuento.jpg": {
-        "gallery": "Retratos",
-        "title": "Un abrazo de cuento",
-        "description": "Un retrato infantil lleno de ternura en el que una niña comparte un abrazo con su oso de peluche.",
-        "alt": "Retrato infantil con un oso de peluche",
-        "slug": "un-abrazo-de-cuento"
-    },
-"personas-en-el-muelle-del-tinto.jpg": {
-        "gallery": "Paisaje",
-        "title": "Personas en el Muelle del Tinto",
-        "description": "Las siluetas de varias personas aparecen junto al Muelle del Tinto durante la luz cálida del atardecer.",
-        "alt": "Siluetas de personas junto al Muelle del Tinto al atardecer",
-        "slug": "personas-en-el-muelle-del-tinto"
-    },
-"siluetas-al-atardecer.jpg": {
-        "gallery": "Paisaje",
-        "title": "Siluetas al atardecer",
-        "description": "Varias siluetas se recortan contra la luz del cielo durante un atardecer junto al agua.",
-        "alt": "Siluetas de personas caminando durante el atardecer",
-        "slug": "siluetas-al-atardecer"
-    },
-"via-lactea-sobre-el-pueblo.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "Vía Láctea sobre el pueblo",
-        "description": "La Vía Láctea domina el cielo nocturno sobre un pequeño pueblo.",
-        "alt": "Vía Láctea sobre un pueblo durante la noche",
-        "slug": "via-lactea-sobre-el-pueblo"
-    },
-"via-lactea-en-cudillero.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "Vía Láctea en Cudillero",
-        "description": "El cielo estrellado y la Vía Láctea se alzan sobre Cudillero durante la noche.",
-        "alt": "Vía Láctea sobre Cudillero durante la noche",
-        "slug": "via-lactea-en-cudillero"
-    },
-"perseidas-en-cudillero.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "Perseidas en Cudillero",
-        "description": "La lluvia de meteoros Perseidas atraviesa el cielo nocturno sobre el paisaje de Cudillero.",
-        "alt": "Lluvia de meteoros Perseidas sobre Cudillero",
-        "slug": "perseidas-en-cudillero"
-    },
-"puente-de-cangas-de-onis.jpg": {
-        "gallery": "Paisaje",
-        "title": "Puente de Cangas de Onís",
-        "description": "El histórico puente de Cangas de Onís aparece integrado en el paisaje durante las últimas luces del día.",
-        "alt": "Puente histórico de Cangas de Onís al atardecer",
-        "slug": "puente-de-cangas-de-onis"
-    },
-"vacas-junto-al-lago-al-atardecer.jpg": {
-        "gallery": "Paisaje",
-        "title": "Vacas junto al lago al atardecer",
-        "description": "Varias vacas descansan junto a un lago mientras la luz del atardecer baña el paisaje de montaña.",
-        "alt": "Vacas junto a un lago en un paisaje de montaña al atardecer",
-        "slug": "vacas-junto-al-lago-al-atardecer"
-    },
-"pato-con-alas-levantadas.jpg": {
-        "gallery": "Fauna",
-        "title": "Pato con las alas levantadas",
-        "description": "Un pato levanta las alas sobre el agua en un instante de movimiento y energía.",
-        "alt": "Pato levantando las alas sobre el agua",
-        "slug": "pato-con-alas-levantadas"
-    },
-"pato-en-la-luz-dorada.jpg": {
-        "gallery": "Fauna",
-        "title": "Pato en la luz dorada",
-        "description": "Un pato queda iluminado por la luz dorada en una escena de naturaleza serena.",
-        "alt": "Pato iluminado por la luz dorada del atardecer",
-        "slug": "pato-en-la-luz-dorada"
-    },
-"pato-comiendo.jpg": {
-        "gallery": "Fauna",
-        "title": "Pato comiendo",
-        "description": "Un pato se alimenta junto al agua en un instante cotidiano capturado en la naturaleza.",
-        "alt": "Pato alimentándose junto al agua",
-        "slug": "pato-comiendo"
-    },
-"montanas-al-atardecer.jpg": {
-        "gallery": "Paisaje",
-        "title": "Montañas al atardecer",
-        "description": "Las montañas quedan bañadas por la luz cálida de las últimas horas del día.",
-        "alt": "Paisaje de montaña iluminado por la luz del atardecer",
-        "slug": "montanas-al-atardecer"
-    },
-"salinas-al-atardecer.jpg": {
-        "gallery": "Paisaje",
-        "title": "Salinas al atardecer",
-        "description": "El paisaje de las salinas se transforma bajo la luz cálida del atardecer.",
-        "alt": "Salinas y maquinaria industrial durante el atardecer",
-        "slug": "salinas-al-atardecer"
-    },
-"mujer-con-alas-luminosas.jpg": {
-        "gallery": "Fotografía creativa",
-        "title": "Mujer con alas luminosas",
-        "description": "Una composición creativa transforma el retrato de una mujer en una escena fantástica con alas de luz.",
-        "alt": "Composición creativa de una mujer con alas de luz",
-        "slug": "mujer-con-alas-luminosas"
-    },
-"mujer-entre-estelas-de-luz.jpg": {
-        "gallery": "Fotografía creativa",
-        "title": "Mujer entre estelas de luz",
-        "description": "Una composición creativa sitúa a una mujer en un entorno rodeado de estelas luminosas.",
-        "alt": "Composición creativa de una mujer rodeada de estelas luminosas",
-        "slug": "mujer-entre-estelas-de-luz"
-    },
-"luna-sobre-la-iglesia-de-moguer.jpg": {
-        "gallery": "Astrofotografía",
-        "title": "Luna sobre la iglesia de Moguer",
-        "description": "La Luna aparece sobre la silueta de la iglesia de Moguer en una composición nocturna.",
-        "alt": "Luna sobre la iglesia de Moguer",
-        "slug": "luna-sobre-la-iglesia-de-moguer"
-    },
-"BARCO-MINIMALISMO.jpg": {
-  "gallery": "Paisaje",
-  "title": "Minimalismo azul",
-  "description": "Una pequeña embarcación se pierde en un paisaje dominado por el azul, el agua y la luz, creando una escena de gran simplicidad visual.",
-  "alt": "Pequeña embarcación sobre el agua en una escena minimalista azul",
-  "slug": "minimalismo-azul"
-},
-"calle-bola-de-cristal.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "Calle de cristal",
-  "description": "Una escena urbana transformada mediante una esfera de cristal, creando una visión diferente y sugerente de la calle.",
-  "alt": "Calle reflejada en una esfera de cristal fotográfica",
-  "slug": "calle-de-cristal"
-},
-"COLON-PUESTA-DE-SOL.jpg": {
-  "gallery": "Paisaje",
-  "title": "Colón frente al ocaso",
-  "description": "La silueta del Monumento a Colón se recorta frente al intenso resplandor del sol durante los últimos instantes del día.",
-  "alt": "Monumento a Colón recortado frente al sol al atardecer",
-  "slug": "colon-frente-al-ocaso"
-},
-"cuellar_dna_1789044017703 copia.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "Un instante compartido",
-  "description": "Una composición en blanco y negro que captura un instante íntimo entre una madre y su hija a través de una mirada llena de ternura.",
-  "alt": "Composición en blanco y negro de una madre y su hija",
-  "slug": "un-instante-compartido-2"
-},
-"GIRALDA-BELMONTE.jpg": {
-  "gallery": "Paisaje",
-  "title": "Giralda de Belmonte",
-  "description": "La escultura de la Giralda de Belmonte aparece iluminada sobre un fondo de cielo limpio y tonos cálidos.",
-  "alt": "Escultura de la Giralda de Belmonte iluminada",
-  "slug": "giralda-de-belmonte"
-},
-"GONZALO-ENTRE-SOMBRAS.jpg": {
-  "gallery": "Retratos",
-  "title": "Gonzalo entre sombras",
-  "description": "Un retrato infantil construido a partir de la luz y la sombra, con el rostro de Gonzalo emergiendo suavemente de la oscuridad.",
-  "alt": "Retrato de Gonzalo iluminado entre sombras",
-  "slug": "gonzalo-entre-sombras"
-},
-"GUADALAJARA-CHARCOS.jpg": {
-  "gallery": "Paisaje",
-  "title": "Guadalajara bajo la lluvia",
-  "description": "La arquitectura de Guadalajara se refleja en los charcos después de la lluvia, creando una atmósfera urbana oscura y cinematográfica.",
-  "alt": "Arquitectura de Guadalajara reflejada en los charcos tras la lluvia",
-  "slug": "guadalajara-bajo-la-lluvia"
-},
-"JOSE-MERCE-FLAMENCO.jpg": {
-  "gallery": "Retratos",
-  "title": "José Mercé, esencia flamenca",
-  "description": "Un retrato en blanco y negro que recoge la intensidad y la expresividad del flamenco en un escenario cargado de sombras.",
-  "alt": "Retrato en blanco y negro de José Mercé durante una actuación flamenca",
-  "slug": "jose-merce-esencia-flamenca"
-},
-"MARINA-CONVELO.jpg": {
-  "gallery": "Retratos",
-  "title": "Marina bajo el velo",
-  "description": "Un retrato íntimo en blanco y negro en el que el encaje del velo envuelve el rostro y refuerza la delicadeza de la escena.",
-  "alt": "Retrato en blanco y negro de Marina bajo un velo de encaje",
-  "slug": "marina-bajo-el-velo"
-},
-"MARINIT-BAILARINA-BALLET.jpg": {
-  "gallery": "Retratos",
-  "title": "Bailarina entre sombras",
-  "description": "Una joven bailarina aparece sentada en un espacio de grandes contrastes, donde la luz y la arquitectura acompañan la elegancia de la figura.",
-  "alt": "Retrato de una bailarina de ballet entre sombras",
-  "slug": "bailarina-entre-sombras"
-},
-"MARINITA-COLOR-BALLET.jpg": {
-  "gallery": "Retratos",
-  "title": "Bailarina en color",
-  "description": "Un retrato de ballet en el que la bailarina y la calidez de la luz crean una escena delicada y elegante.",
-  "alt": "Retrato en color de una bailarina de ballet",
-  "slug": "bailarina-en-color"
-},
-"MARINITA-PEGASO.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "Marinita y el pegaso",
-  "description": "Una composición fantástica transforma el retrato de una niña en una escena de cuento junto a un majestuoso caballo alado.",
-  "alt": "Niña con vestido rosa junto a un caballo alado en una escena fantástica",
-  "slug": "marinita-y-el-pegaso"
-},
-"MIGUEL-SOBRINO-CINTA.jpg": {
-  "gallery": "Retratos",
-  "title": "Miguel, emoción y tradición",
-  "description": "El retrato de Miguel durante una celebración tradicional captura un instante de concentración rodeado por el ambiente de la ceremonia.",
-  "alt": "Retrato de Miguel durante una celebración tradicional",
-  "slug": "miguel-emocion-y-tradicion"
-},
-"MUJER-MANTILLA.jpg": {
-  "gallery": "Retratos",
-  "title": "Mujer con mantilla",
-  "description": "Un retrato de inspiración tradicional en el que la mantilla, la expresión y la luz construyen una imagen de gran elegancia.",
-  "alt": "Retrato de una mujer con mantilla",
-  "slug": "mujer-con-mantilla"
-},
-"MUSICOS-MAESTRANZA.jpg": {
-  "gallery": "Paisaje",
-  "title": "Música entre sombras",
-  "description": "Un grupo de músicos aparece en las gradas de la Maestranza, integrado en una escena de fuerte contraste y marcado carácter urbano.",
-  "alt": "Músicos sentados en las gradas de la Maestranza",
-  "slug": "musica-entre-sombras"
-},
-"observador en torre pegi copia.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "El observador",
-  "description": "Una figura solitaria contempla el paisaje desde la orilla mientras la Torre Pelli se alza al fondo, en una composición de aire conceptual.",
-  "alt": "Figura observando la Torre Pelli desde la orilla",
-  "slug": "el-observador"
-},
-"PAISAJE-CUDILLERO.jpg": {
-  "gallery": "Paisaje",
-  "title": "Cudillero entre mareas",
-  "description": "El paisaje costero de Cudillero aparece envuelto en una atmósfera serena, con el movimiento del mar suavizado por una larga exposición.",
-  "alt": "Costa rocosa de Cudillero con el mar en larga exposición",
-  "slug": "cudillero-entre-mareas"
-},
-"PESCADOR-EL-ROMPIDO.jpg": {
-  "gallery": "Paisaje",
-  "title": "El pescador frente al ocaso",
-  "description": "La silueta de un pescador aparece frente a la luz dorada del atardecer junto al agua.",
-  "alt": "Pescador sentado frente al mar durante el atardecer",
-  "slug": "pescador-frente-al-ocaso"
-},
-"PLAZA-DE-TOROS-MAESTRANZA.jpg": {
-  "gallery": "Paisaje",
-  "title": "Luz en la Maestranza",
-  "description": "La luz atraviesa el interior de la Plaza de Toros de la Maestranza y dibuja una escena de fuertes contrastes entre luz y sombra.",
-  "alt": "Interior de la Plaza de Toros de la Maestranza iluminado por un haz de luz",
-  "slug": "luz-en-la-maestranza"
-},
-"PUESTA-DE-SOL-PICOS-DE-EUROPA.jpg": {
-  "gallery": "Paisaje",
-  "title": "Atardecer en Picos de Europa",
-  "description": "Las montañas y el ganado quedan bañados por una intensa luz anaranjada durante los últimos minutos del día.",
-  "alt": "Montañas y vacas iluminadas por el atardecer en Picos de Europa",
-  "slug": "atardecer-en-picos-de-europa"
-},
-"RETRATO-ESCRITORIO-ANA.jpg": {
-  "gallery": "Retratos",
-  "title": "Ana en el estudio",
-  "description": "Un retrato de estudio de Ana sentado en una silla, construido con una iluminación limpia y una composición sobria.",
-  "alt": "Retrato de Ana sentada en una silla en el estudio",
-  "slug": "ana-en-el-estudio"
-},
-"tormenta-torre-pegi copia.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "Tormenta sobre la torre",
-  "description": "La Torre Pelli aparece bajo un cielo dramático de nubes y contrastes, creando una interpretación intensa y cinematográfica del paisaje urbano.",
-  "alt": "Torre Pelli bajo un cielo de tormenta",
-  "slug": "tormenta-sobre-la-torre"
-},
-"torre-pelli-neblina copia.jpg": {
-  "gallery": "Paisaje",
-  "title": "La Torre Pelli entre la niebla",
-  "description": "La Torre Pelli emerge entre la niebla sobre el paisaje urbano de Sevilla, creando una escena minimalista y atmosférica.",
-  "alt": "Torre Pelli de Sevilla emergiendo entre la niebla",
-  "slug": "torre-pelli-entre-la-niebla"
-},
-"VACAS-PICOS-DE-EUROPA.jpg": {
-  "gallery": "Naturaleza",
-  "title": "Vacas bajo la luz de Picos de Europa",
-  "description": "Varias vacas descansan en el paisaje de montaña mientras las nubes y la luz crean una atmósfera cambiante sobre Picos de Europa.",
-  "alt": "Vacas en un paisaje de montaña de Picos de Europa",
-  "slug": "vacas-bajo-la-luz-de-picos-de-europa"
-},
-"VIA-LACTEA-CASTILLO.jpg": {
-  "gallery": "Astrofotografía",
-  "title": "Vía Láctea sobre el castillo",
-  "description": "La Vía Láctea se eleva sobre la silueta de un antiguo castillo, combinando arquitectura y cielo nocturno en una misma escena.",
-  "alt": "Vía Láctea sobre un castillo durante la noche",
-  "slug": "via-lactea-sobre-el-castillo"
-},
-"VIRGEN-CINTA-NOCHE.jpg": {
-  "gallery": "Nocturna",
-  "title": "La Virgen de la Cinta en la noche",
-  "description": "El monumento de la Virgen de la Cinta destaca iluminado en medio de la noche, rodeado por la oscuridad y la vegetación.",
-  "alt": "Monumento de la Virgen de la Cinta iluminado durante la noche",
-  "slug": "virgen-de-la-cinta-en-la-noche"
-},
-"VUELTA-BLANCO-NEGRO.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "La Vuelta en blanco y negro",
-  "description": "El pelotón ciclista queda convertido en una escena de ritmo y movimiento mediante un tratamiento fotográfico en blanco y negro.",
-  "alt": "Pelotón ciclista de La Vuelta en blanco y negro",
-  "slug": "la-vuelta-en-blanco-y-negro"
-},
-"VUELTA-CICLISTA.jpg": {
-  "gallery": "Fotografía creativa",
-  "title": "Fuerza sobre dos ruedas",
-  "description": "El pelotón avanza a toda velocidad en una escena deportiva llena de energía, movimiento y color.",
-  "alt": "Pelotón de ciclistas compitiendo en carretera",
-  "slug": "fuerza-sobre-dos-ruedas"
-},
-"ZARANDAS-NOCTURNA.jpg": {
-  "gallery": "Nocturna",
-  "title": "Noche en las Zarandas",
-  "description": "Las antiguas estructuras de las Zarandas se adentran en la oscuridad bajo un cielo nocturno recorrido por trazas de estrellas.",
-  "alt": "Paisaje nocturno de las Zarandas con trazas de estrellas",
-  "slug": "noche-en-las-zarandas"
-},
-"ZARANDAS-VIA-LACTEA.jpg": {
-  "gallery": "Astrofotografía",
-  "title": "Vía Láctea sobre las Zarandas",
-  "description": "La Vía Láctea atraviesa el cielo sobre las antiguas estructuras de las Zarandas, creando un paisaje nocturno de gran profundidad.",
-  "alt": "Vía Láctea sobre las estructuras de las Zarandas",
-  "slug": "via-lactea-sobre-las-zarandas"
-}
-,
-    
-        "la-guardiana-del-caballo-alado.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "La guardiana del caballo alado",
-            "description": "Una figura femenina acompaña a un majestuoso caballo alado en una escena fantástica de estética cinematográfica y carácter narrativo.",
-            "alt": "Mujer junto a un caballo alado en una escena fantástica",
-            "slug": "la-guardiana-del-caballo-alado"
-        }
-    ,
-    
-        "caballo-alado-negro-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El caballo de las sombras",
-            "description": "Un majestuoso caballo alado negro emerge de una escena de fuerte contraste, combinando fantasía, dramatismo y estética cinematográfica.",
-            "alt": "Caballo alado negro en una escena fantástica de alto contraste",
-            "slug": "caballo-alado-negro-01"
-        }
-    ,
-    
-        "boda, automovil copia.jpg": {
-            "gallery": "Retratos",
-            "title": "Boda junto al automóvil",
-            "description": "Retrato de una pareja en una escena de boda junto a un automóvil, con una composición que combina el carácter ceremonial y la presencia del vehículo.",
-            "alt": "Pareja de boda posando junto a un automóvil",
-            "slug": "boda-junto-al-automovil"
-        }
-    ,
-    
-        "carmen-victoria-libro copia.jpg": {
-            "gallery": "Retratos",
-            "title": "Carmen Victoria leyendo",
-            "description": "Carmen Victoria aparece concentrada en la lectura, en un retrato natural donde el libro se convierte en parte esencial de la escena.",
-            "alt": "Carmen Victoria leyendo un libro en un retrato fotográfico",
-            "slug": "carmen-victoria-leyendo"
-        }
-    ,
-    
-        "ciervo-entre-los-helechos-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El ciervo entre helechos",
-            "description": "Un ciervo aparece entre la vegetación del bosque, rodeado de helechos que enmarcan su figura dentro de una escena de aire naturalista.",
-            "alt": "Ciervo entre helechos en un bosque",
-            "slug": "ciervo-entre-los-helechos-01"
-        }
-    ,
-    
-        "ciervo-frente-al-ocaso.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Ciervo frente al ocaso",
-            "description": "La silueta de un ciervo se recorta ante una luz cálida de atardecer, creando una escena de fuerte carácter visual.",
-            "alt": "Ciervo recortado frente a la luz del atardecer",
-            "slug": "ciervo-frente-al-ocaso"
-        }
-    ,
-    
-        "familia-en-el-jardin.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Una familia en el jardín",
-            "description": "Una familia comparte un instante en un jardín recreado con una estética luminosa y cinematográfica, centrada en la relación entre sus integrantes.",
-            "alt": "Familia reunida en un jardín en una escena de estilo cinematográfico",
-            "slug": "familia-en-el-jardin"
-        }
-    ,
-    
-        "mujer-y-caballo-blanco.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Mujer y caballo blanco",
-            "description": "Una mujer aparece junto a un caballo blanco en una escena de estética fantástica, donde la relación entre figura humana y animal domina la composición.",
-            "alt": "Mujer junto a un caballo blanco en una escena fantástica",
-            "slug": "mujer-y-caballo-blanco"
-        }
-    ,
-    
-        "chica-caras-mitad-ia.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "Rostro dividido",
-            "description": "Una interpretación creativa transforma el retrato femenino mediante una composición que divide y multiplica visualmente el rostro.",
-            "alt": "Retrato femenino con el rostro dividido en una composición creativa",
-            "slug": "chica-caras-mitad-ia"
-        }
-    ,
-    
-        "chica-ia-1.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "Retrato transformado",
-            "description": "Un retrato femenino es reinterpretado mediante recursos de inteligencia artificial para crear una imagen de carácter artístico y experimental.",
-            "alt": "Retrato femenino transformado mediante una interpretación artística",
-            "slug": "chica-ia-1"
-        }
-    ,
-    
-        "chico-carretera-ia.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "El chico de la carretera",
-            "description": "Una figura masculina aparece integrada en una escena de carretera reinterpretada con un tratamiento visual de carácter creativo.",
-            "alt": "Hombre integrado en una escena de carretera de estilo creativo",
-            "slug": "chico-carretera-ia"
-        }
-    ,
-    
-        "ciervo-berrea.jpg": {
-            "gallery": "Fauna",
-            "title": "Ciervo durante la berrea",
-            "description": "Un ciervo protagoniza un instante de la berrea, captado en su entorno natural y con toda la fuerza característica de esta época.",
-            "alt": "Ciervo durante la berrea en su entorno natural",
-            "slug": "ciervo-berrea"
-        }
-    ,
-    
-        "felix-ana-preboda.jpg": {
-            "gallery": "Retratos",
-            "title": "Félix y Ana",
-            "description": "Retrato de pareja realizado en una sesión de preboda, buscando una composición natural y una conexión directa entre ambos protagonistas.",
-            "alt": "Retrato de Félix y Ana durante una sesión de preboda",
-            "slug": "felix-ana-preboda"
-        }
-    ,
-    
-        "gonzalo tirantes copia.jpg": {
-            "gallery": "Retratos",
-            "title": "Gonzalo con tirantes",
-            "description": "Retrato de Gonzalo en el que la expresión y la sencillez de la pose aportan naturalidad a la imagen.",
-            "alt": "Retrato de Gonzalo con tirantes",
-            "slug": "gonzalo-con-tirantes"
-        }
-    ,
-    
-        "gonzalo-picnic.jpg": {
-            "gallery": "Retratos",
-            "title": "Gonzalo de picnic",
-            "description": "Gonzalo aparece durante un momento de ocio al aire libre, en una escena espontánea y cercana.",
-            "alt": "Gonzalo durante un picnic al aire libre",
-            "slug": "gonzalo-picnic"
-        }
-    ,
-    
-        "hombre-solitario -icm.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "Hombre solitario",
-            "description": "Una figura solitaria atraviesa la escena en una interpretación ICM que utiliza el movimiento para convertir el paisaje en una imagen más evocadora.",
-            "alt": "Figura solitaria en una fotografía creativa realizada con ICM",
-            "slug": "hombre-solitario-icm"
-        }
-    ,
-    
-        "castillo-bajo-las-estrellas-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Castillo bajo las estrellas",
-            "description": "La silueta de un castillo domina un paisaje nocturno mientras un cielo estrellado envuelve la escena y refuerza su carácter fantástico.",
-            "alt": "Castillo iluminado bajo un cielo nocturno estrellado",
-            "slug": "castillo-bajo-las-estrellas-01"
-        }
-    ,
-    
-        "castillo-bajo-las-estrellas-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El castillo en la noche",
-            "description": "Un castillo emerge en medio de la noche bajo un cielo cargado de estrellas, creando una escena de aire legendario.",
-            "alt": "Castillo en un paisaje nocturno bajo las estrellas",
-            "slug": "castillo-bajo-las-estrellas-03"
-        }
-    ,
-    
-        "rostro-fragmentado-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Rostro fragmentado",
-            "description": "El rostro se descompone visualmente en una composición artística que juega con la superposición y la fragmentación de las formas.",
-            "alt": "Rostro fragmentado en una composición artística",
-            "slug": "rostro-fragmentado-01"
-        }
-    ,
-    
-        "mirada-fragmentada.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Mirada fragmentada",
-            "description": "La imagen construye un retrato fragmentado en el que distintas partes del rostro se combinan para crear una composición artística.",
-            "alt": "Retrato artístico con una mirada fragmentada",
-            "slug": "mirada-fragmentada"
-        }
-    ,
-    
-        "paisaje-en-movimiento-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Paisaje en movimiento",
-            "description": "El paisaje se transforma mediante el movimiento y el tratamiento creativo, convirtiendo las formas naturales en una composición dinámica.",
-            "alt": "Paisaje transformado mediante movimiento fotográfico",
-            "slug": "paisaje-en-movimiento-01"
-        }
-    ,
-    
-        "paisaje-en-movimiento-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Paisaje en movimiento II",
-            "description": "Una segunda interpretación del paisaje utiliza el movimiento para difuminar las formas y crear una imagen de carácter pictórico.",
-            "alt": "Paisaje abstracto creado mediante movimiento fotográfico",
-            "slug": "paisaje-en-movimiento-03"
-        }
-    ,
-    
-        "hombre-entre-la-naturaleza.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Hombre entre la naturaleza",
-            "description": "Una figura masculina aparece integrada en un paisaje natural, creando una composición en la que la presencia humana dialoga con el entorno.",
-            "alt": "Hombre integrado en un paisaje natural",
-            "slug": "hombre-entre-la-naturaleza"
-        }
-    ,
-    
-        "rostro-entre-las-hojas.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El rostro entre las hojas",
-            "description": "La vegetación envuelve parcialmente el rostro y crea una composición íntima en la que la mirada se convierte en el punto de atención.",
-            "alt": "Rostro femenino parcialmente oculto entre hojas",
-            "slug": "rostro-entre-las-hojas"
-        }
-    ,
-    
-        "retrato-entre-hojas.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Retrato entre hojas",
-            "description": "Un retrato aparece integrado entre la vegetación, utilizando las hojas como marco natural alrededor del rostro.",
-            "alt": "Retrato femenino integrado entre hojas",
-            "slug": "retrato-entre-hojas"
-        }
-    ,
-    
-        "mujer-y-paisaje.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Mujer frente al paisaje",
-            "description": "Una figura femenina se integra en un paisaje amplio, creando una composición en la que la persona y el entorno comparten protagonismo.",
-            "alt": "Mujer integrada en un paisaje amplio",
-            "slug": "mujer-y-paisaje"
-        }
-    ,
-    
-        "abrazo-en-penumbra.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Abrazo en penumbra",
-            "description": "Una pareja se funde en un abrazo dentro de una escena de luz contenida y sombras profundas, con una atmósfera íntima y cinematográfica.",
-            "alt": "Pareja abrazada en una escena de penumbra con iluminación cinematográfica",
-            "slug": "abrazo-en-penumbra"
-        }
-    ,
-    
-        "mirada-entre-hojas.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Mirada entre hojas",
-            "description": "Un rostro aparece parcialmente oculto entre hojas, utilizando la vegetación como marco para dirigir la atención hacia la mirada.",
-            "alt": "Rostro femenino observado entre hojas",
-            "slug": "mirada-entre-hojas"
-        }
-    ,
-    
-        "instante-compartido-2.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Un instante compartido II",
-            "description": "Una composición artística reúne a dos personas en un momento íntimo, utilizando la superposición de imágenes para crear una escena de carácter onírico.",
-            "alt": "Composición artística de dos personas en un instante íntimo",
-            "slug": "instante-compartido-2"
-        }
-    ,
-    
-        "mundos-suspendidos-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Mundos suspendidos",
-            "description": "Una composición surrealista reúne elementos flotantes en un espacio imposible, creando una escena de carácter onírico.",
-            "alt": "Composición surrealista con elementos suspendidos en el espacio",
-            "slug": "mundos-suspendidos-01"
-        }
-    ,
-    
-        "mundos-suspendidos-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Mundos suspendidos II",
-            "description": "Una nueva interpretación de mundos suspendidos juega con la escala, la perspectiva y la sensación de ingravidez.",
-            "alt": "Composición artística surrealista con elementos suspendidos",
-            "slug": "mundos-suspendidos-03"
-        }
-    ,
-    
-        "ciudad-reflejada.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Ciudad reflejada",
-            "description": "La arquitectura de una ciudad se transforma mediante reflejos que alteran la perspectiva y convierten el paisaje urbano en una composición abstracta.",
-            "alt": "Arquitectura de una ciudad transformada mediante reflejos",
-            "slug": "ciudad-reflejada"
-        }
-    ,
-    
-        "bosque-reflejado.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El bosque reflejado",
-            "description": "Un bosque se duplica mediante un reflejo que transforma la escena natural en una composición simétrica y sugerente.",
-            "alt": "Bosque reflejado creando una composición simétrica",
-            "slug": "bosque-reflejado"
-        }
-    ,
-    
-        "arquitectura-invertida.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Arquitectura invertida",
-            "description": "Una construcción urbana aparece transformada mediante una composición invertida que convierte las líneas arquitectónicas en un juego visual.",
-            "alt": "Arquitectura urbana transformada mediante una composición invertida",
-            "slug": "arquitectura-invertida"
-        }
-    ,
-    
-        "reflejos-azules.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Reflejos azules",
-            "description": "Los reflejos y los tonos azules convierten la escena en una composición abstracta en la que las formas pierden parte de su apariencia real.",
-            "alt": "Composición abstracta de reflejos en tonos azules",
-            "slug": "reflejos-azules"
-        }
-    ,
-    
-        "calle-medieval-cinematografica-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "La calle medieval",
-            "description": "Una antigua calle de arquitectura medieval aparece reinterpretada con una iluminación cinematográfica que acentúa sus volúmenes y profundidad.",
-            "alt": "Calle de arquitectura medieval con iluminación cinematográfica",
-            "slug": "calle-medieval-cinematografica-01"
-        }
-    ,
-    
-        "calle-medieval-cinematografica-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "La calle de otra época",
-            "description": "Una calle medieval es presentada como una escena de época, con perspectiva profunda y una iluminación que refuerza su carácter cinematográfico.",
-            "alt": "Calle medieval reinterpretada como una escena cinematográfica",
-            "slug": "calle-medieval-cinematografica-03"
-        }
-    ,
-    
-        "arbol-solitario-bajo-las-estrellas-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El árbol bajo las estrellas",
-            "description": "Un árbol solitario se recorta ante un cielo nocturno poblado de estrellas, creando una composición serena y de gran profundidad.",
-            "alt": "Árbol solitario bajo un cielo estrellado durante la noche",
-            "slug": "arbol-solitario-bajo-las-estrellas-01"
-        }
-    ,
-    
-        "arbol-solitario-bajo-las-estrellas-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El árbol y la noche",
-            "description": "La silueta de un árbol domina un paisaje nocturno en el que el cielo estrellado aporta profundidad y una sensación de aislamiento.",
-            "alt": "Árbol solitario recortado contra un cielo nocturno estrellado",
-            "slug": "arbol-solitario-bajo-las-estrellas-03"
-        }
-    ,
-    
-        "columnas-bajo-la-noche-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Columnas bajo la noche",
-            "description": "Una sucesión de columnas aparece iluminada en la oscuridad, creando profundidad y un ambiente monumental de inspiración cinematográfica.",
-            "alt": "Columnas iluminadas en una escena arquitectónica nocturna",
-            "slug": "columnas-bajo-la-noche-01"
-        }
-    ,
-    
-        "columnas-bajo-la-noche-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El templo en la oscuridad",
-            "description": "Las columnas de una antigua arquitectura destacan frente al cielo nocturno, reforzando la sensación de misterio y profundidad.",
-            "alt": "Columnas de arquitectura clásica bajo el cielo nocturno",
-            "slug": "columnas-bajo-la-noche-03"
-        }
-    ,
-    
-        "martin-pescador-en-accion-01.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "Martín pescador en acción",
-            "description": "Un martín pescador aparece captado en pleno movimiento, con la escena centrada en la velocidad y precisión características de esta ave.",
-            "alt": "Martín pescador captado en pleno vuelo y movimiento",
-            "slug": "martin-pescador-en-accion-01"
-        }
-    ,
-    
-        "martin-pescador-en-accion-03.jpg": {
-            "gallery": "Creaciones con IA",
-            "title": "El vuelo del martín pescador",
-            "description": "La acción de un martín pescador se convierte en el centro de una composición dinámica que destaca el movimiento del ave.",
-            "alt": "Martín pescador en una escena dinámica de vuelo",
-            "slug": "martin-pescador-en-accion-03"
-        }
-    ,
-    
-        "marinit-bosque.jpg": {
-            "gallery": "Retratos",
-            "title": "Marinita en el bosque",
-            "description": "Retrato de Marinita integrado en un entorno natural, donde la vegetación aporta profundidad y enmarca la figura.",
-            "alt": "Retrato de Marinita en un bosque",
-            "slug": "marinit-bosque"
-        }
-    ,
-    
-        "marinita-arcos-flores.jpg": {
-            "gallery": "Retratos",
-            "title": "Marinita entre flores",
-            "description": "Marinita posa entre arcos y flores en una escena de carácter delicado, construida alrededor del color y la composición.",
-            "alt": "Retrato de Marinita entre arcos y flores",
-            "slug": "marinita-arcos-flores"
-        }
-    ,
-    
-        "marinita-arcos.jpg": {
-            "gallery": "Retratos",
-            "title": "Marinita bajo los arcos",
-            "description": "Marinita aparece bajo una sucesión de arcos que enmarcan su figura y aportan profundidad arquitectónica al retrato.",
-            "alt": "Retrato de Marinita bajo unos arcos",
-            "slug": "marinita-arcos"
-        }
-    ,
-    
-        "marinita-guitarra.jpg": {
-            "gallery": "Retratos",
-            "title": "Marinita con guitarra",
-            "description": "Retrato de Marinita con una guitarra, en una escena que combina la naturalidad de la pose con el carácter musical del instrumento.",
-            "alt": "Retrato de Marinita con una guitarra",
-            "slug": "marinita-guitarra"
-        }
-    ,
-    
-        "marinita-paseo.jpg": {
-            "gallery": "Retratos",
-            "title": "Marinita de paseo",
-            "description": "Marinita aparece durante un paseo en una escena natural y luminosa, captando un momento de espontaneidad.",
-            "alt": "Retrato de Marinita durante un paseo",
-            "slug": "marinita-paseo"
-        }
-    ,
-    
-        "martin-pescador-noche.jpg": {
-            "gallery": "Fauna",
-            "title": "Martín pescador nocturno",
-            "description": "Un martín pescador aparece en una interpretación nocturna de la escena, destacando su silueta frente a un ambiente oscuro.",
-            "alt": "Martín pescador en una escena nocturna",
-            "slug": "martin-pescador-noche"
-        }
-    ,
-    
-        "martina-canasta.jpg": {
-            "gallery": "Retratos",
-            "title": "Martina con su canasta",
-            "description": "Retrato de Martina junto a una canasta, construido alrededor de una pose natural y una estética cálida.",
-            "alt": "Retrato de Martina junto a una canasta",
-            "slug": "martina-canasta"
-        }
-    ,
-    
-        "mujer1 copia.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "Mujer entre sombras",
-            "description": "Un retrato femenino utiliza el contraste entre luz y oscuridad para construir una imagen de carácter expresivo y creativo.",
-            "alt": "Retrato de una mujer entre luces y sombras",
-            "slug": "mujer-entre-sombras"
-        }
-    ,
-    
-        "musico-guitarra.jpg": {
-            "gallery": "Retratos",
-            "title": "Músico con guitarra",
-            "description": "Retrato de un músico con su guitarra, centrado en la presencia del intérprete y el carácter del instrumento.",
-            "alt": "Retrato de un músico con una guitarra",
-            "slug": "musico-con-guitarra"
-        }
-    ,
-    
-        "osuna2 copia.jpg": {
-            "gallery": "Nocturna",
-            "title": "Osuna de noche",
-            "description": "La arquitectura de Osuna aparece bajo la iluminación nocturna, con las sombras y las luces construyendo una atmósfera serena.",
-            "alt": "Arquitectura de Osuna iluminada durante la noche",
-            "slug": "osuna-de-noche"
-        }
-    ,
-    
-        "pareja-ia.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "Pareja en una nueva realidad",
-            "description": "Una pareja aparece reinterpretada mediante un tratamiento creativo que transforma la escena y refuerza su carácter artístico.",
-            "alt": "Pareja en una composición fotográfica creativa",
-            "slug": "pareja-ia"
-        }
-    ,
-    
-        "plaza de la merced copia.jpg": {
-            "gallery": "Fotografía creativa",
-            "title": "Plaza de la Merced",
-            "description": "La Plaza de la Merced aparece reinterpretada mediante una composición creativa que juega con la perspectiva y el ambiente urbano.",
-            "alt": "Plaza de la Merced en una interpretación fotográfica creativa",
-            "slug": "plaza-de-la-merced"
-        }
-    ,
-    
-        "salamanca-sin-luna copia.jpg": {
-            "gallery": "Nocturna",
-            "title": "Salamanca sin luna",
-            "description": "La arquitectura nocturna de Salamanca aparece sin la presencia de la luna, dejando que la iluminación urbana y el cielo oscuro definan la escena.",
-            "alt": "Arquitectura de Salamanca durante una noche sin luna",
-            "slug": "salamanca-sin-luna"
-        }
-    ,
-    
-        "torre-circumpolar.jpg": {
-            "gallery": "Astrofotografía",
-            "title": "Torre bajo las estrellas",
-            "description": "Una torre se recorta frente a un cielo nocturno en el que las estrellas dibujan trazas circulares alrededor del polo celeste.",
-            "alt": "Torre bajo un cielo nocturno con trazas circumpolares",
-            "slug": "torre-bajo-las-estrellas"
-        },
+  "524752935_739886498932117_3281677400352457746_n.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "arrecife-de-las-sirenas2.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "castillo-navarra.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "iruela-publicar.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "lavanda.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "luna-saliendo-moguer.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "via-lactea-de-david.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "via-paimogo.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "villalba.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "curruca-en-galaroza.jpg": {
+    "gallery": "Fauna"
+  },
+  "lince-doñana-atardecer.jpg": {
+    "gallery": "Fauna"
+  },
+  "lince-en-doñana 2.jpg": {
+    "gallery": "Fauna"
+  },
+  "palomas-ala-levantada.jpg": {
+    "gallery": "Fauna"
+  },
+  "petirrojo-galaroza.jpg": {
+    "gallery": "Fauna"
+  },
+  "picapino.jpg": {
+    "gallery": "Fauna"
+  },
+  "trepador-galaroza.jpg": {
+    "gallery": "Fauna"
+  },
+  "verdon.jpg": {
+    "gallery": "Fauna"
+  },
+  "cogida-de-torero.jpg": {
+    "gallery": "Fotografía creativa"
+  },
+  "mariposa-marron.jpg": {
+    "gallery": "Macro"
+  },
+  "mariposa-posada.jpg": {
+    "gallery": "Macro"
+  },
+  "ayamonte-salida-de-luna.jpg": {
+    "gallery": "Nocturna"
+  },
+  "bardenas.jpg": {
+    "gallery": "Paisaje"
+  },
+  "catedral.jpg": {
+    "gallery": "Paisaje"
+  },
+  "fatima.jpg": {
+    "gallery": "Paisaje"
+  },
+  "la-matilla2.jpg": {
+    "gallery": "Paisaje"
+  },
+  "mariscadores.jpg": {
+    "gallery": "Paisaje"
+  },
+  "monumento-al-soldado.jpg": {
+    "gallery": "Paisaje"
+  },
+  "plaza-de-la-paregrina.jpg": {
+    "gallery": "Paisaje"
+  },
+  "puesta-de-sol--en-las-marismas.jpg": {
+    "gallery": "Paisaje"
+  },
+  "rocio.jpg": {
+    "gallery": "Paisaje"
+  },
+  "trillo-catarata.jpg": {
+    "gallery": "Paisaje"
+  },
+  "autor-en-torre-del-loro.jpg": {
+    "gallery": "Retratos"
+  },
+  "hombre-carnaval.jpg": {
+    "gallery": "Retratos"
+  },
+  "marina-peinado.jpg": {
+    "gallery": "Retratos"
+  },
+  "via-lactea-silos-2.jpg": {
+    "gallery": "Astrofotografía"
+  },
+  "martin-pescador-pelea10": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea10",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea10",
+    "slug": "martin-pescador-pelea10"
+  },
+  "martin-pescador-pelea11": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea11",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea11",
+    "slug": "martin-pescador-pelea11"
+  },
+  "martin-pescador-pelea12": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea12",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea12",
+    "slug": "martin-pescador-pelea12"
+  },
+  "martin-pescador-pelea13": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea13",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea13",
+    "slug": "martin-pescador-pelea13"
+  },
+  "martin-pescador-pelea14": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea14",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea14",
+    "slug": "martin-pescador-pelea14"
+  },
+  "martin-pescador-pelea15": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea15",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea15",
+    "slug": "martin-pescador-pelea15"
+  },
+  "martin-pescador-pelea16": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea16",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea16",
+    "slug": "martin-pescador-pelea16"
+  },
+  "martin-pescador-pelea17": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea17",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea17",
+    "slug": "martin-pescador-pelea17"
+  },
+  "martin-pescador-pelea19": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea19",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea19",
+    "slug": "martin-pescador-pelea19"
+  },
+  "martin-pescador-pelea2": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea2",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea2",
+    "slug": "martin-pescador-pelea2"
+  },
+  "martin-pescador-pelea21": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea21",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea21",
+    "slug": "martin-pescador-pelea21"
+  },
+  "martin-pescador-pelea22": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea22",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea22",
+    "slug": "martin-pescador-pelea22"
+  },
+  "martin-pescador-pelea23": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea23",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea23",
+    "slug": "martin-pescador-pelea23"
+  },
+  "martin-pescador-pelea24": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea24",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea24",
+    "slug": "martin-pescador-pelea24"
+  },
+  "martin-pescador-pelea25": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea25",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea25",
+    "slug": "martin-pescador-pelea25"
+  },
+  "martin-pescador-pelea3": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea3",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea3",
+    "slug": "martin-pescador-pelea3"
+  },
+  "martin-pescador-pelea4": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea4",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea4",
+    "slug": "martin-pescador-pelea4"
+  },
+  "martin-pescador-pelea5": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea5",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea5",
+    "slug": "martin-pescador-pelea5"
+  },
+  "martin-pescador-pelea6": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea6",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea6",
+    "slug": "martin-pescador-pelea6"
+  },
+  "martin-pescador-pelea7": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea7",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea7",
+    "slug": "martin-pescador-pelea7"
+  },
+  "martin-pescador-pelea8": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea8",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea8",
+    "slug": "martin-pescador-pelea8"
+  },
+  "martin-pescador-pelea9": {
+    "gallery": "Fauna",
+    "title": "Martin pescador pelea9",
+    "description": "Serie dedicada al martín pescador en plena disputa territorial, captando la tensión y la energía de uno de los encuentros más espectaculares de la fauna de nuestros humedales. El instante de la confrontación revela la velocidad, precisión y fuerza de estas pequeñas aves, congeladas en pleno vuelo con el agua como escenario.",
+    "alt": "Martin pescador pelea9",
+    "slug": "martin-pescador-pelea9"
+  },
+  "ana-collage-retratos-banco.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en el banco",
+    "description": "ComposiciÃ³n de retratos de Ana en blanco y negro, reunidos en una secuencia de poses y gestos que explora distintas facetas de su presencia ante la cÃ¡mara.",
+    "alt": "Collage de retratos de Ana en blanco y negro sentada y posando en un banco.",
+    "slug": "ana-collage-retratos-banco"
+  },
+  "ana-collage-retratos-blanco-y-negro.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en blanco y negro",
+    "description": "Collage de retratos de Ana tratado en blanco y negro, donde diferentes expresiones, poses y encuadres construyen una interpretaciÃ³n grÃ¡fica y atemporal del retrato.",
+    "alt": "Collage artÃ­stico de varios retratos de Ana en blanco y negro.",
+    "slug": "ana-collage-retratos-blanco-y-negro"
+  },
+  "ana-collage-retratos-color.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, cuatro miradas",
+    "description": "Collage de retratos en color que reÃºne primeros planos y diferentes actitudes de Ana, combinando expresividad, maquillaje y una estÃ©tica editorial contemporÃ¡nea.",
+    "alt": "Collage de retratos en color de Ana con diferentes poses y primeros planos.",
+    "slug": "ana-collage-retratos-color"
+  },
+  "ana-collage-retratos-estilos.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, diferentes estilos",
+    "description": "Serie de retratos que reÃºne distintas caracterizaciones de Ana, desde una estÃ©tica sofisticada hasta imÃ¡genes mÃ¡s espontÃ¡neas, mostrando la versatilidad del personaje frente a la cÃ¡mara.",
+    "alt": "Collage de retratos de Ana con diferentes estilos, poses y caracterizaciones.",
+    "slug": "ana-collage-retratos-estilos"
+  },
+  "ana-collage-retratos-estudio.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en estudio",
+    "description": "ComposiciÃ³n de retratos de estudio de Ana construida a partir de diferentes poses y expresiones, con una estÃ©tica limpia que pone el protagonismo en la modelo.",
+    "alt": "Collage de retratos de estudio de Ana con diferentes poses y expresiones.",
+    "slug": "ana-collage-retratos-estudio"
+  },
+  "ana-collage-retratos-vestido-gris.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en vestido gris",
+    "description": "Collage editorial de Ana con vestido gris, combinando distintas poses y encuadres para construir una secuencia de retrato elegante y natural.",
+    "alt": "Collage de retratos de Ana con vestido gris en diferentes poses.",
+    "slug": "ana-collage-retratos-vestido-gris"
+  },
+  "ana-doble-exposicion-montanas.jpg": {
+    "gallery": "retratos",
+    "title": "Ana entre montaÃ±as",
+    "description": "Retrato conceptual construido mediante doble exposiciÃ³n, fusionando el rostro de Ana con un paisaje montaÃ±oso para crear una imagen donde figura y naturaleza forman una misma composiciÃ³n.",
+    "alt": "Retrato de doble exposiciÃ³n de Ana integrado con un paisaje de montaÃ±as.",
+    "slug": "ana-doble-exposicion-montanas"
+  },
+  "ana-retrato-biblioteca-telas.jpg": {
+    "gallery": "retratos",
+    "title": "Ana entre telas",
+    "description": "Retrato escÃ©nico de Ana rodeada de grandes telas en un interior de aire clÃ¡sico, donde el movimiento de las telas aporta profundidad, dinamismo y una marcada sensaciÃ³n teatral.",
+    "alt": "Retrato de Ana entre grandes telas en un interior de estilo clÃ¡sico.",
+    "slug": "ana-retrato-biblioteca-telas"
+  },
+  "ana-retrato-blanco-y-negro.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, mirada serena",
+    "description": "Retrato en blanco y negro de Ana tratado con una estÃ©tica Ã­ntima y elegante, centrado en la expresiÃ³n, la mirada y la delicadeza de la pose.",
+    "alt": "Retrato en blanco y negro de Ana con una expresiÃ³n serena y elegante.",
+    "slug": "ana-retrato-blanco-y-negro"
+  },
+  "ana-retrato-casual-telefono.jpg": {
+    "gallery": "retratos",
+    "title": "Ana con el telÃ©fono",
+    "description": "Retrato espontÃ¡neo de Ana mirando su telÃ©fono, captado en un momento cotidiano que contrasta con la puesta en escena mÃ¡s elaborada de otros retratos de la serie.",
+    "alt": "Retrato de Ana mirando su telÃ©fono en un momento cotidiano.",
+    "slug": "ana-retrato-casual-telefono"
+  },
+  "ana-retrato-danza-vestido-rojo.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en movimiento",
+    "description": "Retrato de inspiraciÃ³n escÃ©nica en el que Ana, vestida de rojo, aparece suspendida en movimiento mientras una gran tela acompaÃ±a la figura y amplifica la sensaciÃ³n de danza.",
+    "alt": "Retrato artÃ­stico de Ana con vestido rojo y una tela en movimiento.",
+    "slug": "ana-retrato-danza-vestido-rojo"
+  },
+  "ana-retrato-editorial-pantalon-blanco.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, retrato editorial",
+    "description": "Retrato editorial de Ana con una estilizaciÃ³n sobria y contemporÃ¡nea, construido alrededor de una pose frontal y una iluminaciÃ³n limpia que realza la presencia de la modelo.",
+    "alt": "Retrato editorial de Ana con pantalÃ³n blanco y chaqueta de tono oscuro.",
+    "slug": "ana-retrato-editorial-pantalon-blanco"
+  },
+  "ana-retrato-editorial-traje-gris.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, traje gris",
+    "description": "Retrato editorial en blanco y negro de Ana con traje gris, planteado con una estÃ©tica de moda minimalista y una pose de fuerte presencia visual.",
+    "alt": "Retrato editorial en blanco y negro de Ana con traje gris.",
+    "slug": "ana-retrato-editorial-traje-gris"
+  },
+  "ana-retrato-embarazo-cerezos.jpg": {
+    "gallery": "retratos",
+    "title": "Ana entre cerezos",
+    "description": "Retrato de maternidad de Ana ante un fondo de flores de cerezo, donde la figura y el paisaje primaveral crean una escena delicada, luminosa y de carÃ¡cter poÃ©tico.",
+    "alt": "Retrato de maternidad de Ana ante Ã¡rboles en flor de color rosa.",
+    "slug": "ana-retrato-embarazo-cerezos"
+  },
+  "ana-retrato-embarazo-telas.jpg": {
+    "gallery": "retratos",
+    "title": "Ana y las telas",
+    "description": "Retrato de maternidad de Ana envuelta visualmente por grandes telas blancas, utilizando el tejido, la luz y la arquitectura del espacio para crear una escena elegante y etÃ©rea.",
+    "alt": "Retrato de maternidad de Ana entre grandes telas blancas.",
+    "slug": "ana-retrato-embarazo-telas"
+  },
+  "ana-retrato-estudio-blanco.jpg": {
+    "gallery": "retratos",
+    "title": "Ana sobre fondo blanco",
+    "description": "Retrato de estudio de Ana con una puesta en escena limpia y minimalista, en la que la iluminaciÃ³n uniforme y el vestuario blanco concentran la atenciÃ³n en el rostro y la actitud.",
+    "alt": "Retrato de estudio de Ana con vestuario blanco sobre fondo claro.",
+    "slug": "ana-retrato-estudio-blanco"
+  },
+  "ana-retrato-estudio-fondo-amarillo.jpg": {
+    "gallery": "retratos",
+    "title": "Ana sobre amarillo",
+    "description": "Retrato de estudio de Ana frente a un fondo amarillo intenso, construido con una estÃ©tica editorial de alto contraste que combina elegancia, fuerza y color.",
+    "alt": "Retrato de Ana en estudio con traje oscuro y fondo amarillo.",
+    "slug": "ana-retrato-estudio-fondo-amarillo"
+  },
+  "ana-retrato-fotografia-y-dibujo.jpg": {
+    "gallery": "retratos",
+    "title": "Ana entre fotografÃ­a y dibujo",
+    "description": "ComposiciÃ³n artÃ­stica que combina el retrato fotogrÃ¡fico de Ana con una ilustraciÃ³n dibujada, creando un diÃ¡logo visual entre la persona real y su representaciÃ³n grÃ¡fica.",
+    "alt": "ComposiciÃ³n de Ana junto a un dibujo de su figura.",
+    "slug": "ana-retrato-fotografia-y-dibujo"
+  },
+  "ana-retrato-geometrico.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en geometrÃ­a",
+    "description": "Retrato conceptual de Ana integrado con formas geomÃ©tricas y texturas arquitectÃ³nicas, utilizando planos superpuestos para transformar el rostro y la figura en una composiciÃ³n grÃ¡fica.",
+    "alt": "Retrato conceptual de Ana integrado con formas geomÃ©tricas y texturas.",
+    "slug": "ana-retrato-geometrico"
+  },
+  "ana-retrato-ilustracion-blanco-y-negro.jpg": {
+    "gallery": "retratos",
+    "title": "Ana ilustrada",
+    "description": "Retrato artÃ­stico en blanco y negro que transforma la imagen de Ana en una interpretaciÃ³n grÃ¡fica de lÃ­neas limpias y acabado ilustrado, entre fotografÃ­a y dibujo.",
+    "alt": "Retrato artÃ­stico de Ana reinterpretado con estÃ©tica de ilustraciÃ³n en blanco y negro.",
+    "slug": "ana-retrato-ilustracion-blanco-y-negro"
+  },
+  "ana-retrato-ilustracion-maquillaje.jpg": {
+    "gallery": "retratos",
+    "title": "Ana entre pinceles",
+    "description": "Retrato conceptual en el que Ana aparece acompaÃ±ada por pinceles y elementos de maquillaje, fusionando el lenguaje del retrato con una estÃ©tica de ilustraciÃ³n y belleza editorial.",
+    "alt": "Retrato ilustrado de Ana rodeada de pinceles y elementos de maquillaje.",
+    "slug": "ana-retrato-ilustracion-maquillaje"
+  },
+  "ana-retrato-instagram-movil.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en Instagram",
+    "description": "Retrato construido alrededor de la pantalla de un telÃ©fono mÃ³vil, donde la imagen de Ana aparece integrada en una escena cotidiana que conecta el retrato fotogrÃ¡fico con las redes sociales.",
+    "alt": "Retrato de Ana mostrado en la pantalla de un telÃ©fono mÃ³vil con Instagram.",
+    "slug": "ana-retrato-instagram-movil"
+  },
+  "ana-retrato-luz-de-persianas.jpg": {
+    "gallery": "retratos",
+    "title": "Ana entre persianas",
+    "description": "Retrato de Ana iluminado por franjas de luz y sombra proyectadas a travÃ©s de persianas, creando un juego grÃ¡fico que modela el rostro y aporta una atmÃ³sfera cinematogrÃ¡fica.",
+    "alt": "Retrato de Ana iluminada por sombras de persianas.",
+    "slug": "ana-retrato-luz-de-persianas"
+  },
+  "ana-retrato-motociclista-futurista.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, visiÃ³n futurista",
+    "description": "Retrato conceptual de estÃ©tica futurista en el que Ana aparece asociada a una motocicleta y un entorno de carÃ¡cter fantÃ¡stico, combinando moda, tecnologÃ­a y narrativa visual.",
+    "alt": "Retrato futurista de Ana junto a una motocicleta en un escenario fantÃ¡stico.",
+    "slug": "ana-retrato-motociclista-futurista"
+  },
+  "ana-retrato-pantalon-rayas.jpg": {
+    "gallery": "retratos",
+    "title": "Ana de rojo en el estudio",
+    "description": "Retrato de Ana en un espacio industrial de grandes ventanales, con chaqueta roja y pantalÃ³n de rayas, planteado con una estÃ©tica editorial urbana y contemporÃ¡nea.",
+    "alt": "Retrato de Ana con chaqueta roja y pantalÃ³n de rayas en un espacio industrial.",
+    "slug": "ana-retrato-pantalon-rayas"
+  },
+  "ana-retrato-running-atardecer.jpg": {
+    "gallery": "retratos",
+    "title": "Ana al correr",
+    "description": "Retrato de acciÃ³n de Ana corriendo por un camino al atardecer, donde la luz cÃ¡lida del sol y el movimiento del cuerpo convierten el ejercicio en una escena de carÃ¡cter cinematogrÃ¡fico.",
+    "alt": "Retrato de Ana corriendo por un camino al atardecer.",
+    "slug": "ana-retrato-running-atardecer"
+  },
+  "ana-retrato-sombrero-negro.jpg": {
+    "gallery": "retratos",
+    "title": "Ana bajo el sombrero",
+    "description": "Retrato en blanco y negro de Ana con sombrero negro y chaqueta de cuero, construido con una estÃ©tica de fuerte contraste y una presencia visual inspirada en el cine clÃ¡sico.",
+    "alt": "Retrato en blanco y negro de Ana con sombrero negro y chaqueta de cuero.",
+    "slug": "ana-retrato-sombrero-negro"
+  },
+  "ana-retrato-terraza-noche.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en la noche",
+    "description": "Retrato nocturno de Ana en una terraza iluminada por luces cÃ¡lidas, donde la pose y el ambiente urbano crean una escena Ã­ntima de estÃ©tica cinematogrÃ¡fica.",
+    "alt": "Retrato nocturno de Ana sentada en una terraza iluminada con luces cÃ¡lidas.",
+    "slug": "ana-retrato-terraza-noche"
+  },
+  "ana-retrato-urbano-gafas.jpg": {
+    "gallery": "retratos",
+    "title": "Ana, retrato urbano",
+    "description": "Retrato de Ana con gafas de sol y sombrero, integrado en una estÃ©tica urbana y contemporÃ¡nea que combina actitud, moda y una iluminaciÃ³n de marcado carÃ¡cter editorial.",
+    "alt": "Retrato urbano de Ana con gafas de sol y sombrero.",
+    "slug": "ana-retrato-urbano-gafas"
+  },
+  "ana-retrato-vestido-azul-espejo.jpg": {
+    "gallery": "retratos",
+    "title": "Ana ante el espejo",
+    "description": "Retrato escÃ©nico de Ana con vestido azul ante un espejo, utilizando la arquitectura, la oscuridad y el reflejo para crear una composiciÃ³n elegante y envolvente.",
+    "alt": "Retrato de Ana con vestido azul ante un espejo en un espacio oscuro.",
+    "slug": "ana-retrato-vestido-azul-espejo"
+  },
+  "ana-retrato-vestido-azul-noche.jpg": {
+    "gallery": "retratos",
+    "title": "Ana de azul",
+    "description": "Retrato nocturno de Ana con vestido azul, construido alrededor de una pose elegante y un juego de luz ambiental que separa la figura del fondo oscuro.",
+    "alt": "Retrato nocturno de Ana con vestido azul.",
+    "slug": "ana-retrato-vestido-azul-noche"
+  },
+  "ana-retrato-vintage-fondo-rojo.jpg": {
+    "gallery": "retratos",
+    "title": "Ana en rojo",
+    "description": "Retrato de inspiraciÃ³n vintage de Ana sobre un fondo rojo intenso, con vestuario oscuro y una puesta en escena de fuerte carÃ¡cter cinematogrÃ¡fico.",
+    "alt": "Retrato de Ana con estÃ©tica vintage sobre fondo rojo intenso.",
+    "slug": "ana-retrato-vintage-fondo-rojo"
+  },
+  "via-lactea-en-picos-de-europa.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Vía Láctea en Picos de Europa",
+    "description": "La Vía Láctea se eleva sobre las montañas de Picos de Europa en una noche limpia y llena de estrellas.",
+    "alt": "Vía Láctea sobre las montañas de Picos de Europa",
+    "slug": "via-lactea-en-picos-de-europa"
+  },
+  "via-lactea-sobre-la-costa-asturiana.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Vía Láctea sobre la costa asturiana",
+    "description": "La Vía Láctea ilumina el cielo nocturno sobre la costa rocosa de Asturias.",
+    "alt": "Vía Láctea sobre la costa rocosa de Asturias",
+    "slug": "via-lactea-sobre-la-costa-asturiana"
+  },
+  "atardecer-en-cabo-vidio.jpg": {
+    "gallery": "Paisaje",
+    "title": "Atardecer en Cabo Vidio",
+    "description": "La costa de Cabo Vidio se transforma bajo la luz cálida de un atardecer sobre el Cantábrico.",
+    "alt": "Atardecer sobre la costa de Cabo Vidio",
+    "slug": "atardecer-en-cabo-vidio"
+  },
+  "cabo-vidio-al-atardecer.jpg": {
+    "gallery": "Paisaje",
+    "title": "Cabo Vidio al atardecer",
+    "description": "Una vista de la costa de Cabo Vidio durante los últimos instantes de luz del día.",
+    "alt": "Costa de Cabo Vidio iluminada por el atardecer",
+    "slug": "cabo-vidio-al-atardecer"
+  },
+  "ciudad-frente-al-ocaso.jpg": {
+    "gallery": "Paisaje",
+    "title": "La ciudad frente al ocaso",
+    "description": "La ciudad se recorta frente al mar mientras el cielo adquiere los tonos del ocaso.",
+    "alt": "Ciudad y arquitectura junto al mar durante el ocaso",
+    "slug": "ciudad-frente-al-ocaso"
+  },
+  "fragmentos-de-un-atardecer.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Fragmentos de un atardecer",
+    "description": "Una composición creativa construida a partir de diferentes fragmentos de un atardecer.",
+    "alt": "Composición creativa formada por escenas de un atardecer",
+    "slug": "fragmentos-de-un-atardecer"
+  },
+  "un-instante-compartido.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Un instante compartido",
+    "description": "Una composición creativa que captura un instante íntimo y compartido frente al mar.",
+    "alt": "Composición creativa de una pareja frente al mar",
+    "slug": "un-instante-compartido"
+  },
+  "entre-burbujas.jpg": {
+    "gallery": "Retratos",
+    "title": "Entre burbujas",
+    "description": "Un retrato infantil lleno de movimiento y espontaneidad durante un juego entre burbujas.",
+    "alt": "Retrato infantil jugando entre burbujas",
+    "slug": "entre-burbujas"
+  },
+  "una-tarde-de-aventuras.jpg": {
+    "gallery": "Retratos",
+    "title": "Una tarde de aventuras",
+    "description": "Un retrato infantil protagonizado por una escena de aventura, juego e imaginación.",
+    "alt": "Retrato infantil en una escena de aventura y juego",
+    "slug": "una-tarde-de-aventuras"
+  },
+  "una-sonrisa-en-la-luz.jpg": {
+    "gallery": "Retratos",
+    "title": "Una sonrisa en la luz",
+    "description": "Un retrato infantil en el que la expresión y la iluminación son las protagonistas.",
+    "alt": "Retrato infantil con iluminación de estudio",
+    "slug": "una-sonrisa-en-la-luz"
+  },
+  "entre-flores-y-suenos.jpg": {
+    "gallery": "Retratos",
+    "title": "Entre flores y sueños",
+    "description": "Un retrato infantil integrado en una escena imaginativa rodeada de flores.",
+    "alt": "Retrato infantil en una escena rodeada de flores",
+    "slug": "entre-flores-y-suenos"
+  },
+  "iglesia-bajo-la-via-lactea.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "La iglesia bajo la Vía Láctea",
+    "description": "Una iglesia iluminada destaca bajo el arco de la Vía Láctea durante la noche.",
+    "alt": "Iglesia iluminada bajo la Vía Láctea",
+    "slug": "iglesia-bajo-la-via-lactea"
+  },
+  "eclipse-sobre-los-molinos.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Eclipse sobre los molinos",
+    "description": "Una composición artística creada con inteligencia artificial que sitúa un eclipse sobre un paisaje de molinos.",
+    "alt": "Composición artística de un eclipse sobre molinos",
+    "slug": "eclipse-sobre-los-molinos"
+  },
+  "la-nina-entre-los-lienzos.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "La niña entre los lienzos",
+    "description": "Una composición creativa que integra el retrato de una niña en un entorno construido a partir de imágenes y obras fotográficas.",
+    "alt": "Composición creativa de una niña entre obras fotográficas",
+    "slug": "la-nina-entre-los-lienzos"
+  },
+  "la-pequena-princesa.jpg": {
+    "gallery": "Retratos",
+    "title": "La pequeña princesa",
+    "description": "Un retrato infantil convertido en una escena de cuento protagonizada por una pequeña princesa.",
+    "alt": "Retrato infantil de una niña con vestido de princesa",
+    "slug": "la-pequena-princesa"
+  },
+  "un-abrazo-de-cuento.jpg": {
+    "gallery": "Retratos",
+    "title": "Un abrazo de cuento",
+    "description": "Un retrato infantil lleno de ternura en el que una niña comparte un abrazo con su oso de peluche.",
+    "alt": "Retrato infantil con un oso de peluche",
+    "slug": "un-abrazo-de-cuento"
+  },
+  "personas-en-el-muelle-del-tinto.jpg": {
+    "gallery": "Paisaje",
+    "title": "Personas en el Muelle del Tinto",
+    "description": "Las siluetas de varias personas aparecen junto al Muelle del Tinto durante la luz cálida del atardecer.",
+    "alt": "Siluetas de personas junto al Muelle del Tinto al atardecer",
+    "slug": "personas-en-el-muelle-del-tinto"
+  },
+  "siluetas-al-atardecer.jpg": {
+    "gallery": "Paisaje",
+    "title": "Siluetas al atardecer",
+    "description": "Varias siluetas se recortan contra la luz del cielo durante un atardecer junto al agua.",
+    "alt": "Siluetas de personas caminando durante el atardecer",
+    "slug": "siluetas-al-atardecer"
+  },
+  "via-lactea-sobre-el-pueblo.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Vía Láctea sobre el pueblo",
+    "description": "La Vía Láctea domina el cielo nocturno sobre un pequeño pueblo.",
+    "alt": "Vía Láctea sobre un pueblo durante la noche",
+    "slug": "via-lactea-sobre-el-pueblo"
+  },
+  "via-lactea-en-cudillero.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Vía Láctea en Cudillero",
+    "description": "El cielo estrellado y la Vía Láctea se alzan sobre Cudillero durante la noche.",
+    "alt": "Vía Láctea sobre Cudillero durante la noche",
+    "slug": "via-lactea-en-cudillero"
+  },
+  "perseidas-en-cudillero.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Perseidas en Cudillero",
+    "description": "La lluvia de meteoros Perseidas atraviesa el cielo nocturno sobre el paisaje de Cudillero.",
+    "alt": "Lluvia de meteoros Perseidas sobre Cudillero",
+    "slug": "perseidas-en-cudillero"
+  },
+  "puente-de-cangas-de-onis.jpg": {
+    "gallery": "Paisaje",
+    "title": "Puente de Cangas de Onís",
+    "description": "El histórico puente de Cangas de Onís aparece integrado en el paisaje durante las últimas luces del día.",
+    "alt": "Puente histórico de Cangas de Onís al atardecer",
+    "slug": "puente-de-cangas-de-onis"
+  },
+  "vacas-junto-al-lago-al-atardecer.jpg": {
+    "gallery": "Paisaje",
+    "title": "Vacas junto al lago al atardecer",
+    "description": "Varias vacas descansan junto a un lago mientras la luz del atardecer baña el paisaje de montaña.",
+    "alt": "Vacas junto a un lago en un paisaje de montaña al atardecer",
+    "slug": "vacas-junto-al-lago-al-atardecer"
+  },
+  "pato-con-alas-levantadas.jpg": {
+    "gallery": "Fauna",
+    "title": "Pato con las alas levantadas",
+    "description": "Un pato levanta las alas sobre el agua en un instante de movimiento y energía.",
+    "alt": "Pato levantando las alas sobre el agua",
+    "slug": "pato-con-alas-levantadas"
+  },
+  "pato-en-la-luz-dorada.jpg": {
+    "gallery": "Fauna",
+    "title": "Pato en la luz dorada",
+    "description": "Un pato queda iluminado por la luz dorada en una escena de naturaleza serena.",
+    "alt": "Pato iluminado por la luz dorada del atardecer",
+    "slug": "pato-en-la-luz-dorada"
+  },
+  "pato-comiendo.jpg": {
+    "gallery": "Fauna",
+    "title": "Pato comiendo",
+    "description": "Un pato se alimenta junto al agua en un instante cotidiano capturado en la naturaleza.",
+    "alt": "Pato alimentándose junto al agua",
+    "slug": "pato-comiendo"
+  },
+  "montanas-al-atardecer.jpg": {
+    "gallery": "Paisaje",
+    "title": "Montañas al atardecer",
+    "description": "Las montañas quedan bañadas por la luz cálida de las últimas horas del día.",
+    "alt": "Paisaje de montaña iluminado por la luz del atardecer",
+    "slug": "montanas-al-atardecer"
+  },
+  "salinas-al-atardecer.jpg": {
+    "gallery": "Paisaje",
+    "title": "Salinas al atardecer",
+    "description": "El paisaje de las salinas se transforma bajo la luz cálida del atardecer.",
+    "alt": "Salinas y maquinaria industrial durante el atardecer",
+    "slug": "salinas-al-atardecer"
+  },
+  "mujer-con-alas-luminosas.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Mujer con alas luminosas",
+    "description": "Una composición creativa transforma el retrato de una mujer en una escena fantástica con alas de luz.",
+    "alt": "Composición creativa de una mujer con alas de luz",
+    "slug": "mujer-con-alas-luminosas"
+  },
+  "mujer-entre-estelas-de-luz.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Mujer entre estelas de luz",
+    "description": "Una composición creativa sitúa a una mujer en un entorno rodeado de estelas luminosas.",
+    "alt": "Composición creativa de una mujer rodeada de estelas luminosas",
+    "slug": "mujer-entre-estelas-de-luz"
+  },
+  "luna-sobre-la-iglesia-de-moguer.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Luna sobre la iglesia de Moguer",
+    "description": "La Luna aparece sobre la silueta de la iglesia de Moguer en una composición nocturna.",
+    "alt": "Luna sobre la iglesia de Moguer",
+    "slug": "luna-sobre-la-iglesia-de-moguer"
+  },
+  "BARCO-MINIMALISMO.jpg": {
+    "gallery": "Paisaje",
+    "title": "Minimalismo azul",
+    "description": "Una pequeña embarcación se pierde en un paisaje dominado por el azul, el agua y la luz, creando una escena de gran simplicidad visual.",
+    "alt": "Pequeña embarcación sobre el agua en una escena minimalista azul",
+    "slug": "minimalismo-azul"
+  },
+  "calle-bola-de-cristal.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Calle de cristal",
+    "description": "Una escena urbana transformada mediante una esfera de cristal, creando una visión diferente y sugerente de la calle.",
+    "alt": "Calle reflejada en una esfera de cristal fotográfica",
+    "slug": "calle-de-cristal"
+  },
+  "COLON-PUESTA-DE-SOL.jpg": {
+    "gallery": "Paisaje",
+    "title": "Colón frente al ocaso",
+    "description": "La silueta del Monumento a Colón se recorta frente al intenso resplandor del sol durante los últimos instantes del día.",
+    "alt": "Monumento a Colón recortado frente al sol al atardecer",
+    "slug": "colon-frente-al-ocaso"
+  },
+  "cuellar_dna_1789044017703 copia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Un instante compartido",
+    "description": "Una composición en blanco y negro que captura un instante íntimo entre una madre y su hija a través de una mirada llena de ternura.",
+    "alt": "Composición en blanco y negro de una madre y su hija",
+    "slug": "un-instante-compartido-2"
+  },
+  "GIRALDA-BELMONTE.jpg": {
+    "gallery": "Paisaje",
+    "title": "Giralda de Belmonte",
+    "description": "La escultura de la Giralda de Belmonte aparece iluminada sobre un fondo de cielo limpio y tonos cálidos.",
+    "alt": "Escultura de la Giralda de Belmonte iluminada",
+    "slug": "giralda-de-belmonte"
+  },
+  "GONZALO-ENTRE-SOMBRAS.jpg": {
+    "gallery": "Retratos",
+    "title": "Gonzalo entre sombras",
+    "description": "Un retrato infantil construido a partir de la luz y la sombra, con el rostro de Gonzalo emergiendo suavemente de la oscuridad.",
+    "alt": "Retrato de Gonzalo iluminado entre sombras",
+    "slug": "gonzalo-entre-sombras"
+  },
+  "GUADALAJARA-CHARCOS.jpg": {
+    "gallery": "Paisaje",
+    "title": "Guadalajara bajo la lluvia",
+    "description": "La arquitectura de Guadalajara se refleja en los charcos después de la lluvia, creando una atmósfera urbana oscura y cinematográfica.",
+    "alt": "Arquitectura de Guadalajara reflejada en los charcos tras la lluvia",
+    "slug": "guadalajara-bajo-la-lluvia"
+  },
+  "JOSE-MERCE-FLAMENCO.jpg": {
+    "gallery": "Retratos",
+    "title": "José Mercé, esencia flamenca",
+    "description": "Un retrato en blanco y negro que recoge la intensidad y la expresividad del flamenco en un escenario cargado de sombras.",
+    "alt": "Retrato en blanco y negro de José Mercé durante una actuación flamenca",
+    "slug": "jose-merce-esencia-flamenca"
+  },
+  "MARINA-CONVELO.jpg": {
+    "gallery": "Retratos",
+    "title": "Marina bajo el velo",
+    "description": "Un retrato íntimo en blanco y negro en el que el encaje del velo envuelve el rostro y refuerza la delicadeza de la escena.",
+    "alt": "Retrato en blanco y negro de Marina bajo un velo de encaje",
+    "slug": "marina-bajo-el-velo"
+  },
+  "MARINIT-BAILARINA-BALLET.jpg": {
+    "gallery": "Retratos",
+    "title": "Bailarina entre sombras",
+    "description": "Una joven bailarina aparece sentada en un espacio de grandes contrastes, donde la luz y la arquitectura acompañan la elegancia de la figura.",
+    "alt": "Retrato de una bailarina de ballet entre sombras",
+    "slug": "bailarina-entre-sombras"
+  },
+  "MARINITA-COLOR-BALLET.jpg": {
+    "gallery": "Retratos",
+    "title": "Bailarina en color",
+    "description": "Un retrato de ballet en el que la bailarina y la calidez de la luz crean una escena delicada y elegante.",
+    "alt": "Retrato en color de una bailarina de ballet",
+    "slug": "bailarina-en-color"
+  },
+  "MARINITA-PEGASO.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Marinita y el pegaso",
+    "description": "Una composición fantástica transforma el retrato de una niña en una escena de cuento junto a un majestuoso caballo alado.",
+    "alt": "Niña con vestido rosa junto a un caballo alado en una escena fantástica",
+    "slug": "marinita-y-el-pegaso"
+  },
+  "MIGUEL-SOBRINO-CINTA.jpg": {
+    "gallery": "Retratos",
+    "title": "Miguel, emoción y tradición",
+    "description": "El retrato de Miguel durante una celebración tradicional captura un instante de concentración rodeado por el ambiente de la ceremonia.",
+    "alt": "Retrato de Miguel durante una celebración tradicional",
+    "slug": "miguel-emocion-y-tradicion"
+  },
+  "MUJER-MANTILLA.jpg": {
+    "gallery": "Retratos",
+    "title": "Mujer con mantilla",
+    "description": "Un retrato de inspiración tradicional en el que la mantilla, la expresión y la luz construyen una imagen de gran elegancia.",
+    "alt": "Retrato de una mujer con mantilla",
+    "slug": "mujer-con-mantilla"
+  },
+  "MUSICOS-MAESTRANZA.jpg": {
+    "gallery": "Paisaje",
+    "title": "Música entre sombras",
+    "description": "Un grupo de músicos aparece en las gradas de la Maestranza, integrado en una escena de fuerte contraste y marcado carácter urbano.",
+    "alt": "Músicos sentados en las gradas de la Maestranza",
+    "slug": "musica-entre-sombras"
+  },
+  "observador en torre pegi copia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "El observador",
+    "description": "Una figura solitaria contempla el paisaje desde la orilla mientras la Torre Pelli se alza al fondo, en una composición de aire conceptual.",
+    "alt": "Figura observando la Torre Pelli desde la orilla",
+    "slug": "el-observador"
+  },
+  "PAISAJE-CUDILLERO.jpg": {
+    "gallery": "Paisaje",
+    "title": "Cudillero entre mareas",
+    "description": "El paisaje costero de Cudillero aparece envuelto en una atmósfera serena, con el movimiento del mar suavizado por una larga exposición.",
+    "alt": "Costa rocosa de Cudillero con el mar en larga exposición",
+    "slug": "cudillero-entre-mareas"
+  },
+  "PESCADOR-EL-ROMPIDO.jpg": {
+    "gallery": "Paisaje",
+    "title": "El pescador frente al ocaso",
+    "description": "La silueta de un pescador aparece frente a la luz dorada del atardecer junto al agua.",
+    "alt": "Pescador sentado frente al mar durante el atardecer",
+    "slug": "pescador-frente-al-ocaso"
+  },
+  "PLAZA-DE-TOROS-MAESTRANZA.jpg": {
+    "gallery": "Paisaje",
+    "title": "Luz en la Maestranza",
+    "description": "La luz atraviesa el interior de la Plaza de Toros de la Maestranza y dibuja una escena de fuertes contrastes entre luz y sombra.",
+    "alt": "Interior de la Plaza de Toros de la Maestranza iluminado por un haz de luz",
+    "slug": "luz-en-la-maestranza"
+  },
+  "PUESTA-DE-SOL-PICOS-DE-EUROPA.jpg": {
+    "gallery": "Paisaje",
+    "title": "Atardecer en Picos de Europa",
+    "description": "Las montañas y el ganado quedan bañados por una intensa luz anaranjada durante los últimos minutos del día.",
+    "alt": "Montañas y vacas iluminadas por el atardecer en Picos de Europa",
+    "slug": "atardecer-en-picos-de-europa"
+  },
+  "RETRATO-ESCRITORIO-ANA.jpg": {
+    "gallery": "Retratos",
+    "title": "Ana en el estudio",
+    "description": "Un retrato de estudio de Ana sentado en una silla, construido con una iluminación limpia y una composición sobria.",
+    "alt": "Retrato de Ana sentada en una silla en el estudio",
+    "slug": "ana-en-el-estudio"
+  },
+  "tormenta-torre-pegi copia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Tormenta sobre la torre",
+    "description": "La Torre Pelli aparece bajo un cielo dramático de nubes y contrastes, creando una interpretación intensa y cinematográfica del paisaje urbano.",
+    "alt": "Torre Pelli bajo un cielo de tormenta",
+    "slug": "tormenta-sobre-la-torre"
+  },
+  "torre-pelli-neblina copia.jpg": {
+    "gallery": "Paisaje",
+    "title": "La Torre Pelli entre la niebla",
+    "description": "La Torre Pelli emerge entre la niebla sobre el paisaje urbano de Sevilla, creando una escena minimalista y atmosférica.",
+    "alt": "Torre Pelli de Sevilla emergiendo entre la niebla",
+    "slug": "torre-pelli-entre-la-niebla"
+  },
+  "VACAS-PICOS-DE-EUROPA.jpg": {
+    "gallery": "Naturaleza",
+    "title": "Vacas bajo la luz de Picos de Europa",
+    "description": "Varias vacas descansan en el paisaje de montaña mientras las nubes y la luz crean una atmósfera cambiante sobre Picos de Europa.",
+    "alt": "Vacas en un paisaje de montaña de Picos de Europa",
+    "slug": "vacas-bajo-la-luz-de-picos-de-europa"
+  },
+  "VIA-LACTEA-CASTILLO.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Vía Láctea sobre el castillo",
+    "description": "La Vía Láctea se eleva sobre la silueta de un antiguo castillo, combinando arquitectura y cielo nocturno en una misma escena.",
+    "alt": "Vía Láctea sobre un castillo durante la noche",
+    "slug": "via-lactea-sobre-el-castillo"
+  },
+  "VIRGEN-CINTA-NOCHE.jpg": {
+    "gallery": "Nocturna",
+    "title": "La Virgen de la Cinta en la noche",
+    "description": "El monumento de la Virgen de la Cinta destaca iluminado en medio de la noche, rodeado por la oscuridad y la vegetación.",
+    "alt": "Monumento de la Virgen de la Cinta iluminado durante la noche",
+    "slug": "virgen-de-la-cinta-en-la-noche"
+  },
+  "VUELTA-BLANCO-NEGRO.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "La Vuelta en blanco y negro",
+    "description": "El pelotón ciclista queda convertido en una escena de ritmo y movimiento mediante un tratamiento fotográfico en blanco y negro.",
+    "alt": "Pelotón ciclista de La Vuelta en blanco y negro",
+    "slug": "la-vuelta-en-blanco-y-negro"
+  },
+  "VUELTA-CICLISTA.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Fuerza sobre dos ruedas",
+    "description": "El pelotón avanza a toda velocidad en una escena deportiva llena de energía, movimiento y color.",
+    "alt": "Pelotón de ciclistas compitiendo en carretera",
+    "slug": "fuerza-sobre-dos-ruedas"
+  },
+  "ZARANDAS-NOCTURNA.jpg": {
+    "gallery": "Nocturna",
+    "title": "Noche en las Zarandas",
+    "description": "Las antiguas estructuras de las Zarandas se adentran en la oscuridad bajo un cielo nocturno recorrido por trazas de estrellas.",
+    "alt": "Paisaje nocturno de las Zarandas con trazas de estrellas",
+    "slug": "noche-en-las-zarandas"
+  },
+  "ZARANDAS-VIA-LACTEA.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Vía Láctea sobre las Zarandas",
+    "description": "La Vía Láctea atraviesa el cielo sobre las antiguas estructuras de las Zarandas, creando un paisaje nocturno de gran profundidad.",
+    "alt": "Vía Láctea sobre las estructuras de las Zarandas",
+    "slug": "via-lactea-sobre-las-zarandas"
+  },
+  "la-guardiana-del-caballo-alado.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "La guardiana del caballo alado",
+    "description": "Una figura femenina acompaña a un majestuoso caballo alado en una escena fantástica de estética cinematográfica y carácter narrativo.",
+    "alt": "Mujer junto a un caballo alado en una escena fantástica",
+    "slug": "la-guardiana-del-caballo-alado"
+  },
+  "caballo-alado-negro-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El caballo de las sombras",
+    "description": "Un majestuoso caballo alado negro emerge de una escena de fuerte contraste, combinando fantasía, dramatismo y estética cinematográfica.",
+    "alt": "Caballo alado negro en una escena fantástica de alto contraste",
+    "slug": "caballo-alado-negro-01"
+  },
+  "boda, automovil copia.jpg": {
+    "gallery": "Retratos",
+    "title": "Boda junto al automóvil",
+    "description": "Retrato de una pareja en una escena de boda junto a un automóvil, con una composición que combina el carácter ceremonial y la presencia del vehículo.",
+    "alt": "Pareja de boda posando junto a un automóvil",
+    "slug": "boda-junto-al-automovil"
+  },
+  "carmen-victoria-libro copia.jpg": {
+    "gallery": "Retratos",
+    "title": "Carmen Victoria leyendo",
+    "description": "Carmen Victoria aparece concentrada en la lectura, en un retrato natural donde el libro se convierte en parte esencial de la escena.",
+    "alt": "Carmen Victoria leyendo un libro en un retrato fotográfico",
+    "slug": "carmen-victoria-leyendo"
+  },
+  "ciervo-entre-los-helechos-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El ciervo entre helechos",
+    "description": "Un ciervo aparece entre la vegetación del bosque, rodeado de helechos que enmarcan su figura dentro de una escena de aire naturalista.",
+    "alt": "Ciervo entre helechos en un bosque",
+    "slug": "ciervo-entre-los-helechos-01"
+  },
+  "ciervo-frente-al-ocaso.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Ciervo frente al ocaso",
+    "description": "La silueta de un ciervo se recorta ante una luz cálida de atardecer, creando una escena de fuerte carácter visual.",
+    "alt": "Ciervo recortado frente a la luz del atardecer",
+    "slug": "ciervo-frente-al-ocaso"
+  },
+  "familia-en-el-jardin.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Una familia en el jardín",
+    "description": "Una familia comparte un instante en un jardín recreado con una estética luminosa y cinematográfica, centrada en la relación entre sus integrantes.",
+    "alt": "Familia reunida en un jardín en una escena de estilo cinematográfico",
+    "slug": "familia-en-el-jardin"
+  },
+  "mujer-y-caballo-blanco.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Mujer y caballo blanco",
+    "description": "Una mujer aparece junto a un caballo blanco en una escena de estética fantástica, donde la relación entre figura humana y animal domina la composición.",
+    "alt": "Mujer junto a un caballo blanco en una escena fantástica",
+    "slug": "mujer-y-caballo-blanco"
+  },
+  "chica-caras-mitad-ia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Rostro dividido",
+    "description": "Una interpretación creativa transforma el retrato femenino mediante una composición que divide y multiplica visualmente el rostro.",
+    "alt": "Retrato femenino con el rostro dividido en una composición creativa",
+    "slug": "chica-caras-mitad-ia"
+  },
+  "chica-ia-1.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Retrato transformado",
+    "description": "Un retrato femenino es reinterpretado mediante recursos de inteligencia artificial para crear una imagen de carácter artístico y experimental.",
+    "alt": "Retrato femenino transformado mediante una interpretación artística",
+    "slug": "chica-ia-1"
+  },
+  "chico-carretera-ia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "El chico de la carretera",
+    "description": "Una figura masculina aparece integrada en una escena de carretera reinterpretada con un tratamiento visual de carácter creativo.",
+    "alt": "Hombre integrado en una escena de carretera de estilo creativo",
+    "slug": "chico-carretera-ia"
+  },
+  "ciervo-berrea.jpg": {
+    "gallery": "Fauna",
+    "title": "Ciervo durante la berrea",
+    "description": "Un ciervo protagoniza un instante de la berrea, captado en su entorno natural y con toda la fuerza característica de esta época.",
+    "alt": "Ciervo durante la berrea en su entorno natural",
+    "slug": "ciervo-berrea"
+  },
+  "felix-ana-preboda.jpg": {
+    "gallery": "Retratos",
+    "title": "Félix y Ana",
+    "description": "Retrato de pareja realizado en una sesión de preboda, buscando una composición natural y una conexión directa entre ambos protagonistas.",
+    "alt": "Retrato de Félix y Ana durante una sesión de preboda",
+    "slug": "felix-ana-preboda"
+  },
+  "gonzalo tirantes copia.jpg": {
+    "gallery": "Retratos",
+    "title": "Gonzalo con tirantes",
+    "description": "Retrato de Gonzalo en el que la expresión y la sencillez de la pose aportan naturalidad a la imagen.",
+    "alt": "Retrato de Gonzalo con tirantes",
+    "slug": "gonzalo-con-tirantes"
+  },
+  "gonzalo-picnic.jpg": {
+    "gallery": "Retratos",
+    "title": "Gonzalo de picnic",
+    "description": "Gonzalo aparece durante un momento de ocio al aire libre, en una escena espontánea y cercana.",
+    "alt": "Gonzalo durante un picnic al aire libre",
+    "slug": "gonzalo-picnic"
+  },
+  "hombre-solitario -icm.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Hombre solitario",
+    "description": "Una figura solitaria atraviesa la escena en una interpretación ICM que utiliza el movimiento para convertir el paisaje en una imagen más evocadora.",
+    "alt": "Figura solitaria en una fotografía creativa realizada con ICM",
+    "slug": "hombre-solitario-icm"
+  },
+  "castillo-bajo-las-estrellas-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Castillo bajo las estrellas",
+    "description": "La silueta de un castillo domina un paisaje nocturno mientras un cielo estrellado envuelve la escena y refuerza su carácter fantástico.",
+    "alt": "Castillo iluminado bajo un cielo nocturno estrellado",
+    "slug": "castillo-bajo-las-estrellas-01"
+  },
+  "castillo-bajo-las-estrellas-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El castillo en la noche",
+    "description": "Un castillo emerge en medio de la noche bajo un cielo cargado de estrellas, creando una escena de aire legendario.",
+    "alt": "Castillo en un paisaje nocturno bajo las estrellas",
+    "slug": "castillo-bajo-las-estrellas-03"
+  },
+  "rostro-fragmentado-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Rostro fragmentado",
+    "description": "El rostro se descompone visualmente en una composición artística que juega con la superposición y la fragmentación de las formas.",
+    "alt": "Rostro fragmentado en una composición artística",
+    "slug": "rostro-fragmentado-01"
+  },
+  "mirada-fragmentada.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Mirada fragmentada",
+    "description": "La imagen construye un retrato fragmentado en el que distintas partes del rostro se combinan para crear una composición artística.",
+    "alt": "Retrato artístico con una mirada fragmentada",
+    "slug": "mirada-fragmentada"
+  },
+  "paisaje-en-movimiento-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Paisaje en movimiento",
+    "description": "El paisaje se transforma mediante el movimiento y el tratamiento creativo, convirtiendo las formas naturales en una composición dinámica.",
+    "alt": "Paisaje transformado mediante movimiento fotográfico",
+    "slug": "paisaje-en-movimiento-01"
+  },
+  "paisaje-en-movimiento-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Paisaje en movimiento II",
+    "description": "Una segunda interpretación del paisaje utiliza el movimiento para difuminar las formas y crear una imagen de carácter pictórico.",
+    "alt": "Paisaje abstracto creado mediante movimiento fotográfico",
+    "slug": "paisaje-en-movimiento-03"
+  },
+  "hombre-entre-la-naturaleza.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Hombre entre la naturaleza",
+    "description": "Una figura masculina aparece integrada en un paisaje natural, creando una composición en la que la presencia humana dialoga con el entorno.",
+    "alt": "Hombre integrado en un paisaje natural",
+    "slug": "hombre-entre-la-naturaleza"
+  },
+  "rostro-entre-las-hojas.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El rostro entre las hojas",
+    "description": "La vegetación envuelve parcialmente el rostro y crea una composición íntima en la que la mirada se convierte en el punto de atención.",
+    "alt": "Rostro femenino parcialmente oculto entre hojas",
+    "slug": "rostro-entre-las-hojas"
+  },
+  "retrato-entre-hojas.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Retrato entre hojas",
+    "description": "Un retrato aparece integrado entre la vegetación, utilizando las hojas como marco natural alrededor del rostro.",
+    "alt": "Retrato femenino integrado entre hojas",
+    "slug": "retrato-entre-hojas"
+  },
+  "mujer-y-paisaje.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Mujer frente al paisaje",
+    "description": "Una figura femenina se integra en un paisaje amplio, creando una composición en la que la persona y el entorno comparten protagonismo.",
+    "alt": "Mujer integrada en un paisaje amplio",
+    "slug": "mujer-y-paisaje"
+  },
+  "abrazo-en-penumbra.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Abrazo en penumbra",
+    "description": "Una pareja se funde en un abrazo dentro de una escena de luz contenida y sombras profundas, con una atmósfera íntima y cinematográfica.",
+    "alt": "Pareja abrazada en una escena de penumbra con iluminación cinematográfica",
+    "slug": "abrazo-en-penumbra"
+  },
+  "mirada-entre-hojas.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Mirada entre hojas",
+    "description": "Un rostro aparece parcialmente oculto entre hojas, utilizando la vegetación como marco para dirigir la atención hacia la mirada.",
+    "alt": "Rostro femenino observado entre hojas",
+    "slug": "mirada-entre-hojas"
+  },
+  "instante-compartido-2.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Un instante compartido II",
+    "description": "Una composición artística reúne a dos personas en un momento íntimo, utilizando la superposición de imágenes para crear una escena de carácter onírico.",
+    "alt": "Composición artística de dos personas en un instante íntimo",
+    "slug": "instante-compartido-2"
+  },
+  "mundos-suspendidos-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Mundos suspendidos",
+    "description": "Una composición surrealista reúne elementos flotantes en un espacio imposible, creando una escena de carácter onírico.",
+    "alt": "Composición surrealista con elementos suspendidos en el espacio",
+    "slug": "mundos-suspendidos-01"
+  },
+  "mundos-suspendidos-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Mundos suspendidos II",
+    "description": "Una nueva interpretación de mundos suspendidos juega con la escala, la perspectiva y la sensación de ingravidez.",
+    "alt": "Composición artística surrealista con elementos suspendidos",
+    "slug": "mundos-suspendidos-03"
+  },
+  "ciudad-reflejada.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Ciudad reflejada",
+    "description": "La arquitectura de una ciudad se transforma mediante reflejos que alteran la perspectiva y convierten el paisaje urbano en una composición abstracta.",
+    "alt": "Arquitectura de una ciudad transformada mediante reflejos",
+    "slug": "ciudad-reflejada"
+  },
+  "bosque-reflejado.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El bosque reflejado",
+    "description": "Un bosque se duplica mediante un reflejo que transforma la escena natural en una composición simétrica y sugerente.",
+    "alt": "Bosque reflejado creando una composición simétrica",
+    "slug": "bosque-reflejado"
+  },
+  "arquitectura-invertida.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Arquitectura invertida",
+    "description": "Una construcción urbana aparece transformada mediante una composición invertida que convierte las líneas arquitectónicas en un juego visual.",
+    "alt": "Arquitectura urbana transformada mediante una composición invertida",
+    "slug": "arquitectura-invertida"
+  },
+  "reflejos-azules.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Reflejos azules",
+    "description": "Los reflejos y los tonos azules convierten la escena en una composición abstracta en la que las formas pierden parte de su apariencia real.",
+    "alt": "Composición abstracta de reflejos en tonos azules",
+    "slug": "reflejos-azules"
+  },
+  "calle-medieval-cinematografica-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "La calle medieval",
+    "description": "Una antigua calle de arquitectura medieval aparece reinterpretada con una iluminación cinematográfica que acentúa sus volúmenes y profundidad.",
+    "alt": "Calle de arquitectura medieval con iluminación cinematográfica",
+    "slug": "calle-medieval-cinematografica-01"
+  },
+  "calle-medieval-cinematografica-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "La calle de otra época",
+    "description": "Una calle medieval es presentada como una escena de época, con perspectiva profunda y una iluminación que refuerza su carácter cinematográfico.",
+    "alt": "Calle medieval reinterpretada como una escena cinematográfica",
+    "slug": "calle-medieval-cinematografica-03"
+  },
+  "arbol-solitario-bajo-las-estrellas-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El árbol bajo las estrellas",
+    "description": "Un árbol solitario se recorta ante un cielo nocturno poblado de estrellas, creando una composición serena y de gran profundidad.",
+    "alt": "Árbol solitario bajo un cielo estrellado durante la noche",
+    "slug": "arbol-solitario-bajo-las-estrellas-01"
+  },
+  "arbol-solitario-bajo-las-estrellas-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El árbol y la noche",
+    "description": "La silueta de un árbol domina un paisaje nocturno en el que el cielo estrellado aporta profundidad y una sensación de aislamiento.",
+    "alt": "Árbol solitario recortado contra un cielo nocturno estrellado",
+    "slug": "arbol-solitario-bajo-las-estrellas-03"
+  },
+  "columnas-bajo-la-noche-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Columnas bajo la noche",
+    "description": "Una sucesión de columnas aparece iluminada en la oscuridad, creando profundidad y un ambiente monumental de inspiración cinematográfica.",
+    "alt": "Columnas iluminadas en una escena arquitectónica nocturna",
+    "slug": "columnas-bajo-la-noche-01"
+  },
+  "columnas-bajo-la-noche-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El templo en la oscuridad",
+    "description": "Las columnas de una antigua arquitectura destacan frente al cielo nocturno, reforzando la sensación de misterio y profundidad.",
+    "alt": "Columnas de arquitectura clásica bajo el cielo nocturno",
+    "slug": "columnas-bajo-la-noche-03"
+  },
+  "martin-pescador-en-accion-01.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "Martín pescador en acción",
+    "description": "Un martín pescador aparece captado en pleno movimiento, con la escena centrada en la velocidad y precisión características de esta ave.",
+    "alt": "Martín pescador captado en pleno vuelo y movimiento",
+    "slug": "martin-pescador-en-accion-01"
+  },
+  "martin-pescador-en-accion-03.jpg": {
+    "gallery": "Creaciones con IA",
+    "title": "El vuelo del martín pescador",
+    "description": "La acción de un martín pescador se convierte en el centro de una composición dinámica que destaca el movimiento del ave.",
+    "alt": "Martín pescador en una escena dinámica de vuelo",
+    "slug": "martin-pescador-en-accion-03"
+  },
+  "marinit-bosque.jpg": {
+    "gallery": "Retratos",
+    "title": "Marinita en el bosque",
+    "description": "Retrato de Marinita integrado en un entorno natural, donde la vegetación aporta profundidad y enmarca la figura.",
+    "alt": "Retrato de Marinita en un bosque",
+    "slug": "marinit-bosque"
+  },
+  "marinita-arcos-flores.jpg": {
+    "gallery": "Retratos",
+    "title": "Marinita entre flores",
+    "description": "Marinita posa entre arcos y flores en una escena de carácter delicado, construida alrededor del color y la composición.",
+    "alt": "Retrato de Marinita entre arcos y flores",
+    "slug": "marinita-arcos-flores"
+  },
+  "marinita-arcos.jpg": {
+    "gallery": "Retratos",
+    "title": "Marinita bajo los arcos",
+    "description": "Marinita aparece bajo una sucesión de arcos que enmarcan su figura y aportan profundidad arquitectónica al retrato.",
+    "alt": "Retrato de Marinita bajo unos arcos",
+    "slug": "marinita-arcos"
+  },
+  "marinita-guitarra.jpg": {
+    "gallery": "Retratos",
+    "title": "Marinita con guitarra",
+    "description": "Retrato de Marinita con una guitarra, en una escena que combina la naturalidad de la pose con el carácter musical del instrumento.",
+    "alt": "Retrato de Marinita con una guitarra",
+    "slug": "marinita-guitarra"
+  },
+  "marinita-paseo.jpg": {
+    "gallery": "Retratos",
+    "title": "Marinita de paseo",
+    "description": "Marinita aparece durante un paseo en una escena natural y luminosa, captando un momento de espontaneidad.",
+    "alt": "Retrato de Marinita durante un paseo",
+    "slug": "marinita-paseo"
+  },
+  "martin-pescador-noche.jpg": {
+    "gallery": "Fauna",
+    "title": "Martín pescador nocturno",
+    "description": "Un martín pescador aparece en una interpretación nocturna de la escena, destacando su silueta frente a un ambiente oscuro.",
+    "alt": "Martín pescador en una escena nocturna",
+    "slug": "martin-pescador-noche"
+  },
+  "martina-canasta.jpg": {
+    "gallery": "Retratos",
+    "title": "Martina con su canasta",
+    "description": "Retrato de Martina junto a una canasta, construido alrededor de una pose natural y una estética cálida.",
+    "alt": "Retrato de Martina junto a una canasta",
+    "slug": "martina-canasta"
+  },
+  "mujer1 copia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Mujer entre sombras",
+    "description": "Un retrato femenino utiliza el contraste entre luz y oscuridad para construir una imagen de carácter expresivo y creativo.",
+    "alt": "Retrato de una mujer entre luces y sombras",
+    "slug": "mujer-entre-sombras"
+  },
+  "musico-guitarra.jpg": {
+    "gallery": "Retratos",
+    "title": "Músico con guitarra",
+    "description": "Retrato de un músico con su guitarra, centrado en la presencia del intérprete y el carácter del instrumento.",
+    "alt": "Retrato de un músico con una guitarra",
+    "slug": "musico-con-guitarra"
+  },
+  "osuna2 copia.jpg": {
+    "gallery": "Nocturna",
+    "title": "Osuna de noche",
+    "description": "La arquitectura de Osuna aparece bajo la iluminación nocturna, con las sombras y las luces construyendo una atmósfera serena.",
+    "alt": "Arquitectura de Osuna iluminada durante la noche",
+    "slug": "osuna-de-noche"
+  },
+  "pareja-ia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Pareja en una nueva realidad",
+    "description": "Una pareja aparece reinterpretada mediante un tratamiento creativo que transforma la escena y refuerza su carácter artístico.",
+    "alt": "Pareja en una composición fotográfica creativa",
+    "slug": "pareja-ia"
+  },
+  "plaza de la merced copia.jpg": {
+    "gallery": "Fotografía creativa",
+    "title": "Plaza de la Merced",
+    "description": "La Plaza de la Merced aparece reinterpretada mediante una composición creativa que juega con la perspectiva y el ambiente urbano.",
+    "alt": "Plaza de la Merced en una interpretación fotográfica creativa",
+    "slug": "plaza-de-la-merced"
+  },
+  "salamanca-sin-luna copia.jpg": {
+    "gallery": "Nocturna",
+    "title": "Salamanca sin luna",
+    "description": "La arquitectura nocturna de Salamanca aparece sin la presencia de la luna, dejando que la iluminación urbana y el cielo oscuro definan la escena.",
+    "alt": "Arquitectura de Salamanca durante una noche sin luna",
+    "slug": "salamanca-sin-luna"
+  },
+  "torre-circumpolar.jpg": {
+    "gallery": "Astrofotografía",
+    "title": "Torre bajo las estrellas",
+    "description": "Una torre se recorta frente a un cielo nocturno en el que las estrellas dibujan trazas circulares alrededor del polo celeste.",
+    "alt": "Torre bajo un cielo nocturno con trazas circumpolares",
+    "slug": "torre-bajo-las-estrellas"
+  },
   "ana con tatuajes.jpg": {
     "gallery": "Retratos",
     "title": "Ana entre tatuajes",
@@ -1512,5 +1398,838 @@
     "description": "Una estructura arquitectónica se recorta contra un cielo nocturno atravesado por la Vía Láctea, combinando líneas modernas y paisaje celeste.",
     "alt": "Vía Láctea sobre un edificio en una composición de astrofotografía",
     "slug": "via-lactea-sobre-edificio"
+  },
+  "carbonero1": {
+    "gallery": "Fauna",
+    "title": "Carbonero1",
+    "description": "Fotografía de fauna titulada «Carbonero1», realizada por José Cuéllar.",
+    "alt": "Carbonero1",
+    "slug": "carbonero1"
+  },
+  "carbonero10": {
+    "gallery": "Fauna",
+    "title": "Carbonero10",
+    "description": "Fotografía de fauna titulada «Carbonero10», realizada por José Cuéllar.",
+    "alt": "Carbonero10",
+    "slug": "carbonero10"
+  },
+  "carbonero11": {
+    "gallery": "Fauna",
+    "title": "Carbonero11",
+    "description": "Fotografía de fauna titulada «Carbonero11», realizada por José Cuéllar.",
+    "alt": "Carbonero11",
+    "slug": "carbonero11"
+  },
+  "carbonero12": {
+    "gallery": "Fauna",
+    "title": "Carbonero12",
+    "description": "Fotografía de fauna titulada «Carbonero12», realizada por José Cuéllar.",
+    "alt": "Carbonero12",
+    "slug": "carbonero12"
+  },
+  "carbonero13": {
+    "gallery": "Fauna",
+    "title": "Carbonero13",
+    "description": "Fotografía de fauna titulada «Carbonero13», realizada por José Cuéllar.",
+    "alt": "Carbonero13",
+    "slug": "carbonero13"
+  },
+  "carbonero14": {
+    "gallery": "Fauna",
+    "title": "Carbonero14",
+    "description": "Fotografía de fauna titulada «Carbonero14», realizada por José Cuéllar.",
+    "alt": "Carbonero14",
+    "slug": "carbonero14"
+  },
+  "carbonero15": {
+    "gallery": "Fauna",
+    "title": "Carbonero15",
+    "description": "Fotografía de fauna titulada «Carbonero15», realizada por José Cuéllar.",
+    "alt": "Carbonero15",
+    "slug": "carbonero15"
+  },
+  "carbonero16": {
+    "gallery": "Fauna",
+    "title": "Carbonero16",
+    "description": "Fotografía de fauna titulada «Carbonero16», realizada por José Cuéllar.",
+    "alt": "Carbonero16",
+    "slug": "carbonero16"
+  },
+  "carbonero17": {
+    "gallery": "Fauna",
+    "title": "Carbonero17",
+    "description": "Fotografía de fauna titulada «Carbonero17», realizada por José Cuéllar.",
+    "alt": "Carbonero17",
+    "slug": "carbonero17"
+  },
+  "carbonero18": {
+    "gallery": "Fauna",
+    "title": "Carbonero18",
+    "description": "Fotografía de fauna titulada «Carbonero18», realizada por José Cuéllar.",
+    "alt": "Carbonero18",
+    "slug": "carbonero18"
+  },
+  "carbonero19": {
+    "gallery": "Fauna",
+    "title": "Carbonero19",
+    "description": "Fotografía de fauna titulada «Carbonero19», realizada por José Cuéllar.",
+    "alt": "Carbonero19",
+    "slug": "carbonero19"
+  },
+  "carbonero2": {
+    "gallery": "Fauna",
+    "title": "Carbonero2",
+    "description": "Fotografía de fauna titulada «Carbonero2», realizada por José Cuéllar.",
+    "alt": "Carbonero2",
+    "slug": "carbonero2"
+  },
+  "carbonero20": {
+    "gallery": "Fauna",
+    "title": "Carbonero20",
+    "description": "Fotografía de fauna titulada «Carbonero20», realizada por José Cuéllar.",
+    "alt": "Carbonero20",
+    "slug": "carbonero20"
+  },
+  "carbonero21": {
+    "gallery": "Fauna",
+    "title": "Carbonero21",
+    "description": "Fotografía de fauna titulada «Carbonero21», realizada por José Cuéllar.",
+    "alt": "Carbonero21",
+    "slug": "carbonero21"
+  },
+  "carbonero22": {
+    "gallery": "Fauna",
+    "title": "Carbonero22",
+    "description": "Fotografía de fauna titulada «Carbonero22», realizada por José Cuéllar.",
+    "alt": "Carbonero22",
+    "slug": "carbonero22"
+  },
+  "carbonero23": {
+    "gallery": "Fauna",
+    "title": "Carbonero23",
+    "description": "Fotografía de fauna titulada «Carbonero23», realizada por José Cuéllar.",
+    "alt": "Carbonero23",
+    "slug": "carbonero23"
+  },
+  "carbonero24": {
+    "gallery": "Fauna",
+    "title": "Carbonero24",
+    "description": "Fotografía de fauna titulada «Carbonero24», realizada por José Cuéllar.",
+    "alt": "Carbonero24",
+    "slug": "carbonero24"
+  },
+  "carbonero25": {
+    "gallery": "Fauna",
+    "title": "Carbonero25",
+    "description": "Fotografía de fauna titulada «Carbonero25», realizada por José Cuéllar.",
+    "alt": "Carbonero25",
+    "slug": "carbonero25"
+  },
+  "carbonero26": {
+    "gallery": "Fauna",
+    "title": "Carbonero26",
+    "description": "Fotografía de fauna titulada «Carbonero26», realizada por José Cuéllar.",
+    "alt": "Carbonero26",
+    "slug": "carbonero26"
+  },
+  "carbonero27": {
+    "gallery": "Fauna",
+    "title": "Carbonero27",
+    "description": "Fotografía de fauna titulada «Carbonero27», realizada por José Cuéllar.",
+    "alt": "Carbonero27",
+    "slug": "carbonero27"
+  },
+  "carbonero28": {
+    "gallery": "Fauna",
+    "title": "Carbonero28",
+    "description": "Fotografía de fauna titulada «Carbonero28», realizada por José Cuéllar.",
+    "alt": "Carbonero28",
+    "slug": "carbonero28"
+  },
+  "carbonero29": {
+    "gallery": "Fauna",
+    "title": "Carbonero29",
+    "description": "Fotografía de fauna titulada «Carbonero29», realizada por José Cuéllar.",
+    "alt": "Carbonero29",
+    "slug": "carbonero29"
+  },
+  "carbonero3": {
+    "gallery": "Fauna",
+    "title": "Carbonero3",
+    "description": "Fotografía de fauna titulada «Carbonero3», realizada por José Cuéllar.",
+    "alt": "Carbonero3",
+    "slug": "carbonero3"
+  },
+  "carbonero4": {
+    "gallery": "Fauna",
+    "title": "Carbonero4",
+    "description": "Fotografía de fauna titulada «Carbonero4», realizada por José Cuéllar.",
+    "alt": "Carbonero4",
+    "slug": "carbonero4"
+  },
+  "carbonero5": {
+    "gallery": "Fauna",
+    "title": "Carbonero5",
+    "description": "Fotografía de fauna titulada «Carbonero5», realizada por José Cuéllar.",
+    "alt": "Carbonero5",
+    "slug": "carbonero5"
+  },
+  "carbonero6": {
+    "gallery": "Fauna",
+    "title": "Carbonero6",
+    "description": "Fotografía de fauna titulada «Carbonero6», realizada por José Cuéllar.",
+    "alt": "Carbonero6",
+    "slug": "carbonero6"
+  },
+  "carbonero7": {
+    "gallery": "Fauna",
+    "title": "Carbonero7",
+    "description": "Fotografía de fauna titulada «Carbonero7», realizada por José Cuéllar.",
+    "alt": "Carbonero7",
+    "slug": "carbonero7"
+  },
+  "carbonero8": {
+    "gallery": "Fauna",
+    "title": "Carbonero8",
+    "description": "Fotografía de fauna titulada «Carbonero8», realizada por José Cuéllar.",
+    "alt": "Carbonero8",
+    "slug": "carbonero8"
+  },
+  "carbonero9": {
+    "gallery": "Fauna",
+    "title": "Carbonero9",
+    "description": "Fotografía de fauna titulada «Carbonero9», realizada por José Cuéllar.",
+    "alt": "Carbonero9",
+    "slug": "carbonero9"
+  },
+  "herrerillo1": {
+    "gallery": "Fauna",
+    "title": "Herrerillo1",
+    "description": "Fotografía de fauna titulada «Herrerillo1», realizada por José Cuéllar.",
+    "alt": "Herrerillo1",
+    "slug": "herrerillo1"
+  },
+  "herrerillo2": {
+    "gallery": "Fauna",
+    "title": "Herrerillo2",
+    "description": "Fotografía de fauna titulada «Herrerillo2», realizada por José Cuéllar.",
+    "alt": "Herrerillo2",
+    "slug": "herrerillo2"
+  },
+  "herrerillo3": {
+    "gallery": "Fauna",
+    "title": "Herrerillo3",
+    "description": "Fotografía de fauna titulada «Herrerillo3», realizada por José Cuéllar.",
+    "alt": "Herrerillo3",
+    "slug": "herrerillo3"
+  },
+  "herrerillo4": {
+    "gallery": "Fauna",
+    "title": "Herrerillo4",
+    "description": "Fotografía de fauna titulada «Herrerillo4», realizada por José Cuéllar.",
+    "alt": "Herrerillo4",
+    "slug": "herrerillo4"
+  },
+  "herrerillo5": {
+    "gallery": "Fauna",
+    "title": "Herrerillo5",
+    "description": "Fotografía de fauna titulada «Herrerillo5», realizada por José Cuéllar.",
+    "alt": "Herrerillo5",
+    "slug": "herrerillo5"
+  },
+  "herrerillo6": {
+    "gallery": "Fauna",
+    "title": "Herrerillo6",
+    "description": "Fotografía de fauna titulada «Herrerillo6», realizada por José Cuéllar.",
+    "alt": "Herrerillo6",
+    "slug": "herrerillo6"
+  },
+  "petirrojo1": {
+    "gallery": "Fauna",
+    "title": "Petirrojo1",
+    "description": "Fotografía de fauna titulada «Petirrojo1», realizada por José Cuéllar.",
+    "alt": "Petirrojo1",
+    "slug": "petirrojo1"
+  },
+  "petirrojo10": {
+    "gallery": "Fauna",
+    "title": "Petirrojo10",
+    "description": "Fotografía de fauna titulada «Petirrojo10», realizada por José Cuéllar.",
+    "alt": "Petirrojo10",
+    "slug": "petirrojo10"
+  },
+  "petirrojo11": {
+    "gallery": "Fauna",
+    "title": "Petirrojo11",
+    "description": "Fotografía de fauna titulada «Petirrojo11», realizada por José Cuéllar.",
+    "alt": "Petirrojo11",
+    "slug": "petirrojo11"
+  },
+  "petirrojo12": {
+    "gallery": "Fauna",
+    "title": "Petirrojo12",
+    "description": "Fotografía de fauna titulada «Petirrojo12», realizada por José Cuéllar.",
+    "alt": "Petirrojo12",
+    "slug": "petirrojo12"
+  },
+  "petirrojo13": {
+    "gallery": "Fauna",
+    "title": "Petirrojo13",
+    "description": "Fotografía de fauna titulada «Petirrojo13», realizada por José Cuéllar.",
+    "alt": "Petirrojo13",
+    "slug": "petirrojo13"
+  },
+  "petirrojo14": {
+    "gallery": "Fauna",
+    "title": "Petirrojo14",
+    "description": "Fotografía de fauna titulada «Petirrojo14», realizada por José Cuéllar.",
+    "alt": "Petirrojo14",
+    "slug": "petirrojo14"
+  },
+  "petirrojo15": {
+    "gallery": "Fauna",
+    "title": "Petirrojo15",
+    "description": "Fotografía de fauna titulada «Petirrojo15», realizada por José Cuéllar.",
+    "alt": "Petirrojo15",
+    "slug": "petirrojo15"
+  },
+  "petirrojo16": {
+    "gallery": "Fauna",
+    "title": "Petirrojo16",
+    "description": "Fotografía de fauna titulada «Petirrojo16», realizada por José Cuéllar.",
+    "alt": "Petirrojo16",
+    "slug": "petirrojo16"
+  },
+  "petirrojo17": {
+    "gallery": "Fauna",
+    "title": "Petirrojo17",
+    "description": "Fotografía de fauna titulada «Petirrojo17», realizada por José Cuéllar.",
+    "alt": "Petirrojo17",
+    "slug": "petirrojo17"
+  },
+  "petirrojo18": {
+    "gallery": "Fauna",
+    "title": "Petirrojo18",
+    "description": "Fotografía de fauna titulada «Petirrojo18», realizada por José Cuéllar.",
+    "alt": "Petirrojo18",
+    "slug": "petirrojo18"
+  },
+  "petirrojo19": {
+    "gallery": "Fauna",
+    "title": "Petirrojo19",
+    "description": "Fotografía de fauna titulada «Petirrojo19», realizada por José Cuéllar.",
+    "alt": "Petirrojo19",
+    "slug": "petirrojo19"
+  },
+  "petirrojo2": {
+    "gallery": "Fauna",
+    "title": "Petirrojo2",
+    "description": "Fotografía de fauna titulada «Petirrojo2», realizada por José Cuéllar.",
+    "alt": "Petirrojo2",
+    "slug": "petirrojo2"
+  },
+  "petirrojo20": {
+    "gallery": "Fauna",
+    "title": "Petirrojo20",
+    "description": "Fotografía de fauna titulada «Petirrojo20», realizada por José Cuéllar.",
+    "alt": "Petirrojo20",
+    "slug": "petirrojo20"
+  },
+  "petirrojo21": {
+    "gallery": "Fauna",
+    "title": "Petirrojo21",
+    "description": "Fotografía de fauna titulada «Petirrojo21», realizada por José Cuéllar.",
+    "alt": "Petirrojo21",
+    "slug": "petirrojo21"
+  },
+  "petirrojo22": {
+    "gallery": "Fauna",
+    "title": "Petirrojo22",
+    "description": "Fotografía de fauna titulada «Petirrojo22», realizada por José Cuéllar.",
+    "alt": "Petirrojo22",
+    "slug": "petirrojo22"
+  },
+  "petirrojo23": {
+    "gallery": "Fauna",
+    "title": "Petirrojo23",
+    "description": "Fotografía de fauna titulada «Petirrojo23», realizada por José Cuéllar.",
+    "alt": "Petirrojo23",
+    "slug": "petirrojo23"
+  },
+  "petirrojo3": {
+    "gallery": "Fauna",
+    "title": "Petirrojo3",
+    "description": "Fotografía de fauna titulada «Petirrojo3», realizada por José Cuéllar.",
+    "alt": "Petirrojo3",
+    "slug": "petirrojo3"
+  },
+  "petirrojo4": {
+    "gallery": "Fauna",
+    "title": "Petirrojo4",
+    "description": "Fotografía de fauna titulada «Petirrojo4», realizada por José Cuéllar.",
+    "alt": "Petirrojo4",
+    "slug": "petirrojo4"
+  },
+  "petirrojo5": {
+    "gallery": "Fauna",
+    "title": "Petirrojo5",
+    "description": "Fotografía de fauna titulada «Petirrojo5», realizada por José Cuéllar.",
+    "alt": "Petirrojo5",
+    "slug": "petirrojo5"
+  },
+  "petirrojo6": {
+    "gallery": "Fauna",
+    "title": "Petirrojo6",
+    "description": "Fotografía de fauna titulada «Petirrojo6», realizada por José Cuéllar.",
+    "alt": "Petirrojo6",
+    "slug": "petirrojo6"
+  },
+  "petirrojo7": {
+    "gallery": "Fauna",
+    "title": "Petirrojo7",
+    "description": "Fotografía de fauna titulada «Petirrojo7», realizada por José Cuéllar.",
+    "alt": "Petirrojo7",
+    "slug": "petirrojo7"
+  },
+  "petirrojo8": {
+    "gallery": "Fauna",
+    "title": "Petirrojo8",
+    "description": "Fotografía de fauna titulada «Petirrojo8», realizada por José Cuéllar.",
+    "alt": "Petirrojo8",
+    "slug": "petirrojo8"
+  },
+  "petirrojo9": {
+    "gallery": "Fauna",
+    "title": "Petirrojo9",
+    "description": "Fotografía de fauna titulada «Petirrojo9», realizada por José Cuéllar.",
+    "alt": "Petirrojo9",
+    "slug": "petirrojo9"
+  },
+  "pinzon-real1": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real1",
+    "description": "Fotografía de fauna titulada «Pinzon Real1», realizada por José Cuéllar.",
+    "alt": "Pinzon Real1",
+    "slug": "pinzon-real1"
+  },
+  "pinzon-real10": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real10",
+    "description": "Fotografía de fauna titulada «Pinzon Real10», realizada por José Cuéllar.",
+    "alt": "Pinzon Real10",
+    "slug": "pinzon-real10"
+  },
+  "pinzon-real11": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real11",
+    "description": "Fotografía de fauna titulada «Pinzon Real11», realizada por José Cuéllar.",
+    "alt": "Pinzon Real11",
+    "slug": "pinzon-real11"
+  },
+  "pinzon-real12": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real12",
+    "description": "Fotografía de fauna titulada «Pinzon Real12», realizada por José Cuéllar.",
+    "alt": "Pinzon Real12",
+    "slug": "pinzon-real12"
+  },
+  "pinzon-real13": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real13",
+    "description": "Fotografía de fauna titulada «Pinzon Real13», realizada por José Cuéllar.",
+    "alt": "Pinzon Real13",
+    "slug": "pinzon-real13"
+  },
+  "pinzon-real14": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real14",
+    "description": "Fotografía de fauna titulada «Pinzon Real14», realizada por José Cuéllar.",
+    "alt": "Pinzon Real14",
+    "slug": "pinzon-real14"
+  },
+  "pinzon-real15": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real15",
+    "description": "Fotografía de fauna titulada «Pinzon Real15», realizada por José Cuéllar.",
+    "alt": "Pinzon Real15",
+    "slug": "pinzon-real15"
+  },
+  "pinzon-real16": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real16",
+    "description": "Fotografía de fauna titulada «Pinzon Real16», realizada por José Cuéllar.",
+    "alt": "Pinzon Real16",
+    "slug": "pinzon-real16"
+  },
+  "pinzon-real17": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real17",
+    "description": "Fotografía de fauna titulada «Pinzon Real17», realizada por José Cuéllar.",
+    "alt": "Pinzon Real17",
+    "slug": "pinzon-real17"
+  },
+  "pinzon-real18": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real18",
+    "description": "Fotografía de fauna titulada «Pinzon Real18», realizada por José Cuéllar.",
+    "alt": "Pinzon Real18",
+    "slug": "pinzon-real18"
+  },
+  "pinzon-real19": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real19",
+    "description": "Fotografía de fauna titulada «Pinzon Real19», realizada por José Cuéllar.",
+    "alt": "Pinzon Real19",
+    "slug": "pinzon-real19"
+  },
+  "pinzon-real2": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real2",
+    "description": "Fotografía de fauna titulada «Pinzon Real2», realizada por José Cuéllar.",
+    "alt": "Pinzon Real2",
+    "slug": "pinzon-real2"
+  },
+  "pinzon-real20": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real20",
+    "description": "Fotografía de fauna titulada «Pinzon Real20», realizada por José Cuéllar.",
+    "alt": "Pinzon Real20",
+    "slug": "pinzon-real20"
+  },
+  "pinzon-real21": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real21",
+    "description": "Fotografía de fauna titulada «Pinzon Real21», realizada por José Cuéllar.",
+    "alt": "Pinzon Real21",
+    "slug": "pinzon-real21"
+  },
+  "pinzon-real22": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real22",
+    "description": "Fotografía de fauna titulada «Pinzon Real22», realizada por José Cuéllar.",
+    "alt": "Pinzon Real22",
+    "slug": "pinzon-real22"
+  },
+  "pinzon-real3": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real3",
+    "description": "Fotografía de fauna titulada «Pinzon Real3», realizada por José Cuéllar.",
+    "alt": "Pinzon Real3",
+    "slug": "pinzon-real3"
+  },
+  "pinzon-real4": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real4",
+    "description": "Fotografía de fauna titulada «Pinzon Real4», realizada por José Cuéllar.",
+    "alt": "Pinzon Real4",
+    "slug": "pinzon-real4"
+  },
+  "pinzon-real5": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real5",
+    "description": "Fotografía de fauna titulada «Pinzon Real5», realizada por José Cuéllar.",
+    "alt": "Pinzon Real5",
+    "slug": "pinzon-real5"
+  },
+  "pinzon-real6": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real6",
+    "description": "Fotografía de fauna titulada «Pinzon Real6», realizada por José Cuéllar.",
+    "alt": "Pinzon Real6",
+    "slug": "pinzon-real6"
+  },
+  "pinzon-real7": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real7",
+    "description": "Fotografía de fauna titulada «Pinzon Real7», realizada por José Cuéllar.",
+    "alt": "Pinzon Real7",
+    "slug": "pinzon-real7"
+  },
+  "pinzon-real8": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real8",
+    "description": "Fotografía de fauna titulada «Pinzon Real8», realizada por José Cuéllar.",
+    "alt": "Pinzon Real8",
+    "slug": "pinzon-real8"
+  },
+  "pinzon-real9": {
+    "gallery": "Fauna",
+    "title": "Pinzon Real9",
+    "description": "Fotografía de fauna titulada «Pinzon Real9», realizada por José Cuéllar.",
+    "alt": "Pinzon Real9",
+    "slug": "pinzon-real9"
+  },
+  "pinzon1": {
+    "gallery": "Fauna",
+    "title": "Pinzon1",
+    "description": "Fotografía de fauna titulada «Pinzon1», realizada por José Cuéllar.",
+    "alt": "Pinzon1",
+    "slug": "pinzon1"
+  },
+  "pinzon10": {
+    "gallery": "Fauna",
+    "title": "Pinzon10",
+    "description": "Fotografía de fauna titulada «Pinzon10», realizada por José Cuéllar.",
+    "alt": "Pinzon10",
+    "slug": "pinzon10"
+  },
+  "pinzon11": {
+    "gallery": "Fauna",
+    "title": "Pinzon11",
+    "description": "Fotografía de fauna titulada «Pinzon11», realizada por José Cuéllar.",
+    "alt": "Pinzon11",
+    "slug": "pinzon11"
+  },
+  "pinzon12": {
+    "gallery": "Fauna",
+    "title": "Pinzon12",
+    "description": "Fotografía de fauna titulada «Pinzon12», realizada por José Cuéllar.",
+    "alt": "Pinzon12",
+    "slug": "pinzon12"
+  },
+  "pinzon13": {
+    "gallery": "Fauna",
+    "title": "Pinzon13",
+    "description": "Fotografía de fauna titulada «Pinzon13», realizada por José Cuéllar.",
+    "alt": "Pinzon13",
+    "slug": "pinzon13"
+  },
+  "pinzon14": {
+    "gallery": "Fauna",
+    "title": "Pinzon14",
+    "description": "Fotografía de fauna titulada «Pinzon14», realizada por José Cuéllar.",
+    "alt": "Pinzon14",
+    "slug": "pinzon14"
+  },
+  "pinzon15": {
+    "gallery": "Fauna",
+    "title": "Pinzon15",
+    "description": "Fotografía de fauna titulada «Pinzon15», realizada por José Cuéllar.",
+    "alt": "Pinzon15",
+    "slug": "pinzon15"
+  },
+  "pinzon16": {
+    "gallery": "Fauna",
+    "title": "Pinzon16",
+    "description": "Fotografía de fauna titulada «Pinzon16», realizada por José Cuéllar.",
+    "alt": "Pinzon16",
+    "slug": "pinzon16"
+  },
+  "pinzon17": {
+    "gallery": "Fauna",
+    "title": "Pinzon17",
+    "description": "Fotografía de fauna titulada «Pinzon17», realizada por José Cuéllar.",
+    "alt": "Pinzon17",
+    "slug": "pinzon17"
+  },
+  "pinzon18": {
+    "gallery": "Fauna",
+    "title": "Pinzon18",
+    "description": "Fotografía de fauna titulada «Pinzon18», realizada por José Cuéllar.",
+    "alt": "Pinzon18",
+    "slug": "pinzon18"
+  },
+  "pinzon19": {
+    "gallery": "Fauna",
+    "title": "Pinzon19",
+    "description": "Fotografía de fauna titulada «Pinzon19», realizada por José Cuéllar.",
+    "alt": "Pinzon19",
+    "slug": "pinzon19"
+  },
+  "pinzon2": {
+    "gallery": "Fauna",
+    "title": "Pinzon2",
+    "description": "Fotografía de fauna titulada «Pinzon2», realizada por José Cuéllar.",
+    "alt": "Pinzon2",
+    "slug": "pinzon2"
+  },
+  "pinzon3": {
+    "gallery": "Fauna",
+    "title": "Pinzon3",
+    "description": "Fotografía de fauna titulada «Pinzon3», realizada por José Cuéllar.",
+    "alt": "Pinzon3",
+    "slug": "pinzon3"
+  },
+  "pinzon4": {
+    "gallery": "Fauna",
+    "title": "Pinzon4",
+    "description": "Fotografía de fauna titulada «Pinzon4», realizada por José Cuéllar.",
+    "alt": "Pinzon4",
+    "slug": "pinzon4"
+  },
+  "pinzon5": {
+    "gallery": "Fauna",
+    "title": "Pinzon5",
+    "description": "Fotografía de fauna titulada «Pinzon5», realizada por José Cuéllar.",
+    "alt": "Pinzon5",
+    "slug": "pinzon5"
+  },
+  "pinzon6": {
+    "gallery": "Fauna",
+    "title": "Pinzon6",
+    "description": "Fotografía de fauna titulada «Pinzon6», realizada por José Cuéllar.",
+    "alt": "Pinzon6",
+    "slug": "pinzon6"
+  },
+  "pinzon7": {
+    "gallery": "Fauna",
+    "title": "Pinzon7",
+    "description": "Fotografía de fauna titulada «Pinzon7», realizada por José Cuéllar.",
+    "alt": "Pinzon7",
+    "slug": "pinzon7"
+  },
+  "pinzon8": {
+    "gallery": "Fauna",
+    "title": "Pinzon8",
+    "description": "Fotografía de fauna titulada «Pinzon8», realizada por José Cuéllar.",
+    "alt": "Pinzon8",
+    "slug": "pinzon8"
+  },
+  "pinzon9": {
+    "gallery": "Fauna",
+    "title": "Pinzon9",
+    "description": "Fotografía de fauna titulada «Pinzon9», realizada por José Cuéllar.",
+    "alt": "Pinzon9",
+    "slug": "pinzon9"
+  },
+  "trepador1": {
+    "gallery": "Fauna",
+    "title": "Trepador1",
+    "description": "Fotografía de fauna titulada «Trepador1», realizada por José Cuéllar.",
+    "alt": "Trepador1",
+    "slug": "trepador1"
+  },
+  "trepador10": {
+    "gallery": "Fauna",
+    "title": "Trepador10",
+    "description": "Fotografía de fauna titulada «Trepador10», realizada por José Cuéllar.",
+    "alt": "Trepador10",
+    "slug": "trepador10"
+  },
+  "trepador11": {
+    "gallery": "Fauna",
+    "title": "Trepador11",
+    "description": "Fotografía de fauna titulada «Trepador11», realizada por José Cuéllar.",
+    "alt": "Trepador11",
+    "slug": "trepador11"
+  },
+  "trepador12": {
+    "gallery": "Fauna",
+    "title": "Trepador12",
+    "description": "Fotografía de fauna titulada «Trepador12», realizada por José Cuéllar.",
+    "alt": "Trepador12",
+    "slug": "trepador12"
+  },
+  "trepador13": {
+    "gallery": "Fauna",
+    "title": "Trepador13",
+    "description": "Fotografía de fauna titulada «Trepador13», realizada por José Cuéllar.",
+    "alt": "Trepador13",
+    "slug": "trepador13"
+  },
+  "trepador14": {
+    "gallery": "Fauna",
+    "title": "Trepador14",
+    "description": "Fotografía de fauna titulada «Trepador14», realizada por José Cuéllar.",
+    "alt": "Trepador14",
+    "slug": "trepador14"
+  },
+  "trepador15": {
+    "gallery": "Fauna",
+    "title": "Trepador15",
+    "description": "Fotografía de fauna titulada «Trepador15», realizada por José Cuéllar.",
+    "alt": "Trepador15",
+    "slug": "trepador15"
+  },
+  "trepador16": {
+    "gallery": "Fauna",
+    "title": "Trepador16",
+    "description": "Fotografía de fauna titulada «Trepador16», realizada por José Cuéllar.",
+    "alt": "Trepador16",
+    "slug": "trepador16"
+  },
+  "trepador17": {
+    "gallery": "Fauna",
+    "title": "Trepador17",
+    "description": "Fotografía de fauna titulada «Trepador17», realizada por José Cuéllar.",
+    "alt": "Trepador17",
+    "slug": "trepador17"
+  },
+  "trepador18": {
+    "gallery": "Fauna",
+    "title": "Trepador18",
+    "description": "Fotografía de fauna titulada «Trepador18», realizada por José Cuéllar.",
+    "alt": "Trepador18",
+    "slug": "trepador18"
+  },
+  "trepador19": {
+    "gallery": "Fauna",
+    "title": "Trepador19",
+    "description": "Fotografía de fauna titulada «Trepador19», realizada por José Cuéllar.",
+    "alt": "Trepador19",
+    "slug": "trepador19"
+  },
+  "trepador2": {
+    "gallery": "Fauna",
+    "title": "Trepador2",
+    "description": "Fotografía de fauna titulada «Trepador2», realizada por José Cuéllar.",
+    "alt": "Trepador2",
+    "slug": "trepador2"
+  },
+  "trepador20": {
+    "gallery": "Fauna",
+    "title": "Trepador20",
+    "description": "Fotografía de fauna titulada «Trepador20», realizada por José Cuéllar.",
+    "alt": "Trepador20",
+    "slug": "trepador20"
+  },
+  "trepador3": {
+    "gallery": "Fauna",
+    "title": "Trepador3",
+    "description": "Fotografía de fauna titulada «Trepador3», realizada por José Cuéllar.",
+    "alt": "Trepador3",
+    "slug": "trepador3"
+  },
+  "trepador4": {
+    "gallery": "Fauna",
+    "title": "Trepador4",
+    "description": "Fotografía de fauna titulada «Trepador4», realizada por José Cuéllar.",
+    "alt": "Trepador4",
+    "slug": "trepador4"
+  },
+  "trepador5": {
+    "gallery": "Fauna",
+    "title": "Trepador5",
+    "description": "Fotografía de fauna titulada «Trepador5», realizada por José Cuéllar.",
+    "alt": "Trepador5",
+    "slug": "trepador5"
+  },
+  "trepador6": {
+    "gallery": "Fauna",
+    "title": "Trepador6",
+    "description": "Fotografía de fauna titulada «Trepador6», realizada por José Cuéllar.",
+    "alt": "Trepador6",
+    "slug": "trepador6"
+  },
+  "trepador7": {
+    "gallery": "Fauna",
+    "title": "Trepador7",
+    "description": "Fotografía de fauna titulada «Trepador7», realizada por José Cuéllar.",
+    "alt": "Trepador7",
+    "slug": "trepador7"
+  },
+  "trepador8": {
+    "gallery": "Fauna",
+    "title": "Trepador8",
+    "description": "Fotografía de fauna titulada «Trepador8», realizada por José Cuéllar.",
+    "alt": "Trepador8",
+    "slug": "trepador8"
+  },
+  "trepador9": {
+    "gallery": "Fauna",
+    "title": "Trepador9",
+    "description": "Fotografía de fauna titulada «Trepador9», realizada por José Cuéllar.",
+    "alt": "Trepador9",
+    "slug": "trepador9"
   }
 }
