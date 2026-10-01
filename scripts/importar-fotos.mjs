@@ -1,4 +1,4 @@
-﻿import fs from 'node:fs';
+import fs from 'node:fs';
 import crypto from 'node:crypto';
 import path from 'node:path';
 import readline from 'node:readline';
@@ -64,7 +64,36 @@ function normalizeKey(value) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
-function slugify(value) { return normalizeKey(value); }
+function slugify(value) {
+  return normalizeKey(value);
+}
+
+// Genera un slug único para evitar conflictos con fotografías
+// que ya existen en la web o dentro del mismo lote.
+let existingSlugsCache = null;
+const reservedSlugs = new Set();
+
+function uniqueSlug(value) {
+  const baseSlug = slugify(value) || 'fotografia';
+
+  if (!existingSlugsCache) {
+    existingSlugsCache = getExistingSlugs();
+  }
+
+  let candidate = baseSlug;
+  let counter = 2;
+
+  while (
+    existingSlugsCache.has(candidate) ||
+    reservedSlugs.has(candidate)
+  ) {
+    candidate = `${baseSlug}-${counter}`;
+    counter++;
+  }
+
+  reservedSlugs.add(candidate);
+  return candidate;
+}
 
 function titleFromFilename(filename) {
   const text = repairMojibake(path.basename(filename, path.extname(filename)))
@@ -301,26 +330,93 @@ function inferCatalogEntry(catalog, filename) {
 }
 
 async function collectEntry(catalog, filename) {
+  // Clasificación fijada para el lote actual de 27 fotografías.
+  // Estas reglas tienen prioridad sobre las coincidencias aproximadas
+  // del catálogo para evitar que una ficha antigua cambie la categoría.
+  const autoCategories = {
+    '3 copia.jpg': 'Retratos',
+    '4 copia.jpg': 'Retratos',
+    '5 copia.jpg': 'Retratos',
+    'anciano-mira-cuadro.jpg': 'Retratos',
+    'bailarines.jpg': 'Fotografía creativa',
+    'collage.jpg': 'Fotografía creativa',
+    'espejos copia.jpg': 'Fotografía creativa',
+    'esperanza-ingenua.jpg': 'Fotografía creativa',
+    'felix-ana.jpg': 'Retratos',
+    'festina.jpg': 'Fotografía creativa',
+    'hombre-ventana.jpg': 'Retratos',
+    'jose-penumbra.jpg': 'Retratos',
+    'josem.cuellar_Artistic_black_and_white_photorealistic_photogr_dc3040dc-2d6a-4b7d-888f-f67d2b54349f_1 copia.jpg': 'Fotografía creativa',
+    'josem.cuellar_Construye_una_escena_documental_en_el_momento_e_5d50764e-2cf9-45a0-9aa3-a5c16f19272b_2 copia.jpg': 'Fotografía creativa',
+    'luna-mineral.jpg': 'Astrofotografía',
+    'marinita-yo.jpg': 'Retratos',
+    'marisma1.jpg': 'Paisaje',
+    'mirada-interior.jpg': 'Fotografía creativa',
+    'mujer-descansando.jpg': 'Retratos',
+    'nena-cumple.jpg': 'Retratos',
+    'niño1.jpg': 'Fotografía creativa',
+    'paisaje-rustico.jpg': 'Paisaje',
+    'preparadas.jpg': 'Fotografía creativa',
+    'riotinto7.jpg': 'Paisaje',
+    'ritotinto4 .jpg': 'Paisaje',
+    'ropa- tendida2.jpg': 'Fotografía creativa',
+    'ropa-tendida.jpg': 'Fotografía creativa'
+  };
+
+  const autoCategory = autoCategories[filename];
+
+  if (autoCategory) {
+    const gallery = parseGallery(autoCategory);
+    if (!gallery) {
+      throw new Error(`Categoría automática no válida para ${filename}: ${autoCategory}`);
+    }
+
+    const title = cleanText(titleFromFilename(filename));
+    const description = `Fotografía de ${gallery.category.toLocaleLowerCase('es-ES')}: ${title}.`;
+    const alt = title;
+    const entry = {
+      gallery: gallery.category,
+      title,
+      description,
+      alt,
+      slug: uniqueSlug(title)
+    };
+
+    catalog[normalizeKey(filename)] = entry;
+    saveCatalog(catalog);
+    return { entry, known: false };
+  }
+
+  // Para fotografías futuras que no estén en la tabla anterior,
+  // primero intentamos recuperar una ficha existente del catálogo.
   const inferred = inferCatalogEntry(catalog, filename);
-  if (inferred) return { entry: inferred, known: true };
+  if (inferred) {
+    const entry = {
+      ...inferred,
+      slug: uniqueSlug(inferred.slug || inferred.title || titleFromFilename(filename))
+    };
+    catalog[normalizeKey(filename)] = entry;
+    saveCatalog(catalog);
+    return { entry, known: true };
+  }
 
-  console.log(`\n\u26a0 Fotograf\u00eda sin ficha: ${filename}`);
-  console.log('Formato recomendado de categor\u00eda: paisaje, naturaleza, fauna, macro, nocturna, astrofotografia, creativa, retratos o ia.');
+  // Si es una fotografía completamente nueva, se mantiene el modo manual.
+  console.log(`\n⚠ Fotografía sin ficha: ${filename}`);
+  console.log('Formato recomendado de categoría: paisaje, naturaleza, fauna, macro, nocturna, astrofotografia, creativa, retratos o ia.');
 
-  const galleryInput = await ask('Galer\u00eda/categor\u00eda: ');
+  const galleryInput = await ask('Galería/categoría: ');
   const gallery = parseGallery(galleryInput);
-  if (!gallery) throw new Error(`Categor\u00eda/galer\u00eda no v\u00e1lida para ${filename}.`);
+  if (!gallery) throw new Error(`Categoría/galería no válida para ${filename}.`);
 
-  const title = cleanText(await ask(`T\u00edtulo [${titleFromFilename(filename)}]: `) || titleFromFilename(filename));
-  const descriptionInput = cleanText(await ask('Descripci\u00f3n: '));
+  const title = cleanText(await ask(`Título [${titleFromFilename(filename)}]: `) || titleFromFilename(filename));
+  const descriptionInput = cleanText(await ask('Descripción: '));
   const alt = cleanText(await ask(`Texto ALT [${title}]: `) || title);
-
-  const description = descriptionInput || `Fotograf\u00eda de ${gallery.category.toLocaleLowerCase('es-ES')}: ${title}.`;
-  const entry = { gallery: gallery.category, title, description, alt, slug: slugify(title) };
+  const description = descriptionInput || `Fotografía de ${gallery.category.toLocaleLowerCase('es-ES')}: ${title}.`;
+  const entry = { gallery: gallery.category, title, description, alt, slug: uniqueSlug(title) };
 
   catalog[normalizeKey(filename)] = entry;
   saveCatalog(catalog);
-  console.log('\u2713 Ficha guardada en el cat\u00e1logo.');
+  console.log('✓ Ficha guardada en el catálogo.');
   return { entry, known: false };
 }
 
@@ -338,11 +434,11 @@ async function main() {
   newFiles.forEach((f, i) => console.log(`  ${i + 1}. ${f}`));
   console.log('');
 
-  // FLUJO AUTOMÃTICO: todas las fotografÃ­as nuevas se procesan mediante el catÃ¡logo.
-  // Solo se solicita informaciÃ³n manual si una fotografÃ­a no tiene ficha.
+  // FLUJO AUTOMÃTICO: todas las fotografÃas nuevas se procesan mediante el catÃ¡logo.
+  // Solo se solicita informaciÃ³n manual si una fotografÃa no tiene ficha.
   const selectedFiles = [...newFiles];
 
-  console.log(`Se procesarÃ¡n automÃ¡ticamente las ${selectedFiles.length} fotografÃ­a(s) nuevas.`);
+  console.log(`Se procesarÃ¡n automÃ¡ticamente las ${selectedFiles.length} fotografÃa(s) nuevas.`);
   console.log('');
   const { hashes } = getRegisteredImagesAndHashes();
 
@@ -356,20 +452,20 @@ async function main() {
   const photos = [];
 
   console.log('==============================================');
-  console.log('       CLASIFICACIÃ“N AUTOMÃTICA');
+  console.log('       CLASIFICACIÃ“N AUTOMÃTICA');
   console.log('==============================================');
   console.log('');
 
   for (const filename of selectedFiles) {
     const { entry, known } = await collectEntry(catalog, filename);
     const gallery = parseGallery(entry.gallery);
-    if (!gallery) throw new Error(`La ficha de ${filename} contiene una galerÃ­a no vÃ¡lida: ${entry.gallery}`);
+    if (!gallery) throw new Error(`La ficha de ${filename} contiene una galerÃa no vÃ¡lida: ${entry.gallery}`);
     photos.push(createPhoto(filename, entry, gallery));
     console.log(`  ${known ? 'âœ“' : 'â€¢'} ${filename} â†’ ${gallery.name}${known ? '' : ' (ficha creada)'}`);
   }
 
   console.log('');
-  console.log(`Se han clasificado ${photos.length} fotografÃ­a(s).`);
+  console.log(`Se han clasificado ${photos.length} fotografÃa(s).`);
   console.log('');
 
   const existingSlugs = getExistingSlugs();
@@ -436,13 +532,12 @@ async function main() {
   console.log('\nNo se ha ejecutado Git.\n');
 }
 
+
 main()
   .catch(error => {
-    console.error('\n==============================================\n       ERROR DURANTE LA IMPORTACI\u00d3N\n==============================================\n');
+    console.error('\n==============================================\n       ERROR DURANTE LA IMPORTACIÓN\n==============================================\n');
     console.error(error.message);
     console.error('');
     process.exitCode = 1;
   })
   .finally(() => rl.close());
-
-

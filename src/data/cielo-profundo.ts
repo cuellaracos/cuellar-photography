@@ -401,4 +401,17 @@ export const photos: Photo[] = [
     width: 1600,
     height: 1200,
   },
+  {
+    id: 'photo-cielo-profundo-luna-mineral',
+    slug: 'luna-mineral',
+    title: 'Luna mineral',
+    description: 'Fotografía de astrofotografía: Luna mineral.',
+    alt: 'Luna mineral',
+    gallerySlug: 'cielo-profundo',
+    category: 'Astrofotografía',
+    image: '/images/Astrofotografia/luna-mineral.jpg',
+    thumbnail: '/images/Astrofotografia/luna-mineral.jpg',
+    width: 1600,
+    height: 1200,
+  },
 ];
